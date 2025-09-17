@@ -1,0 +1,16 @@
+{
+    "type": "content",
+    "modid": "neobitvintage",
+    "name": "neobit Vintage Server",
+    "authors": [ "neobit" ],
+    "contributors": [],
+    "description": "Custom content and tweaks for the neobit Vintage Story server.",
+    "version": "0.0.1",
+    "website": "https://github.com/neobit/neobitVintageServer",
+    "dependencies": {
+        "game": "1.21.1"
+    },
+    "side": "both",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true
+}
