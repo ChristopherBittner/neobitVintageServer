@@ -1,0 +1,170 @@
+[
+  {
+    "file": "abcsredux:recipes/grid/basic-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/basic-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/basic-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/basic-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mini-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mini-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mini-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mini-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/super-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/super-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/super-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/super-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/tall-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/tall-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/tall-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/tall-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-leather-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-sturdy-backpack-lantern.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "side": "server"
+  }
+]

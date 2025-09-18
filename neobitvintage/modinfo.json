@@ -8,7 +8,10 @@
     "version": "0.0.1",
     "website": "https://github.com/neobit/neobitVintageServer",
     "dependencies": {
-        "game": "1.21.1"
+        "game": "1.21.1",
+        "lavoisier": "",
+        "alchemy": "",
+        "abcsredux": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

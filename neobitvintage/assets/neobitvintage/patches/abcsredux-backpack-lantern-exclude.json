@@ -1,0 +1,86 @@
+[
+  {
+    "file": "abcsredux:itemtypes/bag/basicleatherbackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/basicsturdybackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/megaleatherbackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/megasturdybackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/minileatherbackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/ministurdybackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/superleatherbackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/supersturdybackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/tallleatherbackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/tallsturdybackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/ultraleatherbackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:itemtypes/bag/ultrasturdybackpack-lantern.json",
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "exclude": true },
+    "side": "server"
+  }
+]
