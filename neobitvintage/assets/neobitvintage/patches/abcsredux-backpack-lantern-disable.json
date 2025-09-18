@@ -63,23 +63,9 @@
     "side": "server"
   },
   {
-    "file": "abcsredux:recipes/grid/mini-leather-backpack-lantern.json",
-    "op": "addmerge",
-    "path": "/1/enabled",
-    "value": false,
-    "side": "server"
-  },
-  {
     "file": "abcsredux:recipes/grid/mini-sturdy-backpack-lantern.json",
     "op": "addmerge",
     "path": "/0/enabled",
-    "value": false,
-    "side": "server"
-  },
-  {
-    "file": "abcsredux:recipes/grid/mini-sturdy-backpack-lantern.json",
-    "op": "addmerge",
-    "path": "/1/enabled",
     "value": false,
     "side": "server"
   },

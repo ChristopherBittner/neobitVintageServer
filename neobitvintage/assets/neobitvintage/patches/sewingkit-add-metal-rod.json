@@ -1,0 +1,23 @@
+[
+  {
+    "file": "abcsredux:recipes/grid/new-sewingkit.json",
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "_RK,FFS,FF_",
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/new-sewingkit.json",
+    "op": "addmerge",
+    "path": "/ingredients",
+    "value": {
+      "R": {
+        "type": "item",
+        "code": "game:rod-*",
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel", "molybdochalkos", "silver", "gold", "platinum"]
+      }
+    },
+    "side": "server"
+  }
+]

@@ -7,4 +7,6 @@
     "neobitvintage:recipe:lavoisier-trait": "Cheaper Lavoisier recipes for smith, crafty, or tinkerer traits (requires 2 lead solder bars)",
     "neobitvintage:patch:strong-potions": "Strong alchemy potions are now restricted to transmutation trait only",
     "neobitvintage:patch:backpack-lantern": "All ABCSRedux backpack-lantern combinations are disabled",
+    "neobitvintage:patch:sewingkit": "Sewing kit recipe now requires improviser trait",
+    "neobitvintage:recipe:sewingkit-alternative": "Alternative sewing kit recipe requires metal rod (no trait required)"
 }

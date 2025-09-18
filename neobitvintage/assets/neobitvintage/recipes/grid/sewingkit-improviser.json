@@ -1,0 +1,28 @@
+[
+  {
+    "ingredientPattern": "__K,FFS,FF_",
+    "requiresTrait": "improviser",
+    "ingredients": {
+      "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 15
+      },
+      "F": { 
+        "type": "item", 
+        "code": "game:flaxtwine" 
+      },
+      "S": { 
+        "type": "item", 
+        "code": "game:stick" 
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { 
+      "type": "item", 
+      "code": "game:sewingkit"  
+    }
+  }
+]
