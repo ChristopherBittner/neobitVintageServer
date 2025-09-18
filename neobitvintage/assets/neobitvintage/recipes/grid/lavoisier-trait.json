@@ -1,0 +1,308 @@
+[
+  {
+    "ingredientPattern": "ST,IH",
+    "requiresTrait": "smith",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hoop-iron"
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembicboilingflask",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "CTC,STI",
+    "requiresTrait": "smith",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chutesection-copper",
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembicdissolver-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "SCC,ICC",
+    "requiresTrait": "smith",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembiccomponent-reactionchamber-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "ST,IH",
+    "requiresTrait": "crafty",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hoop-iron"
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembicboilingflask",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "CTC,STI",
+    "requiresTrait": "crafty",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chutesection-copper",
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembicdissolver-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "SCC,ICC",
+    "requiresTrait": "crafty",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembiccomponent-reactionchamber-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "ST,IH",
+    "requiresTrait": "tinkerer",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hoop-iron"
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembicboilingflask",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "CTC,STI",
+    "requiresTrait": "tinkerer",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chutesection-copper",
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembicdissolver-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "SCC,ICC",
+    "requiresTrait": "tinkerer",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2,
+        "name": "mat",
+        "allowedVariants": [ "tin", "silver" ]
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "lavoisier:alembiccomponent-reactionchamber-north",
+      "quantity": 1
+    }
+  }
+]

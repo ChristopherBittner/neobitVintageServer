@@ -1,0 +1,54 @@
+[
+  {
+    "file": "lavoisier:recipes/grid/boilingflask.json",
+    "op": "replace",
+    "path": "/ingredients/I",
+    "value": {
+      "type": "item",
+      "code": "game:solderbar-*",
+      "quantity": 10,
+      "name": "mat",
+      "allowedVariants": [ "tin", "silver" ]
+    },
+    "side": "server"
+  },
+  {
+    "file": "lavoisier:recipes/grid/dissolver.json",
+    "op": "replace",
+    "path": "/ingredients/I",
+    "value": {
+      "type": "item",
+      "code": "game:solderbar-*",
+      "quantity": 10,
+      "name": "mat",
+      "allowedVariants": [ "tin", "silver" ]
+    },
+    "side": "server"
+  },
+  {
+    "file": "lavoisier:recipes/grid/components.json",
+    "op": "replace",
+    "path": "/2/ingredients/I",
+    "value": {
+      "type": "item",
+      "code": "game:solderbar-*",
+      "quantity": 10,
+      "name": "mat",
+      "allowedVariants": [ "tin", "silver" ]
+    },
+    "side": "server"
+  },
+  {
+    "file": "lavoisier:recipes/grid/components.json",
+    "op": "replace",
+    "path": "/3/ingredients/I",
+    "value": {
+      "type": "item",
+      "code": "game:solderbar-*",
+      "quantity": 10,
+      "name": "mat",
+      "allowedVariants": [ "tin", "silver" ]
+    },
+    "side": "server"
+  }
+]

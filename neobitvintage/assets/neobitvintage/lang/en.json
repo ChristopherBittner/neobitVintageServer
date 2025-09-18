@@ -2,5 +2,8 @@
     "mod:neobitvintage": "neobit Vintage Server",
     "mod:neobitvintage:description": "Custom content and tweaks for the neobit Vintage Story server.",
     "neobitvintage:patch:recall-potion": "Modified recall potion recipe requires 25 temporal gears",
-    "neobitvintage:recipe:recall-trait": "Alternative recall potion recipe for transmutation, culinary, or transcription traits (requires 10 temporal gears)"
+    "neobitvintage:recipe:recall-trait": "Alternative recall potion recipe for transmutation, culinary, or transcription traits",
+    "neobitvintage:patch:lavoisier-expensive": "Lavoisier recipes now require 10 lead solder bars by default",
+    "neobitvintage:recipe:lavoisier-trait": "Cheaper Lavoisier recipes for smith, crafty, or tinkerer traits (requires 2 lead solder bars)",
+    "neobitvintage:patch:strong-potions": "Strong alchemy potions are now restricted to transmutation trait only"
 }

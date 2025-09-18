@@ -1,0 +1,9 @@
+[
+  {
+    "file": "alchemy:recipes/barrel/potionportion.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  }
+]
