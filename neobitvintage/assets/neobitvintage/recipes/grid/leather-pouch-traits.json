@@ -1,0 +1,35 @@
+[
+  {
+    "_Comment": "Leather Pouch for stitch_doctor trait",
+    "ingredientPattern": "STK,LBL,_L_",
+    "requiresTrait": "stitch_doctor",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit" },
+      "B": { "type": "block", "code": "game:linen-*" },
+      "L": { "type": "item", "code": "game:leather-normal-*", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "abcsredux:leatherpouch"}
+  },
+  {
+    "_Comment": "Leather Pouch for clothier trait",
+    "ingredientPattern": "STK,LBL,_L_",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit" },
+      "B": { "type": "block", "code": "game:linen-*" },
+      "L": { "type": "item", "code": "game:leather-normal-*", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "abcsredux:leatherpouch"}
+  }
+]
+

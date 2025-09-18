@@ -35,10 +35,10 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 "code": "tailor",      "traits": ["clothier"           price - 300
 
 # Mods todo
- ABCSRedux_v2.0.5.zip - 
-    disable lantern backgacks
-    block some by traits and 
-    add more trait dependend resources - all traits if able
++++ DONE  ABCSRedux_v2.0.5.zip - 
+    DONE disable lantern backgacks
+    DONE block some by traits and 
+    DONE add more trait dependend resources - all traits if able
         - artifice
         - pioneer
         - tinker

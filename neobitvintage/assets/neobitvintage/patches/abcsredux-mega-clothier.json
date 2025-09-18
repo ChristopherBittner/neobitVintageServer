@@ -1,0 +1,23 @@
+[
+  {
+    "file": "abcsredux:recipes/grid/mega-leather-backpack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-sturdy-backpack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/retransform-backpacks.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  }
+]

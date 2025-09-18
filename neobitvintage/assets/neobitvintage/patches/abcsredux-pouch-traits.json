@@ -1,0 +1,16 @@
+[
+  {
+    "file": "abcsredux:recipes/grid/leather-pouch.json",
+    "op": "add",
+    "path": "/0/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/sturdy-leather-pouch.json",
+    "op": "add",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  }
+]

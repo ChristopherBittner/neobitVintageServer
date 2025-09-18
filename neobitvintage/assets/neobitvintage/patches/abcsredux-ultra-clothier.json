@@ -1,0 +1,23 @@
+[
+  {
+    "file": "abcsredux:recipes/grid/ultra-leather-backpack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-sturdy-backpack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/retransform-backpacks.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  }
+]

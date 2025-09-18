@@ -1,0 +1,51 @@
+[
+  {
+    "_Comment": "Sturdy Leather Pouch for sentry trait",
+    "ingredientPattern": "STK,LBL,_L_",
+    "requiresTrait": "sentry",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit" },
+      "B": { "type": "block", "code": "game:linen-*" },
+      "L": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "abcsredux:sturdyleatherpouch"}
+  },
+  {
+    "_Comment": "Sturdy Leather Pouch for bowyer trait",
+    "ingredientPattern": "STK,LBL,_L_",
+    "requiresTrait": "bowyer",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit" },
+      "B": { "type": "block", "code": "game:linen-*" },
+      "L": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "abcsredux:sturdyleatherpouch"}
+  },
+  {
+    "_Comment": "Sturdy Leather Pouch for improviser trait",
+    "ingredientPattern": "STK,LBL,_L_",
+    "requiresTrait": "improviser",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit" },
+      "B": { "type": "block", "code": "game:linen-*" },
+      "L": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "abcsredux:sturdyleatherpouch"}
+  }
+]
+

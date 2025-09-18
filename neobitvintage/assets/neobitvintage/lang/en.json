@@ -7,6 +7,12 @@
     "neobitvintage:recipe:lavoisier-trait": "Cheaper Lavoisier recipes for smith, crafty, or tinkerer traits (requires 2 lead solder bars)",
     "neobitvintage:patch:strong-potions": "Strong alchemy potions are now restricted to transmutation trait only",
     "neobitvintage:patch:backpack-lantern": "All ABCSRedux backpack-lantern combinations are disabled",
-    "neobitvintage:patch:sewingkit": "Sewing kit recipe now requires improviser trait",
-    "neobitvintage:recipe:sewingkit-alternative": "Alternative sewing kit recipe requires metal rod (no trait required)"
+  "neobitvintage:patch:sewingkit": "Sewing kit recipe now requires improviser trait",
+  "neobitvintage:recipe:sewingkit-alternative": "Alternative sewing kit recipe requires metal rod (no trait required)",
+  "neobitvintage:patch:mega-clothier": "Mega backpacks now require clothier trait",
+  "neobitvintage:patch:ultra-clothier": "Ultra backpacks now require clothier trait",
+    "neobitvintage:patch:pouch-traits": "Leather pouches now require specific traits: leather pouch (artifice, stitch_doctor, clothier), sturdy leather pouch (pioneer, sentry, bowyer, improviser)",
+    "neobitvintage:patch:super-gold": "Super backpacks now require gold tools and plates",
+    "neobitvintage:patch:mega-iron": "Mega backpacks now require iron tools and plates",
+    "neobitvintage:patch:ultra-steel": "Ultra backpacks now require steel tools and plates"
 }

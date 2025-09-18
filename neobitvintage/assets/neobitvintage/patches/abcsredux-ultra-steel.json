@@ -1,0 +1,60 @@
+[
+  {
+    "file": "abcsredux:recipes/grid/ultra-leather-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/S",
+    "value": { 
+      "type": "item", 
+      "code": "game:shears-steel", 
+      "isTool": true, 
+      "toolDurabilityCost": 10  
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-leather-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/M",
+    "value": { 
+      "type": "item", 
+      "code": "game:metalplate-steel", 
+      "quantity": 1 
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-sturdy-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/S",
+    "value": { 
+      "type": "item", 
+      "code": "game:shears-steel", 
+      "isTool": true, 
+      "toolDurabilityCost": 10  
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/ultra-sturdy-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/M",
+    "value": { 
+      "type": "item", 
+      "code": "game:metalplate-steel", 
+      "quantity": 1 
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/retransform-backpacks.json",
+    "op": "replace",
+    "path": "/5/ingredients/S",
+    "value": { 
+      "type": "item", 
+      "code": "game:shears-steel", 
+      "isTool": true, 
+      "toolDurabilityCost": 10  
+    },
+    "side": "server"
+  }
+]

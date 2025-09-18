@@ -1,0 +1,60 @@
+[
+  {
+    "file": "abcsredux:recipes/grid/mega-leather-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/S",
+    "value": { 
+      "type": "item", 
+      "code": "game:shears-iron", 
+      "isTool": true, 
+      "toolDurabilityCost": 10  
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-leather-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/M",
+    "value": { 
+      "type": "item", 
+      "code": "game:metalplate-iron", 
+      "quantity": 1 
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-sturdy-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/S",
+    "value": { 
+      "type": "item", 
+      "code": "game:shears-iron", 
+      "isTool": true, 
+      "toolDurabilityCost": 10  
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/mega-sturdy-backpack.json",
+    "op": "replace",
+    "path": "/0/ingredients/M",
+    "value": { 
+      "type": "item", 
+      "code": "game:metalplate-iron", 
+      "quantity": 1 
+    },
+    "side": "server"
+  },
+  {
+    "file": "abcsredux:recipes/grid/retransform-backpacks.json",
+    "op": "replace",
+    "path": "/4/ingredients/S",
+    "value": { 
+      "type": "item", 
+      "code": "game:shears-iron", 
+      "isTool": true, 
+      "toolDurabilityCost": 10  
+    },
+    "side": "server"
+  }
+]
