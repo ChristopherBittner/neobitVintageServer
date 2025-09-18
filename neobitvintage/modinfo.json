@@ -11,7 +11,9 @@
         "game": "1.21.1",
         "lavoisier": "",
         "alchemy": "",
-        "abcsredux": ""
+        "abcsredux": "",
+        "soundofconfession": "",
+        "americanfrontiersman": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

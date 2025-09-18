@@ -1,0 +1,13 @@
+[
+  {
+    "ingredientPattern": "TTS",
+    "requiresTrait": "stitch_doctor",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "item", "code": "stitchingkitlight", "quantity": 1 }
+  }
+]

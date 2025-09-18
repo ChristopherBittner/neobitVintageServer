@@ -1,0 +1,13 @@
+[
+  {
+    "ingredientPattern": "LLB",
+    "requiresTrait": "sentry",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+      "B": { "type": "item", "code": "game:metalbit-copper", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "item", "code": "stitchingkitleather", "quantity": 1 }
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "file": "americanfrontiersman:recipes/grid/stitchingkit - recipes.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  }
+]

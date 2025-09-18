@@ -64,8 +64,8 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - mercantile
  AmericanFrontiersmanWesternWear_1.8.4.zip
     - clothier
-    - improviser
-    - bowyer
+    - sentry
+    - pioneer
     - stitch_doctor
  AncientArmory1.1.4.zip - block some for traits
     - smith
