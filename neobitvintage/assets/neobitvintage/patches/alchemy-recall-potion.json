@@ -6,34 +6,8 @@
     "value": {
       "type": "item",
       "code": "game:gear-temporal",
-      "quantity": 2
+      "quantity": 25
     },
-    "side": "server"
-  },
-  {
-    "file": "alchemy:recipes/grid/ingredient/recallbase.json",
-    "op": "addmerge",
-    "path": "/ingredients",
-    "value": {
-      "G": {
-        "type": "item",
-        "code": "game:gear-temporal"
-      }
-    },
-    "side": "server"
-  },
-  {
-    "file": "alchemy:recipes/grid/ingredient/recallbase.json",
-    "op": "replace",
-    "path": "/ingredientPattern",
-    "value": "M,T,G",
-    "side": "server"
-  },
-  {
-    "file": "alchemy:recipes/grid/ingredient/recallbase.json",
-    "op": "replace",
-    "path": "/width",
-    "value": 3,
     "side": "server"
   }
 ]
