@@ -1,0 +1,37 @@
+[
+  {
+    "file": "confession:recipes/grid/bell_recipe.json",
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "confession:recipes/grid/bell_recipe.json",
+    "op": "addmerge",
+    "path": "/8/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "confession:recipes/grid/bell_recipe.json",
+    "op": "addmerge",
+    "path": "/9/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "confession:recipes/grid/bell_recipe.json",
+    "op": "addmerge",
+    "path": "/10/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "confession:recipes/grid/bell_recipe.json",
+    "op": "addmerge",
+    "path": "/11/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  }
+]

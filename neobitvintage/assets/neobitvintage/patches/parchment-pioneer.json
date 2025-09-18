@@ -1,0 +1,9 @@
+[
+  {
+    "file": "game:recipes/grid/parchment.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  }
+]

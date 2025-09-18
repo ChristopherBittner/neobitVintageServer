@@ -1,0 +1,116 @@
+[
+  {
+    "ingredientPattern": "PPP",
+    "requiresTrait": "mercantile",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "confession:bellbook-0-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PPP",
+    "requiresTrait": "transcription",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "confession:bellbook-1-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PPP",
+    "requiresTrait": "mercantile",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "confession:bellbook-2-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PPP",
+    "requiresTrait": "transcription",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "confession:bellbook-3-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PPP",
+    "requiresTrait": "mercantile",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "confession:bellbook-4-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PPP",
+    "requiresTrait": "transcription",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "confession:bellbook-5-north",
+      "quantity": 1
+    }
+  }
+]

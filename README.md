@@ -55,11 +55,12 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
  'ACulinaryArtillery 1.2.5.zip'
     - culinary
     - transmutation
- AgeOfConfession_2.1.4.zip
++++ DONE  AgeOfConfession_2.1.4.zip
     - transcription
     - artifice
     - carpenter
     - improviser
+    - mason
     - mercantile
  AmericanFrontiersmanWesternWear_1.8.4.zip
     - clothier
