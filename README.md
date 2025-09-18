@@ -68,9 +68,6 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - pioneer
     - stitch_doctor
  AncientArmory1.1.4.zip - block some for traits
-    - smith
-    - merciless
-    - tinkerer
 +++ DONE  animalcages_v4.0.1.zip - cheaper fo traits
     - bowyer
     - improviser
@@ -78,19 +75,18 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - carpenter
     - sentry
  armory_1.2.0.zip - block some for traits
-    - smith
  axleinblocks_1.21.0.zip
-    - tinkerer
-    - crafty
-    - transcription
- butchering_1.10.3.zip - block some for traits, cheaper for some
++++ DONE -- bricklayers
+    - prospector
+    - pioneer
+-- butchering_1.10.3.zip - block some for traits, cheaper for some
     - bowyer
     - improviser
     - pioneer
     - sentry
     - culinary
     - stitch_doctor
- chiseltools1.15.1.zip - cheaper for mason if able 
+-- chiseltools1.15.1.zip - cheaper for mason if able 
     - mason
     - artifice
  CraftableCartography_0.1.8.zip - block/cheaper some for traits, increase default prices

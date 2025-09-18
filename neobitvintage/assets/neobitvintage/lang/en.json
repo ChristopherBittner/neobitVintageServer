@@ -28,5 +28,7 @@
     "neobitvintage:patch:medium-cage-expensive": "Medium animal cage now requires 5 copper ingots by default",
     "neobitvintage:recipe:medium-cage-traits": "Medium animal cage trait-based recipes: bowyer/improviser/carpenter (3 ingots), pioneer/sentry (1 ingot)",
     "neobitvintage:patch:small-cage-traits": "Small animal cage now requires pioneer trait",
-    "neobitvintage:recipe:small-cage-traits": "Small animal cage alternative recipes for improviser and sentry traits"
+    "neobitvintage:recipe:small-cage-traits": "Small animal cage alternative recipes for improviser and sentry traits",
+    "neobitvintage:recipe:polishingset-prospector": "Prospector polishing set recipe (1 crushed + 1 powdered corundum)",
+    "neobitvintage:recipe:polishingset-pioneer": "Pioneer polishing set recipe (default without beeswax)"
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "ingredientPattern": "CLP,BWF,_L_",
+    "requiresTrait": "prospector",
+    "ingredients": {
+      "C": { "type": "item", "code": "em:crushed-ore-corundum", "quantity": 1 },
+      "P": { "type": "item", "code": "em:powdered-ore-corundum", "quantity": 1 },
+      "B": { "type": "item", "code": "game:beeswax" },
+      "F": { "type": "item", "code": "game:fat" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" },
+      "W": { "type": "item", "code": "game:plank-*", "name": "wood",
+        "allowedVariants": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "bricklayers:polishingset-{wood}" }
+  }
+]
