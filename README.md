@@ -7,3 +7,23 @@ Modify traits of Alchemyst, Artisan, Chef, Homesteader, Lumberjack, Mason, Merch
 
 # TODO traits
 Go through all mods and see whether some of the abilities should be gatewayed for existing traits.
+
+"code": "alchemyst",   "traits": ["transmutation"
+"code": "artisan",     "traits": ["artifice"
+"code": "chef",        "traits": ["culinary"
+"code": "homesteader", "traits": ["pioneer"
+"code": "lumberjack",  "traits": ["carpenter"
+"code": "mason",       "traits": ["mason"
+"code": "merchant",    "traits": ["mercantile"
+"code": "miner",       "traits": ["prospector"
+"code": "mystic",      "traits": ["transcription"
+"code": "ranger",      "traits": ["sentry"
+"code": "smith",       "traits": ["smith"
+"code": "medic",       "traits": ["stitch_doctor"
+"code": "tinker",      "traits": ["crafty"
+
+"code": "hunter",      "traits": ["bowyer"
+"code": "malefactor",  "traits": ["improviser"
+"code": "clockmaker",  "traits": ["tinkerer"
+"code": "blackguard",  "traits": ["merciless"
+"code": "tailor",      "traits": ["clothier"

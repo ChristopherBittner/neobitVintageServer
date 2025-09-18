@@ -1,0 +1,81 @@
+[
+  {
+    "ingredientPattern": "M,T",
+    "requiresTrait": "transmutation",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 10
+      },
+      "T": {
+        "type": "item",
+        "code": "alchemy:mortarpestle-*",
+        "isTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "alchemy:utilitypotionbase-recall"
+    }
+  },
+   {
+     "ingredientPattern": "GM,TS",
+     "requiresTrait": "culinary",
+     "ingredients": {
+       "G": {
+         "type": "item",
+         "code": "game:gear-temporal",
+         "quantity": 10
+       },
+       "S": {
+         "type": "item",
+         "code": "game:saltpeter",
+         "quantity": 1
+       },
+       "M": {
+         "type": "item",
+         "code": "game:gear-temporal",
+         "quantity": 10
+       },
+       "T": {
+         "type": "item",
+         "code": "alchemy:mortarpestle-*",
+         "isTool": true
+       }
+     },
+     "width": 2,
+     "height": 2,
+     "shapeless": false,
+     "output": {
+       "type": "item",
+       "code": "alchemy:utilitypotionbase-recall"
+     }
+   },
+  {
+    "ingredientPattern": "M,T",
+    "requiresTrait": "transcription",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 20
+      },
+      "T": {
+        "type": "item",
+        "code": "alchemy:mortarpestle-*",
+        "isTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "alchemy:utilitypotionbase-recall"
+    }
+  }
+]
