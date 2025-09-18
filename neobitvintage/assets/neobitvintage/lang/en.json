@@ -1,4 +1,8 @@
 {
     "mod:neobitvintage": "neobit Vintage Server",
-    "mod:neobitvintage:description": "Custom content and tweaks for the neobit Vintage Story server."
+    "mod:neobitvintage:description": "Custom content and tweaks for the neobit Vintage Story server.",
+    "neobitvintage:patch:recall-potion": "Modified recall potion recipe requires additional temporal gears",
+    "neobitvintage:patch:recall-expensive": "Expensive recall potion recipe with multiple temporal gears",
+    "neobitvintage:patch:recall-alternative": "Alternative recall potion recipe layout",
+    "neobitvintage:patch:recall-barrel": "Modified barrel recipe for recall potion with longer brewing time"
 }
