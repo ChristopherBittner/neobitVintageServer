@@ -24,5 +24,9 @@
     "neobitvintage:recipe:stitchingkit-leather-sentry": "Alternative leather stitching kit recipe for sentry trait",
     "neobitvintage:patch:stitchingkit-light": "Light stitching kit now requires clothier trait",
     "neobitvintage:recipe:stitchingkit-light-stitchdoctor": "Alternative light stitching kit recipe for stitch_doctor trait",
-    "neobitvintage:patch:stitchingkit-medium": "Medium stitching kit now requires clothier trait"
+    "neobitvintage:patch:stitchingkit-medium": "Medium stitching kit now requires clothier trait",
+    "neobitvintage:patch:medium-cage-expensive": "Medium animal cage now requires 5 copper ingots by default",
+    "neobitvintage:recipe:medium-cage-traits": "Medium animal cage trait-based recipes: bowyer/improviser/carpenter (3 ingots), pioneer/sentry (1 ingot)",
+    "neobitvintage:patch:small-cage-traits": "Small animal cage now requires pioneer trait",
+    "neobitvintage:recipe:small-cage-traits": "Small animal cage alternative recipes for improviser and sentry traits"
 }

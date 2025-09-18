@@ -1,0 +1,9 @@
+[
+  {
+    "file": "animalcages:recipes/grid/smallanimalcage.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  }
+]

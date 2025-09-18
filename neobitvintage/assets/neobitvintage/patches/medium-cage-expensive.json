@@ -1,0 +1,9 @@
+[
+  {
+    "file": "animalcages:recipes/grid/mediumanimalcage.json",
+    "op": "replace",
+    "path": "/ingredients/C/quantity",
+    "value": 5,
+    "side": "server"
+  }
+]

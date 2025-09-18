@@ -1,0 +1,44 @@
+[
+  {
+    "ingredientPattern": "PPP,SSP,PPP",
+    "requiresTrait": "improviser",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 4
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "smallanimalcage-opened"
+    }
+  },
+  {
+    "ingredientPattern": "PPP,SSP,PPP",
+    "requiresTrait": "sentry",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 4
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "smallanimalcage-opened"
+    }
+  }
+]

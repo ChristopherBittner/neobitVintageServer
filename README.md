@@ -62,7 +62,7 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - improviser
     - mason
     - mercantile
- AmericanFrontiersmanWesternWear_1.8.4.zip
++++ DONE  AmericanFrontiersmanWesternWear_1.8.4.zip
     - clothier
     - sentry
     - pioneer
@@ -71,7 +71,7 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - smith
     - merciless
     - tinkerer
- animalcages_v4.0.1.zip - cheaper fo traits
++++ DONE  animalcages_v4.0.1.zip - cheaper fo traits
     - bowyer
     - improviser
     - pioneer
