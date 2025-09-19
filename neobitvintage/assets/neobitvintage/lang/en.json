@@ -44,5 +44,8 @@
     "neobitvintage:patch:cartography-sextant-traits": "Sextant now requires tinkerer trait",
     "neobitvintage:patch:cartography-compass-traits": "Compass now requires crafty trait",
     "neobitvintage:patch:cartography-temporal-compass-traits": "Temporal compass now requires mystic trait",
-    "neobitvintage:patch:cartography-jps-traits": "JPS now requires tinkerer trait"
+    "neobitvintage:patch:cartography-jps-traits": "JPS now requires tinkerer trait",
+    "neobitvintage:patch:exoskeleton-basic-traits": "Basic exoskeleton parts (arms, legs, torso) now require tinkerer trait",
+    "neobitvintage:recipe:exoskeleton-basic-crafty": "Alternative basic exoskeleton recipes for crafty trait",
+    "neobitvintage:patch:exoskeleton-armored-traits": "Armored exoskeleton parts now require tinkerer trait"
 }

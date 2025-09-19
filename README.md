@@ -51,7 +51,7 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 
 "code": "hunter",      "traits": ["bowyer"             price - 200
 "code": "malefactor",  "traits": ["improviser"         price - 200
-"code": "clockmaker",  "traits": ["tinkerer"           price - 400
+"code": "clockmaker",  "traits": ["tinkerer"           price - 500
 "code": "blackguard",  "traits": ["merciless"          price - 200
 "code": "tailor",      "traits": ["clothier"           price - 300
 
@@ -113,10 +113,9 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - tinkerer
     - crafty
     - transcription
----  exoskeletons_0.4.2.zip - block some for traits
++++ DONE  exoskeletons_0.4.2.zip - block some for traits
     - tinkerer
     - crafty
-    - transcription
  'ExpandedFoods 1.7.4.zip'
     - cheff
     - pioneer

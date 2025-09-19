@@ -17,7 +17,8 @@
         "animalcages": "",
         "bricklayers": "",
         "butchering": "",
-        "craftablecartographyfork": ""
+        "craftablecartographyfork": "",
+        "exoskeletons": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

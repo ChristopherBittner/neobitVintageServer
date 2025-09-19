@@ -1,0 +1,30 @@
+[
+  {
+    "file": "exoskeletons:recipes/grid/exoskeleton.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "exoskeletons:recipes/grid/exoskeleton.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "exoskeletons:recipes/grid/exoskeleton.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "exoskeletons:recipes/grid/exoskeleton.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  }
+]
