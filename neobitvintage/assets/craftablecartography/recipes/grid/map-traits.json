@@ -1,0 +1,74 @@
+[
+  {
+    "ingredientPattern": "PPP,PCP,PRP",
+    "requiresTrait": "improviser",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:inkandquill"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rod-copper"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "map"
+    }
+  },
+  {
+    "ingredientPattern": "PPP,PCP,PRP",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:inkandquill"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rod-copper"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "map"
+    }
+  },
+  {
+    "ingredientPattern": "PPP,PCP,PRP",
+    "requiresTrait": "mercantile",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-parchment"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:inkandquill"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rod-copper"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "map"
+    }
+  }
+]

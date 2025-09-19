@@ -16,7 +16,8 @@
         "americanfrontiersman": "",
         "animalcages": "",
         "bricklayers": "",
-        "butchering": ""
+        "butchering": "",
+        "craftablecartographyfork": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

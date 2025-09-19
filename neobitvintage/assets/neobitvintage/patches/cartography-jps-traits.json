@@ -1,0 +1,9 @@
+[
+  {
+    "file": "craftablecartography:recipes/grid/jps.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  }
+]

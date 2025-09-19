@@ -1,0 +1,9 @@
+[
+  {
+    "file": "craftablecartography:recipes/grid/sextant.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  }
+]

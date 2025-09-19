@@ -1,0 +1,9 @@
+[
+  {
+    "file": "craftablecartography:recipes/grid/compass.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  }
+]

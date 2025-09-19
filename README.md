@@ -19,7 +19,8 @@ nature call - transmutation, pioneer, prospector, sentry, bowyer
 wear and tear - cheaper for crafty, tinkerer
 vintage engineering - 
 trait acquirer
-
+item rarity
+brain freeze
 
 # TODO Passive
 - no negative for drinking not boiled water - pioneer, sentry, bowyer, improviser
@@ -95,7 +96,6 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - carpenter
     - sentry
  armory_1.2.0.zip - block some for traits
- axleinblocks_1.21.0.zip
 +++ DONE -- bricklayers
     - prospector
     - pioneer
@@ -106,15 +106,14 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - sentry
     - culinary
     - stitch_doctor
--- chiseltools1.15.1.zip - cheaper for mason if able 
-    - mason
-    - artifice
- CraftableCartography_0.1.8.zip - block/cheaper some for traits, increase default prices
++++ DONE  CraftableCartography_0.1.8.zip - block/cheaper some for traits, increase default prices
     - pioneer
     - bowyer
     - improviser
     - tinkerer
- exoskeletons_0.4.2.zip - block some for traits
+    - crafty
+    - transcription
+---  exoskeletons_0.4.2.zip - block some for traits
     - tinkerer
     - crafty
     - transcription
@@ -122,10 +121,10 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - cheff
     - pioneer
     - transmutation
- 'Explosives v0.1.1.zip' - block some for traits, miner, 
+---  'Explosives v0.1.1.zip' - block some for traits, miner, 
     - prospector
     - transmutation
- Firestarters_1.4.5.zip - cheaper fo traits
+---  Firestarters_1.4.5.zip - cheaper fo traits
     - pioneer
     - bowyer
     - improviser

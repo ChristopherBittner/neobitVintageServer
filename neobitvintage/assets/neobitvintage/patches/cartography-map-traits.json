@@ -1,0 +1,9 @@
+[
+  {
+    "file": "craftablecartography:recipes/grid/map.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "transcription",
+    "side": "server"
+  }
+]

@@ -36,5 +36,13 @@
     "neobitvintage:patch:butchering-simple-traits": "Simple butchering table now requires pioneer trait",
     "neobitvintage:recipe:butchering-simple-traits": "Alternative simple butchering table recipes for culinary and stitch_doctor traits",
     "neobitvintage:patch:butchering-advanced-traits": "Advanced butchering table now requires pioneer trait",
-    "neobitvintage:recipe:butchering-advanced-traits": "Alternative advanced butchering table recipes: culinary (2 iron plates), pioneer (16 iron plates)"
+    "neobitvintage:recipe:butchering-advanced-traits": "Alternative advanced butchering table recipes: culinary (2 iron plates), pioneer (16 iron plates)",
+    "neobitvintage:patch:cartography-primitive-compass-traits": "Primitive compass now requires pioneer trait",
+    "neobitvintage:recipe:cartography-primitive-compass-traits": "Alternative primitive compass recipes for bowyer, improviser, tinkerer, and crafty traits",
+    "neobitvintage:patch:cartography-map-traits": "Map now requires transcription trait",
+    "neobitvintage:recipe:cartography-map-traits": "Alternative map recipe with ink and quill for improviser, pioneer, and mercantile traits",
+    "neobitvintage:patch:cartography-sextant-traits": "Sextant now requires tinkerer trait",
+    "neobitvintage:patch:cartography-compass-traits": "Compass now requires crafty trait",
+    "neobitvintage:patch:cartography-temporal-compass-traits": "Temporal compass now requires mystic trait",
+    "neobitvintage:patch:cartography-jps-traits": "JPS now requires tinkerer trait"
 }
