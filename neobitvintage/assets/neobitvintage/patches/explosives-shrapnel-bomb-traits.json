@@ -1,0 +1,23 @@
+[
+  {
+    "file": "bomb:recipes/grid/brickbomb.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "bomb:recipes/grid/brickbomb2.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "bomb:recipes/grid/brickbomb3.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  }
+]

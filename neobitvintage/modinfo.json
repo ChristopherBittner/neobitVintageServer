@@ -18,7 +18,9 @@
         "bricklayers": "",
         "butchering": "",
         "craftablecartographyfork": "",
-        "exoskeletons": ""
+        "exoskeletons": "",
+        "explosive": "",
+        "primitivesurvival": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

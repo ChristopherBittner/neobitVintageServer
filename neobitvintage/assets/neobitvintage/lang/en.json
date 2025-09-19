@@ -47,5 +47,12 @@
     "neobitvintage:patch:cartography-jps-traits": "JPS now requires tinkerer trait",
     "neobitvintage:patch:exoskeleton-basic-traits": "Basic exoskeleton parts (arms, legs, torso) now require tinkerer trait",
     "neobitvintage:recipe:exoskeleton-basic-crafty": "Alternative basic exoskeleton recipes for crafty trait",
-    "neobitvintage:patch:exoskeleton-armored-traits": "Armored exoskeleton parts now require tinkerer trait"
+    "neobitvintage:patch:exoskeleton-armored-traits": "Armored exoskeleton parts now require tinkerer trait",
+    "neobitvintage:patch:explosives-scrap-bomb-traits": "Scrap bombs (bomb-scrap) now require improviser trait",
+    "neobitvintage:patch:explosives-shrapnel-bomb-traits": "Shrapnel bombs (brick bombs) now require transmutation trait",
+    "neobitvintage:patch:explosives-ceramic-bomb-traits": "Ceramic bomb (pot bomb) now requires mason trait",
+    "neobitvintage:patch:explosives-reed-shrapnel-bomb-traits": "Reed shrapnel bombs now require pioneer trait",
+    "neobitvintage:patch:explosives-stone-breaker-bomb-traits": "Stone breaker bomb now requires prospector trait",
+    "neobitvintage:patch:explosives-crushing-barrel-traits": "Ore and stone crushing barrels now require prospector trait",
+    "neobitvintage:patch:primitivesurvival-fireworks-traits": "All primitive survival fireworks now require transmutation trait"
 }

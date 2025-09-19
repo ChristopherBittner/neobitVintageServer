@@ -123,6 +123,9 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 ---  'Explosives v0.1.1.zip' - block some for traits, miner, 
     - prospector
     - transmutation
+    - improviser
+    - mason
+    - pioneer
 ---  Firestarters_1.4.5.zip - cheaper fo traits
     - pioneer
     - bowyer

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "bomb:recipes/grid/orebarrel.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "bomb:recipes/grid/stonebarrel.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  }
+]
