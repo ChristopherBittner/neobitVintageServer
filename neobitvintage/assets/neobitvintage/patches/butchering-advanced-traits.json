@@ -1,0 +1,9 @@
+[
+  {
+    "file": "butchering:recipes/grid/butchertables.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  }
+]

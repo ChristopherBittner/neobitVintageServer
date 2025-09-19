@@ -1,0 +1,78 @@
+[
+  {
+    "ingredientPattern": "KSL,PCP",
+    "requiresTrait": "culinary",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 16
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic-*",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ]
+      },
+      "S": {
+        "type": "item",
+        "code": "game:shears-*",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ]
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "butchertable-simple-north",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "KSL,PCP",
+    "requiresTrait": "stitch_doctor",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 16
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic-*",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ]
+      },
+      "S": {
+        "type": "item",
+        "code": "game:shears-*",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ]
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "butchertable-simple-north",
+      "quantity": 1
+    }
+  }
+]

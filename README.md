@@ -99,7 +99,7 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 +++ DONE -- bricklayers
     - prospector
     - pioneer
--- butchering_1.10.3.zip - block some for traits, cheaper for some
++++ DONE  butchering_1.10.3.zip - block some for traits, cheaper for some
     - bowyer
     - improviser
     - pioneer

@@ -30,5 +30,11 @@
     "neobitvintage:patch:small-cage-traits": "Small animal cage now requires pioneer trait",
     "neobitvintage:recipe:small-cage-traits": "Small animal cage alternative recipes for improviser and sentry traits",
     "neobitvintage:recipe:polishingset-prospector": "Prospector polishing set recipe (1 crushed + 1 powdered corundum)",
-    "neobitvintage:recipe:polishingset-pioneer": "Pioneer polishing set recipe (default without beeswax)"
+    "neobitvintage:recipe:polishingset-pioneer": "Pioneer polishing set recipe (default without beeswax)",
+    "neobitvintage:patch:butchering-primitive-traits": "Primitive butchering table now requires bowyer trait",
+    "neobitvintage:recipe:butchering-primitive-traits": "Alternative primitive butchering table recipes for improviser, pioneer, sentry, culinary, and stitch_doctor traits",
+    "neobitvintage:patch:butchering-simple-traits": "Simple butchering table now requires pioneer trait",
+    "neobitvintage:recipe:butchering-simple-traits": "Alternative simple butchering table recipes for culinary and stitch_doctor traits",
+    "neobitvintage:patch:butchering-advanced-traits": "Advanced butchering table now requires pioneer trait",
+    "neobitvintage:recipe:butchering-advanced-traits": "Alternative advanced butchering table recipes: culinary (2 iron plates), pioneer (16 iron plates)"
 }

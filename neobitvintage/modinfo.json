@@ -15,7 +15,8 @@
         "soundofconfession": "",
         "americanfrontiersman": "",
         "animalcages": "",
-        "bricklayers": ""
+        "bricklayers": "",
+        "butchering": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

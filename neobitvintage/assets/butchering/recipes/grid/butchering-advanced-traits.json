@@ -1,0 +1,40 @@
+[
+  {
+    "ingredientPattern": "KSL,PIP",
+    "requiresTrait": "pioneer",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 16
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic-*",
+        "allowedVariants": [ "iron" ]
+      },
+      "S": {
+        "type": "item",
+        "code": "game:shears-*",
+        "allowedVariants": [ "iron" ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:cleaver-*",
+        "allowedVariants": [ "iron" ]
+      },
+      "I": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 16
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "butchertable-advanced-north",
+      "quantity": 1
+    }
+  }
+]
