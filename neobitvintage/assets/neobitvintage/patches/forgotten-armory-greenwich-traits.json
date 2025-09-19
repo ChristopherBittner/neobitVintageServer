@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-body-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-body-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-body-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-head-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-head-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-head-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-legs-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-legs-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagreenwich:recipes/grid/armor/fa-greenwich-legs-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  }
+]
