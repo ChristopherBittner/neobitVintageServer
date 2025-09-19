@@ -6,6 +6,26 @@ Modify prices of traits to be acquired.
 Modify buying of traits of Alchemyst, Artisan, Chef, Homesteader, Lumberjack, Mason, Merchant, Miner, Mystic, Ranger, Smith and Tinker
 Mason has cheaper bricks.
 Disable backpacks light
+Traits books need to be removed from loot or make it very very rare
+passive traits book very expensive
+
+# TODO Add mods to modpack and traits
+https://mods.vintagestory.at/foragersgamble and gourmand mod
+# TODO Add mods to traits
+level up - proficiency with tools 
+coinage - better for mercantile
+wool - pioneer, clothier
+nature call - transmutation, pioneer, prospector, sentry, bowyer
+wear and tear - cheaper for crafty, tinkerer
+vintage engineering - 
+trait acquirer
+
+
+# TODO Passive
+- no negative for drinking not boiled water - pioneer, sentry, bowyer, improviser
+- better prices for traders - mercantile
+- less hp loss from bad food - culinary
+- more hp - stitch_doctor, improviser, merciless
 
 # TODO config
 Set configs of mods to be part of the mod if able e.g.
@@ -34,7 +54,7 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 "code": "blackguard",  "traits": ["merciless"          price - 200
 "code": "tailor",      "traits": ["clothier"           price - 300
 
-# Mods todo
+# Mods affected by traits
 +++ DONE  ABCSRedux_v2.0.5.zip - 
     DONE disable lantern backgacks
     DONE block some by traits and 
