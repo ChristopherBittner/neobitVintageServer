@@ -1,0 +1,128 @@
+[
+  {
+    "ingredientPattern": "ABA,DED,_G_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "A": { 
+        "type": "item", 
+        "code": "game:cloth-*", 
+        "name": "color", 
+        "allowedVariants": [
+          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
+        ], 
+        "quantity": 2
+      },
+      "B": { 
+        "type": "item", 
+        "code": "fatemplar:fa-templar-schematic", 
+        "returnedStack": { "type": "item", "code": "fatemplar:fa-templar-schematic" }
+      },
+      "D": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-steel"
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:armor-body-chain-steel"
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "templar steel chain body",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fatemplar:fa-templar-body-light-steel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "ABA,DED,_G_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "A": { 
+        "type": "item", 
+        "code": "game:cloth-*", 
+        "name": "color", 
+        "allowedVariants": [
+          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
+        ], 
+        "quantity": 2
+      },
+      "B": { 
+        "type": "item", 
+        "code": "fatemplar:fa-templar-schematic", 
+        "returnedStack": { "type": "item", "code": "fatemplar:fa-templar-schematic" }
+      },
+      "D": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-meteoriciron"
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:armor-body-chain-meteoriciron"
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "templar meteoriciron chain body",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fatemplar:fa-templar-body-light-meteoriciron-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "ABA,DED,_G_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "A": { 
+        "type": "item", 
+        "code": "game:cloth-*", 
+        "name": "color", 
+        "allowedVariants": [
+          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
+        ], 
+        "quantity": 2
+      },
+      "B": { 
+        "type": "item", 
+        "code": "fatemplar:fa-templar-schematic", 
+        "returnedStack": { "type": "item", "code": "fatemplar:fa-templar-schematic" }
+      },
+      "D": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-blackbronze"
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:armor-body-chain-blackbronze"
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "templar blackbronze chain body",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fatemplar:fa-templar-body-light-blackbronze-{color}"
+    }
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "ingredientPattern": "ABF,CDC,EGE",
+    "recipeGroup": 1,
+    "ingredients": {
+      "A": { 
+        "type": "item", 
+        "code": "game:cloth-*", 
+        "name": "color", 
+        "allowedVariants": [
+          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
+        ], 
+        "quantity": 4
+      },
+      "B": { 
+        "type": "item", 
+        "code": "game:armor-legs-plate-steel"
+      },
+      "C": { 
+        "type": "item", 
+        "code": "game:metalplate-silver", 
+        "quantity": 2
+      },
+      "D": { 
+        "type": "item", 
+        "code": "fagothic:fa-gothic-schematic", 
+        "returnedStack": { "type": "item", "code": "fagothic:fa-gothic-schematic" }
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-meteoriciron", 
+        "quantity": 2
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      },
+      "F": { 
+        "type": "item", 
+        "code": "game:leather-sturdy-plain", 
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gothic steel plate legs",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fagothic:fa-gothic-legs-steel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "ABF,CDC,EGE",
+    "recipeGroup": 1,
+    "ingredients": {
+      "A": { 
+        "type": "item", 
+        "code": "game:cloth-*", 
+        "name": "color", 
+        "allowedVariants": [
+          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
+        ], 
+        "quantity": 4
+      },
+      "B": { 
+        "type": "item", 
+        "code": "game:armor-legs-plate-meteoriciron"
+      },
+      "C": { 
+        "type": "item", 
+        "code": "game:metalplate-meteoriciron", 
+        "quantity": 2
+      },
+      "D": { 
+        "type": "item", 
+        "code": "fagothic:fa-gothic-schematic", 
+        "returnedStack": { "type": "item", "code": "fagothic:fa-gothic-schematic" }
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-meteoriciron", 
+        "quantity": 2
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      },
+      "F": { 
+        "type": "item", 
+        "code": "game:leather-sturdy-plain", 
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gothic meteoric iron plate legs",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fagothic:fa-gothic-legs-meteoriciron-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "ABF,CDC,EGE",
+    "recipeGroup": 1,
+    "ingredients": {
+      "A": { 
+        "type": "item", 
+        "code": "game:cloth-*", 
+        "name": "color", 
+        "allowedVariants": [
+          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
+        ], 
+        "quantity": 4
+      },
+      "B": { 
+        "type": "item", 
+        "code": "game:armor-legs-plate-blackbronze"
+      },
+      "C": { 
+        "type": "item", 
+        "code": "game:metalplate-blackbronze", 
+        "quantity": 2
+      },
+      "D": { 
+        "type": "item", 
+        "code": "fagothic:fa-gothic-schematic", 
+        "returnedStack": { "type": "item", "code": "fagothic:fa-gothic-schematic" }
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-meteoriciron", 
+        "quantity": 2
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      },
+      "F": { 
+        "type": "item", 
+        "code": "game:leather-sturdy-plain", 
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gothic black bronze plate legs",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fagothic:fa-gothic-legs-blackbronze-{color}"
+    }
+  }
+]

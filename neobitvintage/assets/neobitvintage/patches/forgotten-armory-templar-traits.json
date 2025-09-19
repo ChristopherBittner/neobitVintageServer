@@ -1,0 +1,191 @@
+[
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-body-heavy-plain-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-body-heavy-plain-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-body-heavy-plain-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-head-greathelm-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-head-greathelm-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-head-greathelm-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-body-light-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-body-light-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-body-light-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-head-pothelmlight-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-head-pothelmlight-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-head-pothelmlight-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-legs-light-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-legs-light-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/light/fa-templar-legs-light-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-body-balance-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-body-balance-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-body-balance-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-legs-balance-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-legs-balance-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fatemplar:recipes/grid/armor/balance/fa-templar-legs-balance-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-body-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-body-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-body-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-head-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-head-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-head-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-legs-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-legs-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fagothic:recipes/grid/armor/fa-gothic-legs-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  }
+]

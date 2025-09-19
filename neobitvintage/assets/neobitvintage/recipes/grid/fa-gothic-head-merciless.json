@@ -1,0 +1,131 @@
+[
+  {
+    "ingredientPattern": "_B_,DED,GHI",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-meteoriciron", 
+        "quantity": 4
+      },
+      "D": { 
+        "type": "item", 
+        "code": "game:metalplate-silver"
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:armor-head-plate-steel"
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      },
+      "H": { 
+        "type": "item", 
+        "code": "fagothic:fa-gothic-schematic", 
+        "returnedStack": { "type": "item", "code": "fagothic:fa-gothic-schematic" }
+      },
+      "I": { 
+        "type": "item", 
+        "code": "game:leather-sturdy-plain", 
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gothic plate sallet free",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fagothic:fa-gothic-head-sallet-steel-none"
+    }
+  },
+  {
+    "ingredientPattern": "_B_,DED,GHI",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-silver", 
+        "quantity": 4
+      },
+      "D": { 
+        "type": "item", 
+        "code": "game:metalplate-silver"
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:armor-head-plate-meteoriciron"
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      },
+      "H": { 
+        "type": "item", 
+        "code": "fagothic:fa-gothic-schematic", 
+        "returnedStack": { "type": "item", "code": "fagothic:fa-gothic-schematic" }
+      },
+      "I": { 
+        "type": "item", 
+        "code": "game:leather-normal-plain", 
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gothic plate sallet",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fagothic:fa-gothic-head-sallet-meteoriciron-none"
+    }
+  },
+  {
+    "ingredientPattern": "_B_,DED,GHI",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": { 
+        "type": "item", 
+        "code": "game:metalnailsandstrips-meteoriciron", 
+        "quantity": 4
+      },
+      "D": { 
+        "type": "item", 
+        "code": "game:metalplate-blackbronze"
+      },
+      "E": { 
+        "type": "item", 
+        "code": "game:armor-head-plate-blackbronze"
+      },
+      "G": { 
+        "type": "item", 
+        "code": "game:hammer-*", 
+        "isTool": true, 
+        "toolDurabilityCost": 100
+      },
+      "H": { 
+        "type": "item", 
+        "code": "fagothic:fa-gothic-schematic", 
+        "returnedStack": { "type": "item", "code": "fagothic:fa-gothic-schematic" }
+      },
+      "I": { 
+        "type": "item", 
+        "code": "game:leather-sturdy-plain", 
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "gothic plate sallet",
+    "requiresTrait": "merciless",
+    "output": { 
+      "type": "item", 
+      "code": "fagothic:fa-gothic-head-sallet-blackbronze-none"
+    }
+  }
+]

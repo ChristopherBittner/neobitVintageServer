@@ -20,7 +20,11 @@
         "craftablecartographyfork": "",
         "exoskeletons": "",
         "explosive": "",
-        "primitivesurvival": ""
+        "primitivesurvival": "",
+        "fagothic": "",
+        "fagreenwich": "",
+        "falandsknecht": "",
+        "fatemplar": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true
