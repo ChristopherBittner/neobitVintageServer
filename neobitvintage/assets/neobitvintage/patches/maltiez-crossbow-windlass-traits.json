@@ -1,0 +1,9 @@
+[
+  {
+    "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  }
+]

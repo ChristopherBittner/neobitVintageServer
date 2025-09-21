@@ -144,11 +144,11 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - pioneer
     - sentry
     - carpenter
--  fueledwearablelights_1.0.2.zip - block some for traits
++++  fueledwearablelights_1.0.2.zip - block some for traits
     - pioneer
     - prospector
     - transmutation
--  hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
++++  hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
     - carpenter
     - crafty
 +++ DONE  - lavoisier_1.3.1.zip - cheaper some for traits
@@ -156,18 +156,19 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - crafty
     - tinkerer
 -  maltiezcrossbows_1.5.3.zip - block all for traits
-    - crafty
-    - tinkerer
--  maltiezfirearms_1.2.3.zip - block all for traits
     - bowyer
     - crafty
     - tinkerer
- Mannequin-Stand-v1.0.6.zip - block all for traits
+    - improviser
+-  maltiezfirearms_1.2.3.zip - block all for traits
+    - crafty
+    - tinkerer
+-  Mannequin-Stand-v1.0.6.zip - block all for traits
     - clothier
     - artifice
- medievalexpansionpatch-1.3.1.zip - block some for traits
+-  medievalexpansionpatch-1.3.1.zip - block some for traits
     - crafty
- metaltongs_1.2.3.zip - block some for traits
+-  metaltongs_1.2.3.zip - block some for traits
     - smith
     - tinkerer
  millwright_1.2.8.zip - block some for traits

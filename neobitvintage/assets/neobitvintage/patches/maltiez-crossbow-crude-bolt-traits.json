@@ -1,0 +1,9 @@
+[
+  {
+    "file": "maltiezcrossbows:recipes/grid/bolt.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  }
+]

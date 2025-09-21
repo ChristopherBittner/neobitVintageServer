@@ -1,0 +1,18 @@
+[
+  {
+    "ingredientPattern": "ANF,LB_,WWK",
+    "requiresTrait": "tinkerer",
+    "ingredients": {
+      "B": {"type": "item", "code": "maltiezcrossbows:bow-steel-light", "quantity": 1},
+      "L": {"type": "item", "code": "maltiezcrossbows:parts-lock-steel", "quantity": 1},
+      "N": {"type": "item", "code": "game:metalnailsandstrips-steel", "quantity": 1},
+      "A": {"type": "item", "code": "game:metalplate-iron", "quantity": 1},
+      "F": {"type": "item", "code": "game:flaxtwine", "quantity": 8},
+      "W": {"type": "item", "code": "game:plank-*", "quantity": 1},
+      "K": { "type": "item", "code": "game:saw-*", "isTool": true  }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "maltiezcrossbows:crossbow-goatsfoot-steel"}
+  }
+]

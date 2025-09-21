@@ -1,0 +1,44 @@
+[
+  {
+    "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  }
+]
