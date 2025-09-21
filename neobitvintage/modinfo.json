@@ -5,7 +5,7 @@
     "iconpath": "modicon.png",
     "authors": [ "neobit" ],
     "description": "Custom tweaks for the neobit Vintage Story server.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "website": "https://github.com/neobit/neobitVintageServer",
     "dependencies": {
         "game": "1.21.1",
@@ -24,7 +24,8 @@
         "fagothic": "",
         "fagreenwich": "",
         "falandsknecht": "",
-        "fatemplar": ""
+        "fatemplar": "",
+        "fromgoldencombs": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

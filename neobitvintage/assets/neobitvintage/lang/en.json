@@ -54,5 +54,6 @@
     "neobitvintage:patch:explosives-reed-shrapnel-bomb-traits": "Reed shrapnel bombs now require pioneer trait",
     "neobitvintage:patch:explosives-stone-breaker-bomb-traits": "Stone breaker bomb now requires prospector trait",
     "neobitvintage:patch:explosives-crushing-barrel-traits": "Ore and stone crushing barrels now require prospector trait",
-    "neobitvintage:patch:primitivesurvival-fireworks-traits": "All primitive survival fireworks now require transmutation trait"
+    "neobitvintage:patch:primitivesurvival-fireworks-traits": "All primitive survival fireworks now require transmutation trait",
+    "neobitvintage:patch:fromgoldencombs-traits": "FromGoldenCombs recipes now require traits: frame liner (pioneer), frame rack (carpenter), langstroth base (carpenter)",
 }

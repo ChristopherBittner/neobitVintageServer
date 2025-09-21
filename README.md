@@ -120,36 +120,34 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - cheff
     - pioneer
     - transmutation
----  'Explosives v0.1.1.zip' - block some for traits, miner, 
++++ DONE  'Explosives v0.1.1.zip' - block some for traits, miner, 
     - prospector
     - transmutation
-    - improviser
+    - improviserf
     - mason
     - pioneer
----  Firestarters_1.4.5.zip - cheaper fo traits
-    - pioneer
-    - bowyer
-    - improviser
- 'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
+NONE  Firestarters_1.4.5.zip - cheaper fo traits
+NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - smith
- 'Forgotten Armory_Gothic v1.2.0.zip' - block all for traits
++++  'Forgotten Armory_Gothic v1.2.0.zip' - block all for traits
     - smith
     - merciless
- 'Forgotten Armory_Greenwich v1.3.0.zip' - block all for traits
++++  'Forgotten Armory_Greenwich v1.3.0.zip' - block all for traits
     - smith
- 'Forgotten Armory_Landsknecht v1.2.0.zip' - block all for traits
++++  'Forgotten Armory_Landsknecht v1.2.0.zip' - block all for traits
     - smith
- 'Forgotten Armory_Templar v1.3.1.zip' - block all for traits
++++  'Forgotten Armory_Templar v1.3.1.zip' - block all for traits
     - smith
     - merciless
- FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits
+-  FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits
     - mason
     - pioneer
     - sentry
- fueledwearablelights_1.0.2.zip - block some for traits
+    - carpenter
+-  fueledwearablelights_1.0.2.zip - block some for traits
     - pioneer
     - transmutation
- hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
+-  hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
     - bowyer
     - improviser
     - sentry
@@ -158,10 +156,10 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
     - smith
     - crafty
     - tinkerer
- maltiezcrossbows_1.5.3.zip - block all for traits
+-  maltiezcrossbows_1.5.3.zip - block all for traits
     - crafty
     - tinkerer
- maltiezfirearms_1.2.3.zip - block all for traits
+-  maltiezfirearms_1.2.3.zip - block all for traits
     - bowyer
     - crafty
     - tinkerer
