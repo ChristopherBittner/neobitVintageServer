@@ -86,49 +86,5 @@
       "type": "item", 
       "code": "fatemplar:fa-templar-body-heavy-meteoriciron-plain"
     }
-  },
-  {
-    "ingredientPattern": "FBF,DED,IGI",
-    "recipeGroup": 1,
-    "ingredients": {
-      "B": { 
-        "type": "item", 
-        "code": "fatemplar:fa-templar-schematic", 
-        "returnedStack": { "type": "item", "code": "fatemplar:fa-templar-schematic" }
-      },
-      "D": { 
-        "type": "item", 
-        "code": "game:metalplate-blackbronze", 
-        "quantity": 3
-      },
-      "E": { 
-        "type": "item", 
-        "code": "game:armor-body-plate-blackbronze"
-      },
-      "F": { 
-        "type": "item", 
-        "code": "game:metalnailsandstrips-blackbronze", 
-        "quantity": 6
-      },
-      "G": { 
-        "type": "item", 
-        "code": "game:hammer-*", 
-        "isTool": true, 
-        "toolDurabilityCost": 100
-      },
-      "I": { 
-        "type": "item", 
-        "code": "game:leather-sturdy-plain", 
-        "quantity": 6
-      }
-    },
-    "width": 3,
-    "height": 3,
-    "name": "templar blackbronze plate body",
-    "requiresTrait": "merciless",
-    "output": { 
-      "type": "item", 
-      "code": "fatemplar:fa-templar-body-heavy-blackbronze-plain"
-    }
   }
 ]

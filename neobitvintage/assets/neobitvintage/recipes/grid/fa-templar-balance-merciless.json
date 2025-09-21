@@ -92,52 +92,5 @@
       "type": "item", 
       "code": "fatemplar:fa-templar-body-balance-meteoriciron-{color}"
     }
-  },
-  {
-    "ingredientPattern": "ABA,DED,G_I",
-    "recipeGroup": 1,
-    "ingredients": {
-      "A": { 
-        "type": "item", 
-        "code": "game:cloth-*", 
-        "name": "color", 
-        "allowedVariants": [
-          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
-        ], 
-        "quantity": 2
-      },
-      "B": { 
-        "type": "item", 
-        "code": "fatemplar:fa-templar-schematic", 
-        "returnedStack": { "type": "item", "code": "fatemplar:fa-templar-schematic" }
-      },
-      "D": { 
-        "type": "item", 
-        "code": "game:metalplate-blackbronze"
-      },
-      "E": { 
-        "type": "item", 
-        "code": "game:armor-body-scale-blackbronze"
-      },
-      "G": { 
-        "type": "item", 
-        "code": "game:hammer-*", 
-        "isTool": true, 
-        "toolDurabilityCost": 100
-      },
-      "I": { 
-        "type": "item", 
-        "code": "game:leather-sturdy-plain", 
-        "quantity": 6
-      }
-    },
-    "width": 3,
-    "height": 3,
-    "name": "templar blackbronze scale body",
-    "requiresTrait": "merciless",
-    "output": { 
-      "type": "item", 
-      "code": "fatemplar:fa-templar-body-balance-blackbronze-{color}"
-    }
   }
 ]
