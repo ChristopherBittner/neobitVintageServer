@@ -1,0 +1,170 @@
+[
+  {
+    "file": "medievalexpansion:recipes/grid/portcullispart.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/portcullispart.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "portcullis part iron crafty",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/waterwheel.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/waterwheel.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "waterwheel base tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/firebrazier.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/firebrazier.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "firebrazier smith",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge3er.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge3er.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "drawbridge 3x4 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge3er.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge3er.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "drawbridge 3x5 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge3er.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge3er.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "drawbridge 3x6 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge4er.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge4er.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "drawbridge 4x5 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge4er.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge4er.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "drawbridge 4x6 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge4er.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge4er.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "drawbridge 4x7 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge5er.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge5er.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "drawbridge 5x6 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge5er.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/drawbridge5er.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "drawbridge 5x7 tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/streetlight.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/streetlight.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "lampost mercantile",
+    "side": "server"
+  }
+]

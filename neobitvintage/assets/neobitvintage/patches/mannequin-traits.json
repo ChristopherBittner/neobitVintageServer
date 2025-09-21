@@ -1,0 +1,16 @@
+[
+  {
+    "file": "mannequins:recipes/grid/mannequin.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "mannequins:recipes/grid/mannequin.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "mannequin artifice",
+    "side": "server"
+  }
+]

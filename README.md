@@ -168,6 +168,10 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - artifice
 -  medievalexpansionpatch-1.3.1.zip - block some for traits
     - crafty
+    - tinkerer
+    - smith
+    - tinkerer
+    - mercantile
 -  metaltongs_1.2.3.zip - block some for traits
     - smith
     - tinkerer
