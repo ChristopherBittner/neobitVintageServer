@@ -139,19 +139,18 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
 +++  'Forgotten Armory_Templar v1.3.1.zip' - block all for traits
     - smith
     - merciless
--  FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits
++++  FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits
     - mason
     - pioneer
     - sentry
     - carpenter
 -  fueledwearablelights_1.0.2.zip - block some for traits
     - pioneer
+    - prospector
     - transmutation
 -  hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
-    - bowyer
-    - improviser
-    - sentry
-    - stitch_doctor
+    - carpenter
+    - crafty
 +++ DONE  - lavoisier_1.3.1.zip - cheaper some for traits
     - smith
     - crafty

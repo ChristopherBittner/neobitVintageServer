@@ -56,4 +56,6 @@
     "neobitvintage:patch:explosives-crushing-barrel-traits": "Ore and stone crushing barrels now require prospector trait",
     "neobitvintage:patch:primitivesurvival-fireworks-traits": "All primitive survival fireworks now require transmutation trait",
     "neobitvintage:patch:fromgoldencombs-traits": "FromGoldenCombs recipes now require traits: frame liner (pioneer), frame rack (carpenter), langstroth base (carpenter)",
+    "neobitvintage:patch:fueledwearablelights-traits": "Fueled wearable lights now require traits: carbide lamps (prospector), candle lamps (pioneer), oil lamps and clay oil lamps (transmutation)",
+    "neobitvintage:patch:hydrateordiedrate-traits": "Hydrate or Diedrate recipes now require traits: keg and tun (carpenter), well winch (crafty)"
 }

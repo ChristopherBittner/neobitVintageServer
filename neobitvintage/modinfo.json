@@ -25,7 +25,9 @@
         "fagreenwich": "",
         "falandsknecht": "",
         "fatemplar": "",
-        "fromgoldencombs": ""
+        "fromgoldencombs": "",
+        "fueledwearablelights": "",
+        "hydrateordiedrate": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

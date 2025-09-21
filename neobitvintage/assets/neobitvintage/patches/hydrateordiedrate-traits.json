@@ -1,0 +1,23 @@
+[
+  {
+    "file": "hydrateordiedrate:recipes/grid/keg.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "hydrateordiedrate:recipes/grid/tun.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "hydrateordiedrate:recipes/grid/winch.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  }
+]

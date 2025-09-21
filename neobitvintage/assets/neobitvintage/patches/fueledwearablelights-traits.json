@@ -1,0 +1,149 @@
+[
+  {
+    "file": "fueledwearablelights:recipes/grid/carbidelamp.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/carbidelamp.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/carbidelamp.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/carbidelamp.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/carbidelamp.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/carbidelamp.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/candlelamp.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/candlelamp.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/candlelamp.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/candlelamp.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/candlelamp.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/candlelamp.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/oillamp.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/oillamp.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/oillamp.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/oillamp.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/oillamp.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/oillamp.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/clayoillamp.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/clayoillamp.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  },
+  {
+    "file": "fueledwearablelights:recipes/grid/clayoillamp.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "transmutation",
+    "side": "server"
+  }
+]
