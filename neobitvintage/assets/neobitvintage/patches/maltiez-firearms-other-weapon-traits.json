@@ -1,0 +1,58 @@
+[
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/arquebus.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/arquebus.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/musket.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/carbine.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/blunderbuss.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/blunderbuss.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/blunderbuss.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/superimposed.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  }
+]

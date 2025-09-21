@@ -1,0 +1,16 @@
+[
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/pistol.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "maltiezfirearms:recipes/grid/firearms/pistol.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  }
+]

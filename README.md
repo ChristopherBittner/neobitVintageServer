@@ -155,12 +155,12 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - smith
     - crafty
     - tinkerer
--  maltiezcrossbows_1.5.3.zip - block all for traits
++++  maltiezcrossbows_1.5.3.zip - block all for traits
     - bowyer
     - crafty
     - tinkerer
     - improviser
--  maltiezfirearms_1.2.3.zip - block all for traits
++++  maltiezfirearms_1.2.3.zip - block all for traits
     - crafty
     - tinkerer
 -  Mannequin-Stand-v1.0.6.zip - block all for traits
