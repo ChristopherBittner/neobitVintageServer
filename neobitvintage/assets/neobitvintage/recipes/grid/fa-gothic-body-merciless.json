@@ -104,58 +104,5 @@
       "type": "item", 
       "code": "fagothic:fa-gothic-body-meteoriciron-{color}"
     }
-  },
-  {
-    "ingredientPattern": "ABA,DEF,GAI",
-    "recipeGroup": 1,
-    "ingredients": {
-      "A": { 
-        "type": "item", 
-        "code": "game:cloth-*", 
-        "name": "color", 
-        "allowedVariants": [
-          "plain", "blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"
-        ], 
-        "quantity": 2
-      },
-      "B": { 
-        "type": "item", 
-        "code": "fagothic:fa-gothic-schematic", 
-        "returnedStack": { "type": "item", "code": "fagothic:fa-gothic-schematic" }
-      },
-      "D": { 
-        "type": "item", 
-        "code": "game:metalplate-blackbronze", 
-        "quantity": 6
-      },
-      "E": { 
-        "type": "item", 
-        "code": "game:armor-body-plate-blackbronze"
-      },
-      "F": { 
-        "type": "item", 
-        "code": "game:metalnailsandstrips-meteoriciron", 
-        "quantity": 12
-      },
-      "G": { 
-        "type": "item", 
-        "code": "game:hammer-*", 
-        "isTool": true, 
-        "toolDurabilityCost": 100
-      },
-      "I": { 
-        "type": "item", 
-        "code": "game:leather-sturdy-plain", 
-        "quantity": 12
-      }
-    },
-    "width": 3,
-    "height": 3,
-    "name": "gothic black bronze plate body",
-    "requiresTrait": "merciless",
-    "output": { 
-      "type": "item", 
-      "code": "fagothic:fa-gothic-body-blackbronze-{color}"
-    }
   }
 ]
