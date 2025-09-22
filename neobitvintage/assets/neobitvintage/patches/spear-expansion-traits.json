@@ -1,0 +1,338 @@
+[
+  {
+    "file": "spearexpantion:recipes/grid/claymore.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/claymore.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "claymore smith",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/halberd.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/halberd.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "halberd smith",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/villager/pitchforkk.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/villager/pitchforkk.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "war pitchfork pioneer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/villager/scythespear.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/villager/scythespear.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "scythe spear improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagerbow.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagerbow.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager bow bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagerbow.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagerbow.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager bow bowyer butchering",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbow.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbow.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbowcaribou.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbowcaribou.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow caribou bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbowelk.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbowelk.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow elk bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbowfallow.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/yagermasterbowfallow.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow fallow bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagermasterbowcaribou.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagermasterbowcaribou.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow caribou bowyer butchering",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagermasterbowelk.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagermasterbowelk.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow elk bowyer butchering",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagermasterbowfallow.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/yagermasterbowfallow.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow fallow bowyer butchering",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowlichenn/yagermasterbowalbino.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowlichenn/yagermasterbowalbino.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow albino bowyer lichen",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutcheringlichen/yagermasterbowalbino.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutcheringlichen/yagermasterbowalbino.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "yager master bow albino bowyer butchering lichen",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbow.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbow.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "neomad bow improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/mace-warpick.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "merciless",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/mace-warpick.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "warpick merciless",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbowibexnub.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbowibexnub.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "nomad bow ibexnub improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbowibexalp.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbowibexalp.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "nomad bow ibexalp improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbowturdag.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bow/nomadbowturdag.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "nomad bow turdag improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/nomadbowibexnub.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/nomadbowibexnub.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "nomad bow ibexnub improviser butchering",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/nomadbowibexalp.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/nomadbowibexalp.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "nomad bow ibexalp improviser butchering",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/nomadbowturdag.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/bowbutchering/nomadbowturdag.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "nomad bow turdag improviser butchering",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/odachi.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "spearexpantion:recipes/grid/odachi.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "odachi smith",
+    "side": "server"
+  }
+]

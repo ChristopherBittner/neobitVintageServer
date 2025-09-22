@@ -31,7 +31,14 @@
         "mannequinstand": "",
         "medievalexpansionpatch": "",
         "millwright": "",
-        "primitivesurvival": ""
+        "primitivesurvival": "",
+        "scaffolding": "",
+        "vintageengineering": "",
+        "molds": "",
+        "royalscurtains": "",
+        "ruggedrugs": "",
+        "spearexpantion": ""
+        
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

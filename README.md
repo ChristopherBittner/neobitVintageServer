@@ -129,86 +129,82 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 NONE  Firestarters_1.4.5.zip - cheaper fo traits
 NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - smith
-+++  'Forgotten Armory_Gothic v1.2.0.zip' - block all for traits
++++ DONE  'Forgotten Armory_Gothic v1.2.0.zip' - block all for traits
     - smith
     - merciless
-+++  'Forgotten Armory_Greenwich v1.3.0.zip' - block all for traits
++++ DONE  'Forgotten Armory_Greenwich v1.3.0.zip' - block all for traits
     - smith
-+++  'Forgotten Armory_Landsknecht v1.2.0.zip' - block all for traits
++++ DONE  'Forgotten Armory_Landsknecht v1.2.0.zip' - block all for traits
     - smith
-+++  'Forgotten Armory_Templar v1.3.1.zip' - block all for traits
++++ DONE  'Forgotten Armory_Templar v1.3.1.zip' - block all for traits
     - smith
     - merciless
-+++  FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits
++++ DONE  FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits
     - mason
     - pioneer
     - sentry
     - carpenter
-+++  fueledwearablelights_1.0.2.zip - block some for traits
++++ DONE  fueledwearablelights_1.0.2.zip - block some for traits
     - pioneer
     - prospector
     - transmutation
-+++  hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
++++ DONE  hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
     - carpenter
     - crafty
 +++ DONE  - lavoisier_1.3.1.zip - cheaper some for traits
     - smith
     - crafty
     - tinkerer
-+++  maltiezcrossbows_1.5.3.zip - block all for traits
++++ DONE  maltiezcrossbows_1.5.3.zip - block all for traits
     - bowyer
     - crafty
     - tinkerer
     - improviser
-+++  maltiezfirearms_1.2.3.zip - block all for traits
++++ DONE  maltiezfirearms_1.2.3.zip - block all for traits
     - crafty
     - tinkerer
-+++  Mannequin-Stand-v1.0.6.zip - block all for traits
++++ DONE  Mannequin-Stand-v1.0.6.zip - block all for traits
     - clothier
     - artifice
-+++  medievalexpansionpatch-1.3.1.zip - block some for traits
++++ DONE  medievalexpansionpatch-1.3.1.zip - block some for traits
     - crafty
     - tinkerer
     - smith
     - tinkerer
     - mercantile
-+++  metaltongs_1.2.3.zip - block some for traits
++++ DONE  metaltongs_1.2.3.zip - block some for traits
     - smith
     - tinkerer
     - crafty
-+++  millwright_1.2.8.zip - block some for traits
++++ DONE  millwright_1.2.8.zip - block some for traits
     - pioneer
     - carpenter
     - tinkerer
     - crafty
     - smith
- 'Molds v0.2.1.zip'
++++ DONE  'Molds v0.2.1.zip'
     - mason
     - smith
- Not_OnlySpear_Expantion_by_Kanahaku-v.0.3.6.zip
++++ DONE  Not_OnlySpear_Expantion_by_Kanahaku-v.0.3.6.zip
     - smith
-    - improviser
-    - merciless
- primitivesurvival_3.9.6.zip
+    - pioneer
     - bowyer
     - improviser
+    - merciless
+- primitivesurvival_3.9.6.zip
+    - improviser
     - pioneer
-    - prospector
     - sentry
  quiversandsheaths_0.3.3.zip - block some for traits
     - bowyer
- royalscurtains_0.0.1.zip - block some for traits
-    - artifice
+- royalscurtains_0.0.1.zip - block some for traits
     - clothier
     - mercantile
- royalsrugs_0.0.4.zip - block some for traits
+- royalsrugs_0.0.4.zip - block some for traits
     - artifice
     - mercantile
- rustboundmagic_3.0.13.zip - block some for traits
-    - transmutation
-    - transcription
-    - stitch_doctor
- scaffolding_1.1.4.zip - cheaper for traits
+NONE  rustboundmagic_3.0.13.zip - block some for traits
+-  scaffolding_1.1.4.zip - cheaper for traits
     - carpenter
  SeasonedFirewood1.2.1.zip - cheaper for traits
     - carpenter
@@ -255,6 +251,11 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
  vsinstrumentsbase_2.0.4.zip - block for artisan, tinkerer
     - tinkerer
     - artifice
+ VintageEngineering_0.4.0 - scaffolding for instance
+    - carpenter - scaffolding
+    - tinkerer - platforms etc
+    - smith - scaffolding
+    - crafty
  'Wilderlands Waymarkers_1.0.0.zip'
     - pioneer
     - bowyer

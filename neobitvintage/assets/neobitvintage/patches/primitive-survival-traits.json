@@ -1,0 +1,198 @@
+[
+  {
+    "file": "primitivesurvival:recipes/grid/raft.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/raft.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "raft improviser",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "trussed meat pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "trussed fish meat pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "trussed meat cordage pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "trussed fish meat cordage pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/monkeybridge.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "sentry",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/monkeybridge.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "moneybridge sentry",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/irrigationvessel.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/irrigationvessel.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "irrigation vessel normal pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/irrigationvessel.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/irrigationvessel.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "irrigation vessel colored pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/fishbasket.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "sentry",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/fishbasket.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "fish basket sentry",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/snare.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "sentry",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/snare.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "snare sentry",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/floatingdock.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/floatingdock.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "floating docks carpenter",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/smoker.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "primitivesurvival:recipes/grid/smoker.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "smoker pioneer",
+    "side": "server"
+  },
+  {
+    "file": "wool:compatibility/primitivesurvival/recipes/grid/wool/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "wool:compatibility/primitivesurvival/recipes/grid/wool/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "trussed meat wool pioneer",
+    "side": "server"
+  },
+  {
+    "file": "wool:compatibility/primitivesurvival/recipes/grid/wool/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "wool:compatibility/primitivesurvival/recipes/grid/wool/trussedmeat.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "trussed fish meat wool pioneer",
+    "side": "server"
+  }
+]

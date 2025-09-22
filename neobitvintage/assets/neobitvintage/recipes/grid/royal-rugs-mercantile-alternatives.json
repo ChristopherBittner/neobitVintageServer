@@ -1,0 +1,277 @@
+[
+  {
+    "_Comment": "Rug diamond center for mercantile trait",
+    "ingredientPattern": "CC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      }
+    },
+    "name": "rug diamond center mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-diamond-center",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug diamond corner for mercantile trait",
+    "ingredientPattern": "C_,_C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      }
+    },
+    "name": "rug diamond corner mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-diamond-corner",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug diamond edge for mercantile trait",
+    "ingredientPattern": "C,C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      }
+    },
+    "name": "rug diamond edge mercantile",
+    "requiresTrait": "mercantile",
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-diamond-edge",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug diamond corner nails for mercantile trait",
+    "ingredientPattern": "CN,_C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      }
+    },
+    "name": "rug diamond corner nails mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-diamond-cornernails",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug diamond edge nails for mercantile trait",
+    "ingredientPattern": "N,C,C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      }
+    },
+    "name": "rug diamond edge nails mercantile",
+    "requiresTrait": "mercantile",
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-diamond-edgenails",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug floral center for mercantile trait",
+    "ingredientPattern": "CCT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      }
+    },
+    "name": "rug floral center mercantile",
+    "requiresTrait": "mercantile",
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-floral-center",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug floral corner for mercantile trait",
+    "ingredientPattern": "C_,TC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      }
+    },
+    "name": "rug floral corner mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-floral-corner",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug floral edge for mercantile trait",
+    "ingredientPattern": "T,C,C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      }
+    },
+    "name": "rug floral edge mercantile",
+    "requiresTrait": "mercantile",
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-floral-edge",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug floral corner nails for mercantile trait",
+    "ingredientPattern": "CN,TC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      }
+    },
+    "name": "rug floral corner nails mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-floral-cornernails",
+      "quantity": 4
+    }
+  },
+  {
+    "_Comment": "Rug floral edge nails for mercantile trait",
+    "ingredientPattern": "TN,C_,C_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "purple", "yellow"],
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      }
+    },
+    "name": "rug floral edge nails mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "ruggedrugs:rug-{color}-floral-edgenails",
+      "quantity": 4
+    }
+  }
+]

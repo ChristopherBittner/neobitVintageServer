@@ -1,0 +1,44 @@
+[
+  {
+    "file": "royalscurtains:recipes/grid/curtains.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "royalscurtains:recipes/grid/curtains.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "2by3 curtain clothier",
+    "side": "server"
+  },
+  {
+    "file": "royalscurtains:recipes/grid/curtains.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "royalscurtains:recipes/grid/curtains.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "2by4 curtain clothier",
+    "side": "server"
+  },
+  {
+    "file": "royalscurtains:recipes/grid/curtains.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "royalscurtains:recipes/grid/curtains.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "2by2 curtain clothier",
+    "side": "server"
+  }
+]

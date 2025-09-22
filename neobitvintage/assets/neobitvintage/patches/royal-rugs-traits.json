@@ -1,0 +1,142 @@
+[
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "rug diamond center artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "rug diamond corner artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "rug diamond edge artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "rug diamond corner nails artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/4/name",
+    "value": "rug diamond edge nails artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/5/name",
+    "value": "rug floral center artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/6/name",
+    "value": "rug floral corner artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/7/name",
+    "value": "rug floral edge artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/8/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/8/name",
+    "value": "rug floral corner nails artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/9/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "ruggedrugs:recipes/grid/rug.json",
+    "op": "addmerge",
+    "path": "/9/name",
+    "value": "rug floral edge nails artifice",
+    "side": "server"
+  }
+]

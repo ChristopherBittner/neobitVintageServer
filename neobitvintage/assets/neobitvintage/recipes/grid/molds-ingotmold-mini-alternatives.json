@@ -1,0 +1,53 @@
+[
+  {
+    "_Comment": "Ingotmold burned mini for mason trait",
+    "ingredientPattern": "HSI,MPM,_N_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "S": {
+        "type": "item",
+        "code": "game:solderbar-*",
+        "quantity": 2
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "M": {
+        "type": "block",
+        "code": "game:ingotmold-*-fired",
+        "quantity": 2
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "brass"],
+        "quantity": 1
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1
+      }
+    },
+    "name": "ingotmold burned mini mason",
+    "requiresTrait": "mason",
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "molds:ingotmold-burned-mini",
+      "quantity": 1
+    }
+  }
+]

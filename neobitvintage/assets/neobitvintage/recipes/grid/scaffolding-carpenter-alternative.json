@@ -1,0 +1,22 @@
+[
+  {
+    "_Comment": "Scaffolding recipe for carpenter trait - produces 4 instead of 2",
+    "ingredientPattern": "_S_,S_S,___",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      }
+    },
+    "name": "scaffolding carpenter",
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "scaffolding:scaffolding",
+      "quantity": 4
+    }
+  }
+]

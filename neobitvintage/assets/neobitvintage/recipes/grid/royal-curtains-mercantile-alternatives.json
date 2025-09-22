@@ -1,0 +1,86 @@
+[
+  {
+    "_Comment": "2by3 curtain for mercantile trait",
+    "ingredientPattern": "CR,C_,C_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "black", "plain", "orange", "yellow", "purple", "gray", "white", "pink"],
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rod-*",
+        "quantity": 1
+      }
+    },
+    "name": "2by3 curtain mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "royalscurtains:2by3curtain-closed-{color}-north",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "2by4 curtain for mercantile trait",
+    "ingredientPattern": "CR,CC,C_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "black", "plain", "orange", "yellow", "purple", "gray", "white", "pink"],
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rod-*",
+        "quantity": 1
+      }
+    },
+    "name": "2by4 curtain mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "royalscurtains:2by4curtain-closed-{color}-north",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "2by2 curtain for mercantile trait",
+    "ingredientPattern": "CR,C_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": ["blue", "red", "green", "brown", "black", "plain", "orange", "yellow", "purple", "gray", "white", "pink"],
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rod-*",
+        "quantity": 1
+      }
+    },
+    "name": "2by2 curtain mercantile",
+    "requiresTrait": "mercantile",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "royalscurtains:2by2curtain-closed-{color}-north",
+      "quantity": 1
+    }
+  }
+]

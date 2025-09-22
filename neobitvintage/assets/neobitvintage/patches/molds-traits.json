@@ -1,0 +1,58 @@
+[
+  {
+    "file": "molds:recipes/grid/4_ingotmold.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "molds:recipes/grid/4_ingotmold.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "ingotmold burned mini smith",
+    "side": "server"
+  },
+  {
+    "file": "molds:recipes/grid/8_ingotmold.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "molds:recipes/grid/8_ingotmold.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "ingotmold burned normal smith",
+    "side": "server"
+  },
+  {
+    "file": "molds:recipes/grid/8_ingotmold.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "molds:recipes/grid/8_ingotmold.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "ingotmold burned normal smith variant",
+    "side": "server"
+  },
+  {
+    "file": "molds:recipes/grid/chutes.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "molds:recipes/grid/chutes.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "toolmold chuteburned smith",
+    "side": "server"
+  }
+]
