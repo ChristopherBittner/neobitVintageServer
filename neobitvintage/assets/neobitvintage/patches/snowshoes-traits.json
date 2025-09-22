@@ -1,0 +1,226 @@
+[
+  {
+    "file": "snowshoes:recipes/grid/wooden/snowshoes-crude.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "sentry",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/snowshoes-crude.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "crude snowshoes sentry",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/snowshoes-plain.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/snowshoes-plain.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wooden snowshoes plain bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/snowshoes-plain.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/snowshoes-plain.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "metal snowshoes plain bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/snowshoes-plain.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/snowshoes-plain.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "metal snowshoes sturdy plain bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/fur.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/fur.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wooden snowshoes fur untreated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/fur.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/fur.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "wooden snowshoes fur treated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanblue.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanblue.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wooden snowshoes nadiyanblue untreated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanblue.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanblue.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "wooden snowshoes nadiyanblue treated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanbrown.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanbrown.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wooden snowshoes nadiyanbrown untreated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanbrown.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/nadiyanbrown.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "wooden snowshoes nadiyanbrown treated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/reindeer.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/reindeer.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wooden snowshoes reindeer untreated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/reindeer.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/wooden/withBoots/reindeer.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "wooden snowshoes reindeer treated bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/fur.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/fur.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "metal snowshoes fur bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/nadiyanblue.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/nadiyanblue.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "metal snowshoes nadiyanblue bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/nadiyanbrown.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/nadiyanbrown.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "metal snowshoes nadiyanbrown bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/reindeer.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "snowshoes:recipes/grid/metal/withBoots/reindeer.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "metal snowshoes reindeer bowyer",
+    "side": "server"
+  }
+]

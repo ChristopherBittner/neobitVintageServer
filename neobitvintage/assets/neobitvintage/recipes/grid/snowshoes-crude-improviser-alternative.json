@@ -1,0 +1,64 @@
+[
+  {
+    "_Comment": "Crude snowshoes recipe for improviser trait",
+    "ingredientPattern": "KS_,SRS,_S_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true,
+        "toolDurabilityCost": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 2
+      }
+    },
+    "name": "crude snowshoes improviser",
+    "requiresTrait": "improviser",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "snowshoes:snowshoes-wooden-crude-plain-untreated"
+    }
+  },
+  {
+    "_Comment": "Crude snowshoes recipe for bowyer trait",
+    "ingredientPattern": "KS_,SRS,_S_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true,
+        "toolDurabilityCost": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope",
+        "quantity": 2
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 2
+      }
+    },
+    "name": "crude snowshoes bowyer",
+    "requiresTrait": "bowyer",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "snowshoes:snowshoes-wooden-crude-plain-untreated"
+    }
+  }
+]

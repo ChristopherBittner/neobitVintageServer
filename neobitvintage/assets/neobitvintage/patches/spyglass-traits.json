@@ -1,0 +1,16 @@
+[
+  {
+    "file": "spyglass:recipes/grid/spyglass.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "spyglass:recipes/grid/spyglass.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "spyglass crafty",
+    "side": "server"
+  }
+]

@@ -191,30 +191,30 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - bowyer
     - improviser
     - merciless
-- primitivesurvival_3.9.6.zip
++++ DONE  primitivesurvival_3.9.6.zip
     - improviser
     - pioneer
     - sentry
  quiversandsheaths_0.3.3.zip - block some for traits
     - bowyer
-- royalscurtains_0.0.1.zip - block some for traits
+-+++ DONE  royalscurtains_0.0.1.zip - block some for traits
     - clothier
     - mercantile
-- royalsrugs_0.0.4.zip - block some for traits
++++ DONE  royalsrugs_0.0.4.zip - block some for traits
     - artifice
     - mercantile
 NONE  rustboundmagic_3.0.13.zip - block some for traits
--  scaffolding_1.1.4.zip - cheaper for traits
++++ DONE  scaffolding_1.1.4.zip - cheaper for traits
     - carpenter
- SeasonedFirewood1.2.1.zip - cheaper for traits
+- SeasonedFirewood1.2.1.zip - cheaper for traits
     - carpenter
     - culinary
  shelfobsessed_v1.7.0.zip - block some
     - carpenter
     - tinkerer
- snowshoes_2.1.2.zip - block basic for hunter advanced of tinkerers
+- snowshoes_2.1.2.zip - block basic for hunter advanced of tinkerers
     - bowyer
- spyglass_0.5.2.zip - block for tinker
+- spyglass_0.5.2.zip - block for tinker
     - crafty
  StoneQuarry_VS1.21.1_net8_v3.5.1.zip - cheaper for mason
     - mason
@@ -263,6 +263,10 @@ NONE  rustboundmagic_3.0.13.zip - block some for traits
     - sentry
  windchimes-V1.21.0-1.3.2.zip
     - artifice
+    - mercantile
+ wool-1.7.1
+    - pioneer
+    - clothier
     - mercantile
  zippysskysteel_1.3.0.zip - block for miner, smith
     - smith
