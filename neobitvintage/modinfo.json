@@ -27,7 +27,11 @@
         "fromgoldencombs": "",
         "fueledwearablelights": "",
         "hydrateordiedrate": "",
-        "metaltongs": ""
+        "metaltongs": "",
+        "mannequinstand": "",
+        "medievalexpansionpatch": "",
+        "millwright": "",
+        "primitivesurvival": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

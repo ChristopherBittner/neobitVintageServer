@@ -1,0 +1,157 @@
+[
+  {
+    "ingredientPattern": "_H_,_CM,ELF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "L": {
+        "type": "block",
+        "code": "game:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "E": {
+        "type": "item",
+        "code": "game:resin"
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:fat"
+      }
+    },
+    "name": "three sail windmill rotor crafty",
+    "requiresTrait": "crafty",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "millwright:windmillrotor-three-north",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "Windmill rotor for pioneer",
+    "ingredientPattern": "_H_,_CM,_LF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "L": {
+        "type": "block",
+        "code": "game:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:fat"
+      }
+    },
+    "name": "windmill rotor pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "game:windmillrotor-north",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "Four sail windmill rotor for crafty",
+    "ingredientPattern": "_H_,MC_,ELF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "L": {
+        "type": "block",
+        "code": "game:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 2
+      },
+      "E": {
+        "type": "item",
+        "code": "game:resin"
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:fat"
+      }
+    },
+    "name": "eight sail windmill rotor crafty",
+    "requiresTrait": "crafty",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "millwright:windmillrotor-single-north",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "H__,_M_,SFR",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 60
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      },
+      "S": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood" },
+      "F": { "type": "block", "code": "game:woodenaxle-ud" },
+      "R": { "type": "item", "code": "game:resin", "quantity": 2 }
+    },
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "millwright:brake-north",
+      "quantity": 1
+    }
+  }
+
+]

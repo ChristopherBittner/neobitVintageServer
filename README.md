@@ -163,23 +163,25 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
 +++  maltiezfirearms_1.2.3.zip - block all for traits
     - crafty
     - tinkerer
--  Mannequin-Stand-v1.0.6.zip - block all for traits
++++  Mannequin-Stand-v1.0.6.zip - block all for traits
     - clothier
     - artifice
--  medievalexpansionpatch-1.3.1.zip - block some for traits
++++  medievalexpansionpatch-1.3.1.zip - block some for traits
     - crafty
     - tinkerer
     - smith
     - tinkerer
     - mercantile
--  metaltongs_1.2.3.zip - block some for traits
++++  metaltongs_1.2.3.zip - block some for traits
     - smith
     - tinkerer
- millwright_1.2.8.zip - block some for traits
+    - crafty
++++  millwright_1.2.8.zip - block some for traits
     - pioneer
     - carpenter
     - tinkerer
     - crafty
+    - smith
  'Molds v0.2.1.zip'
     - mason
     - smith
