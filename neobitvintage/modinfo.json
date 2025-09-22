@@ -26,7 +26,8 @@
         "fatemplar": "",
         "fromgoldencombs": "",
         "fueledwearablelights": "",
-        "hydrateordiedrate": ""
+        "hydrateordiedrate": "",
+        "metaltongs": ""
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

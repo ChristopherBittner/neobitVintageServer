@@ -1,0 +1,17 @@
+[
+  {
+    "file": "metaltongs:recipes/grid/tool/tongsmetal.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "metaltongs:recipes/grid/tool/tongsmetal.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "metal tongs smith",
+    "side": "server"
+  }
+]
+

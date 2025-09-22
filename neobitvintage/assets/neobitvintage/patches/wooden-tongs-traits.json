@@ -1,0 +1,16 @@
+[
+  {
+    "file": "game:recipes/grid/tongs-wood.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/grid/tongs-wood.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wooden tongs improviser",
+    "side": "server"
+  }
+]

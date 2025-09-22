@@ -1,0 +1,107 @@
+[
+  {
+    "_Comment": "Wooden tongs recipe for tinkerer trait",
+    "ingredientPattern": "S_S,S_S,___",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 2
+      }
+    },
+    "name": "wooden tongs tinkerer",
+    "requiresTrait": "tinkerer",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:tongs",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "Wooden tongs recipe for carpenter trait",
+    "ingredientPattern": "S_S,S_S,___",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 2
+      }
+    },
+    "name": "wooden tongs carpenter",
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:tongs",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "Wooden tongs recipe for prospector trait",
+    "ingredientPattern": "S_S,S_S,___",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 2
+      }
+    },
+    "name": "wooden tongs prospector",
+    "requiresTrait": "prospector",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:tongs",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "Wooden tongs recipe for smith trait",
+    "ingredientPattern": "S_S,S_S,___",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 2
+      }
+    },
+    "name": "wooden tongs smith",
+    "requiresTrait": "smith",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:tongs",
+      "quantity": 1
+    }
+  },
+  {
+    "_Comment": "Wooden tongs recipe for crafty trait",
+    "ingredientPattern": "S_S,S_S,___",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 2
+      }
+    },
+    "name": "wooden tongs crafty",
+    "requiresTrait": "crafty",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:tongs",
+      "quantity": 1
+    }
+  }
+]
