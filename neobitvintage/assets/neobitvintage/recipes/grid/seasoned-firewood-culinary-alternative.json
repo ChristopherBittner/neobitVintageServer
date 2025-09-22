@@ -1,0 +1,77 @@
+[
+  {
+    "_Comment": "Seasoned firewood recipe for culinary trait - resin variant",
+    "ingredientPattern": "BBB,BCB,BBB",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 8
+      },
+      "C": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "name": "seasoned firewood resin culinary",
+    "requiresTrait": "culinary",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "fseasonedfirewood:fseasonedfirewood",
+      "quantity": 8
+    }
+  },
+  {
+    "_Comment": "Seasoned firewood recipe for culinary trait - beeswax variant",
+    "ingredientPattern": "BBB,BCB,BBB",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 8
+      },
+      "C": {
+        "type": "item",
+        "code": "game:beeswax"
+      }
+    },
+    "name": "seasoned firewood beeswax culinary",
+    "requiresTrait": "culinary",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "fseasonedfirewood:fseasonedfirewood",
+      "quantity": 8
+    }
+  },
+  {
+    "_Comment": "Seasoned firewood recipe for culinary trait - fat variant",
+    "ingredientPattern": "BBB,BCB,BBB",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 8
+      },
+      "C": {
+        "type": "item",
+        "code": "game:fat"
+      }
+    },
+    "name": "seasoned firewood fat culinary",
+    "requiresTrait": "culinary",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "fseasonedfirewood:fseasonedfirewood",
+      "quantity": 8
+    }
+  }
+]

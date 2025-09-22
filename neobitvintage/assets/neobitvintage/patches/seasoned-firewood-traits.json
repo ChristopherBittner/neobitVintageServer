@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fseasonedfirewood:recipes/grid/ffirewood.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "fseasonedfirewood:recipes/grid/ffirewood.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "seasoned firewood resin carpenter",
+    "side": "server"
+  },
+  {
+    "file": "fseasonedfirewood:recipes/grid/ffirewood.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "fseasonedfirewood:recipes/grid/ffirewood.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "seasoned firewood beeswax carpenter",
+    "side": "server"
+  },
+  {
+    "file": "fseasonedfirewood:recipes/grid/ffirewood.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "fseasonedfirewood:recipes/grid/ffirewood.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "seasoned firewood fat carpenter",
+    "side": "server"
+  }
+]
