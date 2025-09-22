@@ -1,0 +1,16 @@
+[
+  {
+    "file": "stonequarry:recipes/grid/rubblestorage.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonequarry:recipes/grid/rubblestorage.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "rubble storage mason",
+    "side": "server"
+  }
+]

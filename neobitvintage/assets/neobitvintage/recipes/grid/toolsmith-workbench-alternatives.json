@@ -1,0 +1,32 @@
+[
+  {
+    "_Comment": "Workbench recipe for tinkerer trait",
+    "ingredientPattern": "PPP,QSQ,Q_Q",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+      "P": { "type": "item", "code": "game:plank-*", "quantity": 3 },
+      "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+    },
+    "name": "workbench tinkerer",
+    "requiresTrait": "tinkerer",
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "toolsmith:workbench-north", "quantity": 1 }
+  },
+  {
+    "_Comment": "Workbench recipe for carpenter trait",
+    "ingredientPattern": "PPP,QSQ,Q_Q",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+      "P": { "type": "item", "code": "game:plank-*", "quantity": 3 },
+      "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+    },
+    "name": "workbench carpenter",
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "toolsmith:workbench-north", "quantity": 1 }
+  }
+]

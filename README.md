@@ -3,22 +3,22 @@
 Integrate all classes for trait acquirer with proper pricing.
 Modify prices of traits to be acquired.
 +++DONE Change recipe for teleport potions.
-Modify buying of traits of Alchemyst, Artisan, Chef, Homesteader, Lumberjack, Mason, Merchant, Miner, Mystic, Ranger, Smith and Tinker
+Modify buying of traits of 
+- Alchemyst, Artisan, Chef, Homesteader, Lumberjack, Mason, Merchant, Miner, Mystic, Ranger, Smith and Tinker
+- Hunter, Malefactor, Clockmaker, Blackguard, Tailor
 Mason has cheaper bricks.
-Disable backpacks light
 Traits books need to be removed from loot or make it very very rare
 passive traits book very expensive
+pirate coin conevrsion
+give artisan pirate coin
+lower hydrate rate
 
 # TODO Add mods to modpack and traits
 https://mods.vintagestory.at/foragersgamble and gourmand mod
 # TODO Add mods to traits
 level up - proficiency with tools 
 coinage - better for mercantile
-wool - pioneer, clothier
-nature call - transmutation, pioneer, prospector, sentry, bowyer
 wear and tear - cheaper for crafty, tinkerer
-vintage engineering - 
-trait acquirer
 item rarity
 brain freeze
 all classes
@@ -196,7 +196,7 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - improviser
     - pioneer
     - sentry
- quiversandsheaths_0.3.3.zip - block some for traits
++++ DONE  quiversandsheaths_0.3.3.zip - block some for traits
     - bowyer
 +++ DONE  royalscurtains_0.0.1.zip - block some for traits
     - clothier
@@ -207,36 +207,33 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
 NONE  rustboundmagic_3.0.13.zip - block some for traits
 +++ DONE  scaffolding_1.1.4.zip - cheaper for traits
     - carpenter
-- SeasonedFirewood1.2.1.zip - cheaper for traits
++++ DONE  SeasonedFirewood1.2.1.zip - cheaper for traits
     - carpenter
     - culinary
- shelfobsessed_v1.7.0.zip - block some
+NONE  shelfobsessed_v1.7.0.zip - block some
     - carpenter
     - tinkerer
 +++ DONE  snowshoes_2.1.2.zip - block basic for hunter advanced of tinkerers
     - bowyer
 +++ DONE  spyglass_0.5.2.zip - block for tinker
     - crafty
- StoneQuarry_VS1.21.1_net8_v3.5.1.zip - cheaper for mason
++++ DONE  StoneQuarry_VS1.21.1_net8_v3.5.1.zip - cheaper for mason
     - mason
- stonebakeoven_1.2.0.zip
++++ DONE  stonebakeoven_1.2.0.zip
     - mason
     - pioneer
- StorageOptions-v2.0.0.zip - cheaper for lumberjack 
-    - lumberjack
  TAAddonAllClasses_1.0.6.zip - reuse books and increase prices
- tailors_delight-2.0.0.zip
-    - clothier
+NONE added  tailors_delight-2.0.0.zip
+    - clotzhier
     - stitch_doctor
- tabards_0.2.1.zip - block for tailor
++++ DONE  tabards_0.2.1.zip - block for tailor
     - clothier
-    - mercantile
-    - stitch_doctor
-    - merciless
- TankardsandGoblets_v1.3.0.zip - block for artisan
+    - transcription
++++ DONE  TankardsandGoblets_v1.3.0.zip - block for artisan
     - artifice
     - culinary
- toolsmith_1.2.8.zip - block some for tinker, smith, lumber
+    - mercantile
++++ DONE  toolsmith_1.2.8.zip - block some for tinker, smith, lumber
     - tinkerer
     - smith
     - crafty

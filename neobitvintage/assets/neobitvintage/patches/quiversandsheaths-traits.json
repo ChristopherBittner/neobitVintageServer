@@ -1,0 +1,170 @@
+[
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-arrows.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-arrows.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "quiver arrow bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-arrows.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-arrows.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "quiver arrow thin bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-bolts.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-bolts.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "quiver bolt bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-bolts.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-bolts.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "quiver bolt thin bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-javelins.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-javelins.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "quiver javelin merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-javelins.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/quiver-javelins.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "quiver javelin thin merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/saydak.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/saydak.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "saydak bow case bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/saydak.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/saydak.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "saydak bow case thin bowyer",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-general.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-general.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "sheath general merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-general.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-general.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "sheath general thin merciless",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-pistol.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-pistol.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "sheath pistol crafty",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-pistol.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "quiversandsheaths:recipes/grid/sheath-pistol.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "sheath pistol thin crafty",
+    "side": "server"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "oven baking top brick mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "oven controller brick mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "oven grill brick mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "oven grill brick corner mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/4/name",
+    "value": "oven grill brick endcap mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/brick.json",
+    "op": "addmerge",
+    "path": "/5/name",
+    "value": "oven grill brick t-junction mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "oven baking top cobble mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "oven controller cobble mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "oven grill cobble mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "oven grill cobble corner mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/4/name",
+    "value": "oven grill cobble endcap mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/cobble.json",
+    "op": "addmerge",
+    "path": "/5/name",
+    "value": "oven grill cobble t-junction mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "oven baking top plain mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "oven controller plain mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "oven grill plain mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "oven grill plain corner mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/4/name",
+    "value": "oven grill plain endcap mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "stonebakeoven:recipes/grid/plain.json",
+    "op": "addmerge",
+    "path": "/5/name",
+    "value": "oven grill plain t-junction mason",
+    "side": "server"
+  }
+]

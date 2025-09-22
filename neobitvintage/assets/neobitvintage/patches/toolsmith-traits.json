@@ -1,0 +1,86 @@
+[
+  {
+    "file": "toolsmith:recipes/grid/workbench.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/workbench.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "workbench crafty",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "grindstone granite mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "grindstone sandstone mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "grindstone shale mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/grindstone.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "grindstone andesite mason",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/carpentedhandle.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "toolsmith:recipes/grid/carpentedhandle.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "handle improviser",
+    "side": "server"
+  }
+]

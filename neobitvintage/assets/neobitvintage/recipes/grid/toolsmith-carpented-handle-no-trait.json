@@ -1,0 +1,16 @@
+[
+  {
+    "_Comment": "Carpented handle recipe without trait requirement - same as improviser but available to everyone",
+    "ingredientPattern": "KS,W_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "S": { "type": "item", "code": "toolsmith:sandpaper" },
+      "W": { "type": "item", "code": "toolsmith:handle" }
+    },
+    "name": "carpented handle no trait",
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "toolsmith:carpentedhandle", "quantity": 1 }
+  }
+]

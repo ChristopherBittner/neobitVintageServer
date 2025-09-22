@@ -1,0 +1,707 @@
+[
+  {
+    "_Comment": "Oven baking top brick for pioneer trait",
+    "ingredientPattern": "HPC,FMF,_R_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      },
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      },
+      "F": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 4
+      }
+    },
+    "name": "oven baking top brick pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovenbakingtopbrick-{rock}"
+    }
+  },
+  {
+    "_Comment": "Oven controller brick for pioneer trait",
+    "ingredientPattern": "HRC,FMF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      },
+      "F": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 8
+      }
+    },
+    "name": "oven controller brick pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovencontrollerbrick-{rock}-extinct-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill brick for pioneer trait",
+    "ingredientPattern": "HPC,R_R",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      }
+    },
+    "name": "oven grill brick pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillbrick-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill brick corner for pioneer trait",
+    "ingredientPattern": "HPC,_RR",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      }
+    },
+    "name": "oven grill brick corner pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillbrickextra-corner-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill brick endcap for pioneer trait",
+    "ingredientPattern": "HPC,_R_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      }
+    },
+    "name": "oven grill brick endcap pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillbrickextra-endcap-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill brick t-junction for pioneer trait",
+    "ingredientPattern": "HPC,RRR",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+      }
+    },
+    "name": "oven grill brick t-junction pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillbrickextra-tjunction-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven baking top cobble for pioneer trait",
+    "ingredientPattern": "HPC,FMF,_R_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      },
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "F": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 4
+      }
+    },
+    "name": "oven baking top cobble pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovenbakingtopcobble-{rock}"
+    }
+  },
+  {
+    "_Comment": "Oven controller cobble for pioneer trait",
+    "ingredientPattern": "HRC,FMF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "F": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 8
+      }
+    },
+    "name": "oven controller cobble pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovencontrollercobble-{rock}-extinct-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill cobble for pioneer trait",
+    "ingredientPattern": "HPC,R_R",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill cobble pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillcobble-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill cobble corner for pioneer trait",
+    "ingredientPattern": "HPC,_RR",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill cobble corner pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillcobbleextra-corner-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill cobble endcap for pioneer trait",
+    "ingredientPattern": "HPC,_R_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill cobble endcap pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillcobbleextra-endcap-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill cobble t-junction for pioneer trait",
+    "ingredientPattern": "HPC,RRR",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill cobble t-junction pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillcobbleextra-tjunction-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven baking top plain for pioneer trait",
+    "ingredientPattern": "HPC,FMF,_R_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      },
+      "R": {
+        "type": "block",
+        "code": "game:rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "F": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 4
+      }
+    },
+    "name": "oven baking top plain pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovenbakingtopplain-{rock}"
+    }
+  },
+  {
+    "_Comment": "Oven controller plain for pioneer trait",
+    "ingredientPattern": "HRC,FMF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      },
+      "R": {
+        "type": "block",
+        "code": "game:rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "F": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 8
+      }
+    },
+    "name": "oven controller plain pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovencontrollerplain-{rock}-extinct-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill plain for pioneer trait",
+    "ingredientPattern": "HPC,R_R",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill plain pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillplain-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill plain corner for pioneer trait",
+    "ingredientPattern": "HPC,_RR",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill plain corner pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillplainextra-corner-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill plain endcap for pioneer trait",
+    "ingredientPattern": "HPC,_R_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill plain endcap pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillplainextra-endcap-{rock}-cold-east"
+    }
+  },
+  {
+    "_Comment": "Oven grill plain t-junction for pioneer trait",
+    "ingredientPattern": "HPC,RRR",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "block",
+        "code": "game:rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "oven grill plain t-junction pioneer",
+    "requiresTrait": "pioneer",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "stonebakeoven:ovengrillplainextra-tjunction-{rock}-cold-east"
+    }
+  }
+]

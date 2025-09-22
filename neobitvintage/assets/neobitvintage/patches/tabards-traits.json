@@ -1,0 +1,128 @@
+[
+  {
+    "file": "tabards:recipes/grid/tabards.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "tabard plain clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "tabard colored clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "transcription",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "glowing tabard transcription",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "tabard tailors delight first clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "tabard tailors delight second clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "tabard tailors delight both clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight-checkered.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight-checkered.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "tabard checkered first clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight-checkered.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight-checkered.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "tabard checkered second clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight-checkered.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "clothier",
+    "side": "server"
+  },
+  {
+    "file": "tabards:recipes/grid/tabards-tailorsdelight-checkered.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "tabard checkered both clothier",
+    "side": "server"
+  }
+]

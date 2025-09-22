@@ -1,0 +1,92 @@
+[
+  {
+    "_Comment": "Rubble hammer recipe for mason trait - stone + tool head + 2 sticks = 2 hammers",
+    "ingredientPattern": "RT,SS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "R": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      },
+      "T": {
+        "type": "item",
+        "code": "stonequarry:rubblehammerhead-*",
+        "name": "material"
+      }
+    },
+    "name": "rubble hammer mason",
+    "requiresTrait": "mason",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "stonequarry:rubblehammer-{material}",
+      "quantity": 2
+    }
+  },
+  {
+    "_Comment": "Wedge chisel recipe for mason trait - stone + tool head + 2 sticks = 2 chisels",
+    "ingredientPattern": "RT,SS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "R": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      },
+      "T": {
+        "type": "item",
+        "code": "stonequarry:wedgechiselhead-*",
+        "name": "material"
+      }
+    },
+    "name": "wedge chisel mason",
+    "requiresTrait": "mason",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "stonequarry:chisel-wedge-{material}",
+      "quantity": 2
+    }
+  },
+  {
+    "_Comment": "Finishing chisel recipe for mason trait - stone + tool head + 2 sticks = 2 chisels",
+    "ingredientPattern": "RT,SS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "R": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      },
+      "T": {
+        "type": "item",
+        "code": "stonequarry:finishingchiselhead-*",
+        "name": "material"
+      }
+    },
+    "name": "finishing chisel mason",
+    "requiresTrait": "mason",
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "stonequarry:chisel-finishing-{material}",
+      "quantity": 2
+    }
+  }
+]

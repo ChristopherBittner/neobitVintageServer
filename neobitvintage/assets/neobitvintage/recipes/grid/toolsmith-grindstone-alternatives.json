@@ -1,0 +1,62 @@
+[
+  {
+    "_Comment": "Grindstone granite recipe for carpenter trait",
+    "ingredientPattern": "PSP,QQQ,Q_Q",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "block", "code": "game:rock-granite" },
+      "P": { "type": "item", "code": "game:plank-*" },
+      "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+    },
+    "name": "grindstone granite carpenter",
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "toolsmith:grindstone-granite-north", "quantity": 1 }
+  },
+  {
+    "_Comment": "Grindstone sandstone recipe for carpenter trait",
+    "ingredientPattern": "PSP,QQQ,Q_Q",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "block", "code": "game:rock-sandstone" },
+      "P": { "type": "item", "code": "game:plank-*" },
+      "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+    },
+    "name": "grindstone sandstone carpenter",
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "toolsmith:grindstone-sandstone-north", "quantity": 1 }
+  },
+  {
+    "_Comment": "Grindstone shale recipe for carpenter trait",
+    "ingredientPattern": "PSP,QQQ,Q_Q",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "block", "code": "game:rock-shale" },
+      "P": { "type": "item", "code": "game:plank-*" },
+      "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+    },
+    "name": "grindstone shale carpenter",
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "toolsmith:grindstone-shale-north", "quantity": 1 }
+  },
+  {
+    "_Comment": "Grindstone andesite recipe for carpenter trait",
+    "ingredientPattern": "PSP,QQQ,Q_Q",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "block", "code": "game:rock-andesite" },
+      "P": { "type": "item", "code": "game:plank-*" },
+      "Q": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+    },
+    "name": "grindstone andesite carpenter",
+    "requiresTrait": "carpenter",
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "toolsmith:grindstone-andesite-north", "quantity": 1 }
+  }
+]

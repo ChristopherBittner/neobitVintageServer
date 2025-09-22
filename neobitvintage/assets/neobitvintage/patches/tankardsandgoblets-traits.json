@@ -1,0 +1,296 @@
+[
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wooden tankard leather binding culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "wooden tankard metal binding culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "wooden tankard malachite binding culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/woodentankard.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "wooden tankard metal bits binding culinary",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/large%20demijohn.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/large%20demijohn.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "large demijohn default mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/large%20demijohn.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/large%20demijohn.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "large demijohn wicker papyrus mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/large%20demijohn.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/large%20demijohn.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "large demijohn wicker vine mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "small demijohn glass block mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "small demijohn glass slab mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "small demijohn wicker papyrus mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "small demijohn wicker vine mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/4/name",
+    "value": "small demijohn glass slab wicker papyrus mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/small%20demijohn.json",
+    "op": "addmerge",
+    "path": "/5/name",
+    "value": "small demijohn glass slab wicker vine mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/winebottle.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/winebottle.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "wine bottle glass block mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/winebottle.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/winebottle.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "wine bottle glass slab mercantile",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/metalgoblet.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/metalgoblet.json",
+    "op": "addmerge",
+    "path": "/name",
+    "value": "metal goblet artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/0/name",
+    "value": "jeweled goblet ore gems artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/1/name",
+    "value": "jeweled goblet rough gems artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/2/name",
+    "value": "jeweled goblet malachite artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/3/name",
+    "value": "jeweled goblet rosequartz artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+    "op": "addmerge",
+    "path": "/4/name",
+    "value": "jeweled goblet amethyst artifice",
+    "side": "server"
+  }
+]

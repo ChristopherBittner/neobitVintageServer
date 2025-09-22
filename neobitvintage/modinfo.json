@@ -38,7 +38,13 @@
         "royalscurtains": "",
         "ruggedrugs": "",
         "spearexpantion": "",
-        "fseasonedfirewood": ""
+        "fseasonedfirewood": "",
+        "stonequarry": "",
+        "stonebakeoven": "",
+        "tankardsandgoblets": "",
+        "tabards": "",
+        "toolsmith": "",
+        "quiversandsheaths": ""
         
     },
     "RequiredOnClient": true,
