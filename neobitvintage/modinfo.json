@@ -5,7 +5,7 @@
     "iconpath": "modicon.png",
     "authors": [ "neobit" ],
     "description": "Custom tweaks for the neobit Vintage Story server.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "website": "https://github.com/neobit/neobitVintageServer",
     "dependencies": {
         "game": "1.21.1",
@@ -33,7 +33,6 @@
         "millwright": "",
         "primitivesurvival": "",
         "scaffolding": "",
-        "vintageengineering": "",
         "molds": "",
         "royalscurtains": "",
         "ruggedrugs": "",
@@ -44,7 +43,13 @@
         "tankardsandgoblets": "",
         "tabards": "",
         "toolsmith": "",
-        "quiversandsheaths": ""
+        "quiversandsheaths": "",
+        "translocatorengineeringredux": "",
+        "vinconomy": "",
+        "windchimes": "",
+        "wool": "",
+        "vsinstrumentsbase": "",
+        "electricalprogressiveequipment": ""
         
     },
     "RequiredOnClient": true,

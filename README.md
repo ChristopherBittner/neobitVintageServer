@@ -12,6 +12,11 @@ passive traits book very expensive
 pirate coin conevrsion
 give artisan pirate coin
 lower hydrate rate
+easier to start a fire - cold
+automation tools for mason
+test prospecting with built map
+dodaj ksiazke z rzeczami unikatowymi dla danej klasy
+
 
 # TODO Add mods to modpack and traits
 https://mods.vintagestory.at/foragersgamble and gourmand mod
@@ -240,36 +245,44 @@ NONE added  tailors_delight-2.0.0.zip
     - prospector
     - carpenter
  traitacquirer_0.9.6.zip - change prices, reduce probability
- translocatorengineeringredux_1.6.0.zip
++++ DONE  translocatorengineeringredux_1.6.0.zip
     - crafty
     - prospector
     - merciless
- vinconomy_5.0.2.zip
++++ DONE  vinconomy_5.0.2.zip
     - mercantile
- vsinstrumentsbase_2.0.4.zip - block for artisan, tinkerer
-    - tinkerer
++++ DONE -  vsinstrumentsbase_2.0.4.zip - block for artisan, tinkerer
+    vsinstruments_quackpack
+    - crafty
     - artifice
- VintageEngineering_0.4.0 - scaffolding for instance
+    - smith
+    - sentry
+    - improviser
+    - carpenter
+REMOVED  VintageEngineering_0.4.0 - scaffolding for instance
     - carpenter - scaffolding
     - tinkerer - platforms etc
     - smith - scaffolding
     - crafty
- 'Wilderlands Waymarkers_1.0.0.zip'
++++ DONE  'Wilderlands Waymarkers_1.0.0.zip'
     - pioneer
     - bowyer
     - improviser
     - sentry
- windchimes-V1.21.0-1.3.2.zip
++++ DONE  windchimes-V1.21.0-1.3.2.zip
     - artifice
-    - mercantile
- wool-1.7.1
++++ DONE  wool-1.7.1
     - pioneer
     - clothier
     - mercantile
- zippysskysteel_1.3.0.zip - block for miner, smith
+NONE  zippysskysteel_1.3.0.zip - block for miner, smith
     - smith
     - prospector
     - transcription
+ electrical progress basics
++++ DONE  electrical progress equipment
+ electrical progress qol
+ electrical progress industry
 
 
 

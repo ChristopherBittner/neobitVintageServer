@@ -1,0 +1,27 @@
+[
+  {
+    "ingredientPattern": "T,L",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:candle"
+      },
+      "L": {
+        "type": "block",
+        "code": "wwaymarkers:buoy-*",
+        "allowedVariants": [ "pine", "maple", "oak", "birch", "ebony", "kapok", "larch", "redwood", "walnut" ],
+        "name": "wood"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "name": "Buoylantern Improviser",
+    "requiresTrait": "improviser",
+    "output": {
+      "type": "block",
+      "code": "wwaymarkers:buoylantern-{wood}",
+      "quantity": 1
+    }
+  }
+]

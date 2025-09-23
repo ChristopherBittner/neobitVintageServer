@@ -1,0 +1,16 @@
+[
+  {
+    "file": "instruments:recipes/grid/musicblock.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/grid/musicblock.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  }
+]

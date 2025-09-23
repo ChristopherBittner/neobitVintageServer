@@ -57,5 +57,14 @@
     "neobitvintage:patch:primitivesurvival-fireworks-traits": "All primitive survival fireworks now require transmutation trait",
     "neobitvintage:patch:fromgoldencombs-traits": "FromGoldenCombs recipes now require traits: frame liner (pioneer), frame rack (carpenter), langstroth base (carpenter)",
     "neobitvintage:patch:fueledwearablelights-traits": "Fueled wearable lights now require traits: carbide lamps (prospector), candle lamps (pioneer), oil lamps and clay oil lamps (transmutation)",
-    "neobitvintage:patch:hydrateordiedrate-traits": "Hydrate or Diedrate recipes now require traits: keg and tun (carpenter), well winch (crafty)"
+    "neobitvintage:patch:hydrateordiedrate-traits": "Hydrate or Diedrate recipes now require traits: keg and tun (carpenter), well winch (crafty)",
+    "neobitvintage:patch:translocatorengineeringredux-traits": "All Translocator Engineering Redux recipes now require tinkerer trait",
+    "neobitvintage:recipe:vinconomy-mercantile-register": "Mercantile Shop Register recipe: copper plates, pine planks, chest, and any stones (requires mercantile trait)",
+    "neobitvintage:recipe:vinconomy-mercantile-ledger": "Mercantile Shop Ledger recipe: book and charcoal (requires mercantile trait)",
+    "neobitvintage:recipe:vinconomy-mercantile-catalog": "Mercantile Shop Catalog recipe: ledger and charcoal (requires mercantile trait)",
+    "neobitvintage:patch:windchimes-traits": "All windchime recipes now require artifice trait",
+    "neobitvintage:recipe:wool-woolen-sack-traits": "Woolen sack recipes for pioneer, clothier, and mercantile traits: stick (top), wool twine (middle), wool (bottom)",
+    "neobitvintage:patch:vsinstrumentsbase-traits": "ABC player (music block) now requires crafty trait",
+    "neobitvintage:patch:vsinstruments-quackpack-traits": "VSInstruments Quackpack instruments now require traits: accordion (artifice), clarinet (smith), drum kit (sentry), dulcimer (improviser), harp (artifice), music box (crafty), saxophone (tinkerer), steel drum (improviser), violin (carpenter)",
+    "neobitvintage:patch:electricalprogressiveequipment-traits": "Electrical Progressive Equipment modifications: electric chestplate disabled and removed from handbook, electric greaves/helmet/shield require tinkerer trait with increased steel plates (10/15/20), electric axe requires crafty/tinkerer with 15 rotors and 8 temporal gears, electric chisel requires tinkerer/crafty/mason with 16 temporal gears, electric drill requires prospector with 16 diamonds/10 cupronickel/16 temporal gears, electric saber requires merciless/crafty with 16 temporal gears and 8 metal parts, electric spear requires merciless/tinkerer with 16 temporal gears and 10 copper cables"
 }

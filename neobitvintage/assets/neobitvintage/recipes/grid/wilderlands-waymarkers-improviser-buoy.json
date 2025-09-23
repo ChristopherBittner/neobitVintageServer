@@ -1,0 +1,44 @@
+[
+  {
+    "ingredientPattern": "T__,PGP,FRS",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:axe-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "item",
+        "quantity": 2,
+        "code": "game:plank-*",
+        "allowedVariants": [ "pine", "maple", "oak", "birch", "ebony", "kapok", "larch", "redwood", "walnut" ],
+        "name": "wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stone-*"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:fat"
+      },
+      "G": {
+        "type": "item",
+        "code": "game:fat"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "Buoy Improviser",
+    "requiresTrait": "improviser",
+    "output": {
+      "type": "block",
+      "code": "wwaymarkers:buoy-{wood}",
+      "quantity": 1
+    }
+  }
+]

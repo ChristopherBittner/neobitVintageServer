@@ -1,0 +1,30 @@
+[
+  {
+    "file": "translocatorengineeringredux:recipes/grid/linker.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "translocatorengineeringredux:recipes/grid/rectifiedcoalescencecrystal.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "translocatorengineeringredux:recipes/grid/translocator.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "translocatorengineeringredux:recipes/smithing/crowbar.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  }
+]

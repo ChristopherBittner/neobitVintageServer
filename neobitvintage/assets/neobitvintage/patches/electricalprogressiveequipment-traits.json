@@ -1,0 +1,155 @@
+[
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/earmor.json",
+    "op": "remove",
+    "path": "/1",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/earmor.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/earmor.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/P/quantity",
+    "value": 15,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/earmor.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/earmor.json",
+    "op": "addmerge",
+    "path": "/1/ingredients/P/quantity",
+    "value": 10,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/eshield.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/eshield.json",
+    "op": "addmerge",
+    "path": "/ingredients/Z/quantity",
+    "value": 20,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/eaxe.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/eaxe.json",
+    "op": "addmerge",
+    "path": "/ingredients/M/quantity",
+    "value": 15,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/eaxe.json",
+    "op": "addmerge",
+    "path": "/ingredients/B/quantity",
+    "value": 8,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/echisel.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/echisel.json",
+    "op": "addmerge",
+    "path": "/ingredients/G/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/edrill.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/edrill.json",
+    "op": "addmerge",
+    "path": "/ingredients/M/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/edrill.json",
+    "op": "addmerge",
+    "path": "/ingredients/I/quantity",
+    "value": 10,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/edrill.json",
+    "op": "addmerge",
+    "path": "/ingredients/B/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/esword.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "merciless",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/esword.json",
+    "op": "addmerge",
+    "path": "/ingredients/B/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/esword.json",
+    "op": "addmerge",
+    "path": "/ingredients/M/quantity",
+    "value": 8,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/espear.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "merciless",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/espear.json",
+    "op": "addmerge",
+    "path": "/ingredients/B/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveequipment:recipes/grid/espear.json",
+    "op": "addmerge",
+    "path": "/ingredients/M/quantity",
+    "value": 10,
+    "side": "server"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "file": "instruments:recipes/grid/accordion.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/grid/clarinet.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/grid/drum.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "sentry",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/grid/dulcimer.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/grid/harp.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "artifice",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/grid/musicBox.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/smithing/sax.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/smithing/steeldrum.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "instruments:recipes/grid/violin.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  }
+]

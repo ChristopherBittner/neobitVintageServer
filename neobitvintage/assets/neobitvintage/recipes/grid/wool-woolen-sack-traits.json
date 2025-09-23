@@ -1,0 +1,44 @@
+[
+  {
+    "name": "woolen sack pioneer",
+    "enabled": true,
+    "ingredientPattern": "S,T,W",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick" },
+      "T": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "brown", "gray", "white" ] },
+      "W": { "type": "block", "code": "wool:wool-*", "name": "color", "allowedVariants": [ "plain", "brown", "gray", "white" ] }
+    },
+    "width": 1,
+    "height": 3,
+    "requiresTrait": "pioneer",
+    "output": { "type": "item", "code": "wool:sack-wool-{color}" }
+  },
+  {
+    "name": "woolen sack clothier",
+    "enabled": true,
+    "ingredientPattern": "S,T,W",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick" },
+      "T": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "brown", "gray", "white" ] },
+      "W": { "type": "block", "code": "wool:wool-*", "name": "color", "allowedVariants": [ "plain", "brown", "gray", "white" ] }
+    },
+    "width": 1,
+    "height": 3,
+    "requiresTrait": "clothier",
+    "output": { "type": "item", "code": "wool:sack-wool-{color}" }
+  },
+  {
+    "name": "woolen sack mercantile",
+    "enabled": true,
+    "ingredientPattern": "S,T,W",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick" },
+      "T": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "brown", "gray", "white" ] },
+      "W": { "type": "block", "code": "wool:wool-*", "name": "color", "allowedVariants": [ "plain", "brown", "gray", "white" ] }
+    },
+    "width": 1,
+    "height": 3,
+    "requiresTrait": "mercantile",
+    "output": { "type": "item", "code": "wool:sack-wool-{color}" }
+  }
+]

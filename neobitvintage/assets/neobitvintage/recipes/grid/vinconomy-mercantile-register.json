@@ -1,0 +1,30 @@
+[
+  {
+    "ingredientPattern": "SSS,SOS,SSS",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone",
+        "allowedVariants": ["granite", "andesite", "diorite", "chalk", "chert", "claystone", "conglomerate", "limestone", "peridotite", "phyllite", "slate", "basanite", "obsidian", "rhyolite", "scoria", "shale", "basalt", "marble", "quartzite", "schist", "gneiss"]
+      },
+      "O": {
+        "type": "block",
+        "code": "game:chest-east",
+        "attributes": { "type": "normal-generic" }
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "Mercantile Shop Register",
+    "requiresTrait": "mercantile",
+    "output": {
+      "type": "block",
+      "code": "vinconomy:register-north",
+      "attributes": {
+        "PrimaryMaterial": "copper",
+        "SecondaryMaterial": "pine"
+      }
+    }
+  }
+]

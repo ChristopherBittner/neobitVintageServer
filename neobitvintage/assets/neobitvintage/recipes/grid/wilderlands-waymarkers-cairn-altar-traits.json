@@ -1,0 +1,58 @@
+[
+  {
+    "ingredientPattern": "_RR,_SS,_SS",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "quantity": 3,
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "item",
+        "code": "game:stone-*",
+        "quantity": 2,
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "Cairn Altar Improviser",
+    "requiresTrait": "improviser",
+    "output": {
+      "type": "block",
+      "code": "wwaymarkers:cairnaltar-{rock}-north",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "_RR,_SS,_SS",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "quantity": 3,
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      },
+      "R": {
+        "type": "item",
+        "code": "game:stone-*",
+        "quantity": 2,
+        "name": "rock",
+        "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+      }
+    },
+    "name": "Cairn Altar Sentry",
+    "requiresTrait": "sentry",
+    "output": {
+      "type": "block",
+      "code": "wwaymarkers:cairnaltar-{rock}-north",
+      "quantity": 2
+    }
+  }
+]
