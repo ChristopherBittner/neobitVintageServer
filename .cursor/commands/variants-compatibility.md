@@ -6,6 +6,7 @@ Create variants and ensure mod compatibility for Vintage Story. Based on [Vintag
 For mod modification requests, use: @mod-change.md
 For creating recipes, use: @grid-recipes.md
 For JSON patching, use: @json-patch.md
+For dependency management, use: @dependency-management.md
 
 ## Variants System
 
@@ -245,6 +246,31 @@ Ensure recipes work with variant systems:
   "output": { 
     "type": "item", 
     "code": "yourmod:tool-{material}" 
+  }
+}
+```
+
+### Cross-Mod Recipe Integration
+Common patterns for integrating with other mods:
+
+```json
+// Wilderlands Waymarkers buoylantern example
+{
+  "ingredientPattern": "TL_,PGP,FRS",
+  "ingredients": {
+    "T": { "type": "item", "code": "game:torch-burning" },
+    "L": { "type": "item", "code": "game:rope" },
+    "P": { "type": "block", "code": "game:plank-*", "name": "wood" },
+    "G": { "type": "item", "code": "game:fat" },
+    "F": { "type": "item", "code": "game:fat" },
+    "R": { "type": "item", "code": "game:rope" },
+    "S": { "type": "block", "code": "game:stone-*" }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { 
+    "type": "block", 
+    "code": "wwaymarkers:buoylantern-{wood}" 
   }
 }
 ```

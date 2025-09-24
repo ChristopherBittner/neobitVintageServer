@@ -6,6 +6,7 @@ Create and modify grid recipes for Vintage Story mods. Based on [Vintage Story G
 For mod modification requests, use: @mod-change.md
 For JSON patching, use: @json-patch.md
 For variants and compatibility, use: @variants-compatibility.md
+For dependency management, use: @dependency-management.md
 
 ## Basic Recipe Structure
 
@@ -321,6 +322,47 @@ Require specific liquid in containers:
 
 ## Recipe File Location
 Place recipe files in: `assets/yourmodid/recipes/grid/`
+
+## Troubleshooting Common Recipe Errors
+
+### Pattern and Size Mismatches
+- **Wrong pattern size**: Ensure `width` and `height` match the `ingredientPattern` dimensions
+- **Missing ingredients**: All letters in pattern must have corresponding ingredients
+- **Extra ingredients**: Don't define ingredients not used in the pattern
+
+### Item Code Issues
+- **Incorrect mod IDs**: Verify mod IDs exist and are spelled correctly
+- **Wrong item codes**: Check that item codes match the actual mod's item definitions
+- **Missing variants**: Ensure variant codes match between ingredients and output
+
+### Variant System Problems
+- **Variant mismatches**: Input and output variants must be compatible
+- **Missing variant groups**: Check that variant groups are properly defined
+- **Incorrect variant syntax**: Use `{variant}` syntax correctly in codes
+
+### Trait and Output Issues
+- **Invalid traits**: Ensure trait names match the game's trait system
+- **Wrong output codes**: Verify output item codes exist in the target mod
+- **Quantity problems**: Check that output quantities are reasonable
+
+### Example Error Fixes
+```json
+// WRONG: Pattern doesn't match width/height
+{
+  "ingredientPattern": "ABC,DEF",
+  "width": 2,
+  "height": 2,  // Should be 3
+  "ingredients": { "A": {...}, "B": {...}, "C": {...}, "D": {...}, "E": {...}, "F": {...} }
+}
+
+// CORRECT: Pattern matches dimensions
+{
+  "ingredientPattern": "ABC,DEF",
+  "width": 3,
+  "height": 2,
+  "ingredients": { "A": {...}, "B": {...}, "C": {...}, "D": {...}, "E": {...}, "F": {...} }
+}
+```
 
 ## Integration
 - Use @mod-change.md for planning modifications

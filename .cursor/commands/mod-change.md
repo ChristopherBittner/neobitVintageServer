@@ -6,11 +6,13 @@ Use this template to efficiently request mod modifications for the neobitVintage
 - **For creating new recipes**: @grid-recipes.md
 - **For JSON patching**: @json-patch.md
 - **For variants and compatibility**: @variants-compatibility.md
+- **For dependency management**: @dependency-management.md
 
 ## Mod Information
 - **Mod Name**: [e.g., "fueledwearablelights", "vinconomy", "electricalprogressiveequipment"]
 - **Mod Version**: [e.g., "1.0.2", "5.0.2", "2.2.1"]
 - **Mod ID**: [e.g., "fueledwearablelights", "vinconomy", "electricalprogressiveequipment"]
+- **Dependency Type**: [ ] Required | [ ] Optional (patch applies only if mod is present)
 
 ## Request Type
 - [ ] Add trait requirements to existing recipes
@@ -148,7 +150,21 @@ Use this template to efficiently request mod modifications for the neobitVintage
 3. Use the quick reference guides for common values
 4. Be specific about quantities and item codes
 5. Include any special requirements or instructions
-6. **Run the pack and install script** after modifications
+6. **Specify dependency type** (required vs optional)
+7. **Run the pack and install script** after modifications
+
+## Dependency Management
+
+### Required Dependencies
+- Mod must be present for your mod to load
+- Use for core functionality your mod depends on
+- Add to `modinfo.json` dependencies with version requirements
+
+### Optional Dependencies  
+- Mod can be present or absent
+- Patches/recipes apply only if target mod is installed
+- Add to `modinfo.json` dependencies with empty version: `"modid": ""`
+- Patches fail silently if target mod isn't present (this is normal)
 
 ## Final Step: Pack and Install
 After completing all modifications, run the pack and install script:

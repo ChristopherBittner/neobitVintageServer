@@ -48,7 +48,9 @@
         "vinconomy": "",
         "windchimes": "",
         "wool": "",
-        "vsinstrumentsbase": ""        
+        "vsinstrumentsbase": "",
+        "vsinstruments_quackpack": "",
+        "wwaymarkers": ""        
     },
     "RequiredOnClient": true,
     "RequiredOnServer": true

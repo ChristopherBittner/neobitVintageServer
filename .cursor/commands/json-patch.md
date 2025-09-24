@@ -4,6 +4,7 @@ Create JSON patches for Vintage Story mods using the official patching system. B
 
 ## Quick Start
 For simple mod modifications, use: @mod-change.md
+For dependency management, use: @dependency-management.md
 
 ## JSON Patch Structure
 
@@ -184,6 +185,43 @@ Verify changes in-game and test functionality.
 ]
 ```
 
+## Conditional Patching
+
+### Optional Dependencies
+To make patches apply only when specific mods are present, use optional dependencies in `modinfo.json`:
+
+```json
+{
+  "dependencies": {
+    "game": "1.21.1",
+    "optionalmod": ""
+  }
+}
+```
+
+**Note**: Vintage Story doesn't support conditional patching natively. Patches will fail silently if target mods aren't present.
+
+### Best Practices for Optional Mods
+1. **Use descriptive patch filenames** indicating which mod they target
+2. **Test with and without** optional mods installed
+3. **Document dependencies** in your mod's README
+4. **Use try-catch patterns** in code mods for optional features
+
+### Example: Conditional Recipe Patches
+```json
+// File: patches/fueledwearablelights-traits.json
+// Only applies if fueledwearablelights mod is present
+[
+  {
+    "file": "fueledwearablelights:recipes/grid/carbidelamp",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "prospector",
+    "side": "server"
+  }
+]
+```
+
 ## Troubleshooting
 
 ### Common Issues
@@ -191,6 +229,7 @@ Verify changes in-game and test functionality.
 - **Incorrect path**: Count array indices starting from 0
 - **Missing side**: Add `"side": "server"` for server-only assets
 - **File conflicts**: Use unique patch file names
+- **Missing mods**: Patches fail silently if target mod isn't installed
 
 ### Path Debugging
 1. Open target JSON file
