@@ -406,6 +406,20 @@ Patch variants with @json-patch.md:
 }
 ```
 
+## Final Step: Pack and Install
+**ALWAYS run the pack and install script after creating variants or compatibility features:**
+
+```bash
+./pack_and_install.sh
+```
+
+This will:
+- Package the mod into a ZIP file
+- Install it to the Vintage Story mods directory
+- Update the mod version automatically
+
+**Important**: This step is mandatory after every variant/compatibility session.
+
 ## Documentation References
 - [Vintage Story Variants](https://wiki.vintagestory.at/Special:MyLanguage/Modding:Variants)
 - [CompatibilityLib](https://wiki.vintagestory.at/Special:MyLanguage/Modding:CompatibilityLib)

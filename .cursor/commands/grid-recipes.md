@@ -370,5 +370,19 @@ Place recipe files in: `assets/yourmodid/recipes/grid/`
 - Use @variants-compatibility.md for variant systems
 - Use this command for creating new recipes
 
+## Final Step: Pack and Install
+**ALWAYS run the pack and install script after creating recipes:**
+
+```bash
+./pack_and_install.sh
+```
+
+This will:
+- Package the mod into a ZIP file
+- Install it to the Vintage Story mods directory
+- Update the mod version automatically
+
+**Important**: This step is mandatory after every recipe creation session.
+
 ## Documentation Reference
 Full documentation: https://wiki.vintagestory.at/Special:MyLanguage/Modding:Grid_Recipes_Guide

@@ -30,6 +30,16 @@ Mods that must be present for your mod to function:
 ### Optional Dependencies
 Mods that can be present or absent - patches apply only if installed:
 
+**Method 1: No Dependencies Listed (Recommended)**
+```json
+{
+  "dependencies": {
+    "game": "1.21.1"
+  }
+}
+```
+
+**Method 2: Empty Version Strings**
 ```json
 {
   "dependencies": {
@@ -43,6 +53,8 @@ Mods that can be present or absent - patches apply only if installed:
 - Mods you want to patch if they're present
 - Optional integrations and compatibility
 - Mods that enhance your mod but aren't required
+
+**Note**: Method 1 is preferred as it doesn't require users to have the mods installed at all.
 
 ## Conditional Patching Strategy
 
@@ -86,11 +98,7 @@ This mod provides enhanced functionality when these mods are installed:
   "name": "neobit Vintage Server",
   "version": "0.0.6",
   "dependencies": {
-    "game": "1.21.1",
-    "fueledwearablelights": "",
-    "electricalprogressiveequipment": "",
-    "vinconomy": "",
-    "wwaymarkers": ""
+    "game": "1.21.1"
   }
 }
 ```
@@ -255,6 +263,20 @@ try {
     // Handle case where optional mod isn't present
 }
 ```
+
+## Final Step: Pack and Install
+**ALWAYS run the pack and install script after managing dependencies:**
+
+```bash
+./pack_and_install.sh
+```
+
+This will:
+- Package the mod into a ZIP file
+- Install it to the Vintage Story mods directory
+- Update the mod version automatically
+
+**Important**: This step is mandatory after every dependency management session.
 
 ## Documentation Reference
 - [Vintage Story JSON Patching](https://wiki.vintagestory.at/Modding:JSON_Patching)

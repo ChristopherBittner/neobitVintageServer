@@ -261,5 +261,19 @@ To make patches apply only when specific mods are present, use optional dependen
 ## Integration with Mod-Change
 For high-level mod modification requests, use @mod-change.md first, then use this command to create the actual JSON patches.
 
+## Final Step: Pack and Install
+**ALWAYS run the pack and install script after creating patches:**
+
+```bash
+./pack_and_install.sh
+```
+
+This will:
+- Package the mod into a ZIP file
+- Install it to the Vintage Story mods directory
+- Update the mod version automatically
+
+**Important**: This step is mandatory after every patch creation session.
+
 ## Documentation Reference
 Full documentation: https://wiki.vintagestory.at/Modding:JSON_Patching

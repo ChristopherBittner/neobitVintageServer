@@ -163,11 +163,12 @@ Use this template to efficiently request mod modifications for the neobitVintage
 ### Optional Dependencies  
 - Mod can be present or absent
 - Patches/recipes apply only if target mod is installed
-- Add to `modinfo.json` dependencies with empty version: `"modid": ""`
+- **Method 1 (Recommended)**: Don't list in `modinfo.json` dependencies at all
+- **Method 2**: Add to `modinfo.json` dependencies with empty version: `"modid": ""`
 - Patches fail silently if target mod isn't present (this is normal)
 
 ## Final Step: Pack and Install
-After completing all modifications, run the pack and install script:
+**ALWAYS run the pack and install script after making any mod changes:**
 
 ```bash
 ./pack_and_install.sh
@@ -177,5 +178,7 @@ This will:
 - Package the mod into a ZIP file
 - Install it to the Vintage Story mods directory
 - Update the mod version automatically
+
+**Important**: This step is mandatory after every mod modification session.
 
 This template will help provide all necessary information for efficient mod modifications!
