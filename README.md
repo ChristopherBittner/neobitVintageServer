@@ -2,9 +2,6 @@
 # TODO
 pirate coin conevrsion
 give artisan pirate coin
-easier to start a fire - cold
-automation tools for mason
-test prospecting with built map
 adjust prices of books for amount of traits required in receips
 
 

@@ -1,0 +1,68 @@
+[
+  {
+    "_Comment": "Mercantile recipe to convert temporal gear to 10 rusty gears using hammer and meteoric iron chisel",
+    "ingredientPattern": "H,C,T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 10
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-meteoriciron",
+        "isTool": true,
+        "toolDurabilityCost": 200
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "name": "temporal gear to rusty gears mercantile",
+    "requiresTrait": "mercantile",
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:gear-rusty",
+      "quantity": 10
+    }
+  },
+  {
+    "_Comment": "Artifice recipe to convert temporal gear to 5 rusty gears using hammer and meteoric iron chisel",
+    "ingredientPattern": "H,C,T",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 10
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-meteoriciron",
+        "isTool": true,
+        "toolDurabilityCost": 100
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "name": "temporal gear to rusty gears artifice",
+    "requiresTrait": "artifice",
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "game:gear-rusty",
+      "quantity": 5
+    }
+  }
+]

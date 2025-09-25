@@ -74,6 +74,7 @@
     "neobitvintage:patch:trait-book-additional-loot": "Added all 13 additional trait book variants to temporal gear loot with 1% chance: alchemyst, artisan, chef, homesteader, lumberjack, mason, merchant, miner, mystic, ranger, smith, medic, tinker.",
     "neobitvintage:recipe:refractory-brick-upgrade-tier1-to-tier2": "Mason refractory brick upgrade: 2x tier 1 unfired refractory brick + 2x crushed olivine = 2x tier 2 unfired refractory brick",
     "neobitvintage:recipe:refractory-brick-upgrade-tier2-to-tier3": "Mason refractory brick upgrade: 2x tier 2 unfired refractory brick + 2x crushed ilmenite = 2x tier 3 unfired refractory brick",
+    "neobitvintage:recipe:temporal-gear-to-rusty-gears-mercantile": "Mercantile temporal gear conversion: hammer + meteoric iron chisel + temporal gear = 10 rusty gears",
     "traitacquirerrevamp:item-trait-manual-book-alchemyst": "Alchemist's Tome",
       "traitacquirerrevamp:item-trait-manual-book-artisan": "Artisan's Guide", 
       "traitacquirerrevamp:item-trait-manual-book-chef": "Culinary Mastery",
