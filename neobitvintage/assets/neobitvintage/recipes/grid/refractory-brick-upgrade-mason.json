@@ -1,0 +1,54 @@
+[
+  {
+    "_Comment": "Upgrade 2x tier 1 unfired refractory brick to 2x tier 2 using crushed olivine",
+    "ingredientPattern": "B,C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:refractorybrick-raw-tier1",
+        "quantity": 2
+      },
+      "C": {
+        "type": "item",
+        "code": "game:crushed-olivine",
+        "quantity": 1
+      }
+    },
+    "name": "refractory brick upgrade tier1 to tier2",
+    "requiresTrait": "mason",
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier2",
+      "quantity": 2
+    }
+  },
+  {
+    "_Comment": "Upgrade 2x tier 2 unfired refractory brick to 2x tier 3 using crushed ilmenite",
+    "ingredientPattern": "B,C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:refractorybrick-raw-tier2",
+        "quantity": 2
+      },
+      "C": {
+        "type": "item",
+        "code": "game:crushed-ilmenite",
+        "quantity": 1
+      }
+    },
+    "name": "refractory brick upgrade tier2 to tier3",
+    "requiresTrait": "mason",
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier3",
+      "quantity": 2
+    }
+  }
+]

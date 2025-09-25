@@ -72,6 +72,8 @@
     "neobitvintage:patch:trait-revamp-language": "Extended Trait Acquirer Revamp mod language file with names and descriptions for all 13 new trait manual classes.",
     "neobitvintage:patch:trait-book-loot-reduction": "Reduced trait book loot drop chance from temporal gear to minimum (1% chance) to make them extremely rare in loot.",
     "neobitvintage:patch:trait-book-additional-loot": "Added all 13 additional trait book variants to temporal gear loot with 1% chance: alchemyst, artisan, chef, homesteader, lumberjack, mason, merchant, miner, mystic, ranger, smith, medic, tinker.",
+    "neobitvintage:recipe:refractory-brick-upgrade-tier1-to-tier2": "Mason refractory brick upgrade: 2x tier 1 unfired refractory brick + 2x crushed olivine = 2x tier 2 unfired refractory brick",
+    "neobitvintage:recipe:refractory-brick-upgrade-tier2-to-tier3": "Mason refractory brick upgrade: 2x tier 2 unfired refractory brick + 2x crushed ilmenite = 2x tier 3 unfired refractory brick",
     "traitacquirerrevamp:item-trait-manual-book-alchemyst": "Alchemist's Tome",
       "traitacquirerrevamp:item-trait-manual-book-artisan": "Artisan's Guide", 
       "traitacquirerrevamp:item-trait-manual-book-chef": "Culinary Mastery",
