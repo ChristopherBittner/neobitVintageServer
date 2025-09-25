@@ -89,7 +89,7 @@
     "file": "traitacquirerrevamp:itemtypes/utility/trait-manual.json",
     "op": "addmerge",
     "path": "/variantgroups/1/states",
-    "value": ["alchemyst", "artisan", "chef", "homesteader", "lumberjack", "mason", "merchant", "miner", "mystic", "ranger", "smith", "medic", "tinker", "hunter", "malefactor", "clockmaker", "blackguard", "tailor"],
+        "value": ["alchemyst", "artisan", "chef", "homesteader", "lumberjack", "mason", "merchant", "miner", "mystic", "ranger", "smith", "medic", "tinker"],
     "side": "server"
   },
   {
@@ -136,21 +136,6 @@
       "*-tinker": {
         "cover": { "base": "game:item/lore/normal-yellow" }
       },
-      "*-hunter": {
-        "cover": { "base": "game:item/lore/normal-darkgreen" }
-      },
-      "*-malefactor": {
-        "cover": { "base": "game:item/lore/rotten-brown" }
-      },
-      "*-clockmaker": {
-        "cover": { "base": "game:item/lore/aged-brickred" }
-      },
-      "*-blackguard": {
-        "cover": { "base": "game:item/lore/normal-darkgray" }
-      },
-      "*-tailor": {
-        "cover": { "base": "game:item/lore/normal-orangebrown" }
-      }
     },
     "side": "server"
   }
