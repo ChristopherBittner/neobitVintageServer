@@ -1,10 +1,7 @@
 # neobitVintageServer
 # TODO
-Mason has cheaper bricks.
-Traits books need to be removed from loot or make it very very rare
 pirate coin conevrsion
 give artisan pirate coin
-lower hydrate rate
 easier to start a fire - cold
 automation tools for mason
 test prospecting with built map

@@ -72,12 +72,12 @@ end
 # Transfer configs
 echo ""
 echo "📋 Transferring configs..."
-set config_count (find "$CONFIGS_SOURCE" -name "*.json" | wc -l)
+set config_count (find "$CONFIGS_SOURCE" \( -name "*.json" -o -name "*.yaml" -o -name "*.yml" \) | wc -l)
 if test $config_count -eq 0
     echo "⚠️  No config files found in configs directory"
 else
     echo "Found $config_count config files to transfer"
-    scp -i ~/.ssh/id_rsa_vintagestory "$CONFIGS_SOURCE"/*.json "$REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH/configs/"
+    scp -i ~/.ssh/id_rsa_vintagestory -r "$CONFIGS_SOURCE"/* "$REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH/configs/"
     if test $status -eq 0
         echo "✅ Configs transferred successfully"
     else

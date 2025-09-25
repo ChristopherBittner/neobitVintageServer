@@ -82,6 +82,9 @@ for config_entry in $CONFIG_DATA
     
     # Copy file to configs directory
     echo "📋 Copying $filename to configs directory..."
+    # Create subdirectories if needed (e.g., for Firestarter/ files)
+    set dest_dir (dirname "$dest_file")
+    mkdir -p "$dest_dir"
     cp "$source_file" "$dest_file"
     if test $status -ne 0
         echo "❌ Failed to copy $filename"
@@ -98,13 +101,36 @@ for config_entry in $CONFIG_DATA
         
         echo "   Setting $var_name = $var_value"
         
-        # Use jq to modify the JSON file
+        # Use appropriate tool based on file extension
         set temp_file (mktemp)
-        # Try to update in Thirst section first, fallback to root level
-        jq --arg key "$var_name" --argjson value "$var_value" '.Thirst[$key] = $value' "$dest_file" > "$temp_file"
-        if test $status -ne 0
-            # If Thirst section doesn't exist or key not found, try root level
-            jq --arg key "$var_name" --argjson value "$var_value" '.[$key] = $value' "$dest_file" > "$temp_file"
+        set file_ext (echo "$dest_file" | sed 's/.*\.//')
+        
+        if test "$file_ext" = "json"
+            # Use jq for JSON files
+            # Try to update in Thirst section first, fallback to root level
+            jq --arg key "$var_name" --argjson value "$var_value" '.Thirst[$key] = $value' "$dest_file" > "$temp_file"
+            if test $status -ne 0
+                # If Thirst section doesn't exist or key not found, try root level
+                jq --arg key "$var_name" --argjson value "$var_value" '.[$key] = $value' "$dest_file" > "$temp_file"
+            end
+        else if test "$file_ext" = "yaml" -o "$file_ext" = "yml"
+            # Use yq for YAML files (if available) or sed as fallback
+            if command -v yq > /dev/null
+                # Use yq for YAML modification
+                yq eval ".$var_name = $var_value" "$dest_file" > "$temp_file"
+            else
+                # Fallback to sed for simple YAML modifications
+                # This is a basic implementation - may need adjustment for complex YAML
+                sed "s/^$var_name:.*/$var_name: $var_value/" "$dest_file" > "$temp_file"
+                if test $status -ne 0
+                    # If key doesn't exist, add it at the end
+                    echo "$var_name: $var_value" >> "$temp_file"
+                end
+            end
+        else
+            echo "   ⚠️  Unsupported file type: $file_ext"
+            rm -f "$temp_file"
+            continue
         end
         if test $status -eq 0
             mv "$temp_file" "$dest_file"

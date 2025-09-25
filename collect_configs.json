@@ -6,6 +6,32 @@
         "MaxThirst": 2000.0,
         "ThirstDecayRate": 5.0
       }
+    },
+    {
+      "file": "betterruins.yaml",
+      "variables": {
+        "megastructures_min_distance": 20000,
+        "structures_spawn_chance": 0.2,
+        "villages_spawn_chance": 0.1
+      }
+    },
+    {
+      "file": "bettertraders.yaml",
+      "variables": {
+        "Minimal distance between traders": 2000
+      }
+    },
+    {
+      "file": "Firestarter/BowDrillConfig.json",
+      "variables": {
+        "MinTemperature": 0
+      }
+    },
+    {
+      "file": "Firestarter/TorchFirestarterConfig.json",
+      "variables": {
+        "CheckTemperature": false
+      }
     }
   ]
 }
