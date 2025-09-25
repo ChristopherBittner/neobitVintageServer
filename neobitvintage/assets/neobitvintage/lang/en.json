@@ -70,6 +70,8 @@
     "neobitvintage:patch:trait-revamp-extend-variants": "Extended Trait Acquirer Revamp mod to include all 18 trait manual variants with proper trait data mapping. Added new class variants: prospector, artisan, chef, homesteader, lumberjack, mason, merchant, miner, mystic, ranger, smith, medic, tinker with unique book cover colors.",
     "neobitvintage:patch:trait-revamp-treasure-hunter-manuals": "Added all 18 trait manual books to Treasure Hunter traders at 500 gears each. Uses traitacquirerrevamp: domain and extends the existing Trait Revamp mod with additional trait manuals.",
     "neobitvintage:patch:trait-revamp-language": "Extended Trait Acquirer Revamp mod language file with names and descriptions for all 13 new trait manual classes.",
+    "neobitvintage:patch:trait-book-loot-reduction": "Reduced trait book loot drop chance from temporal gear to minimum (1% chance) to make them extremely rare in loot.",
+    "neobitvintage:patch:trait-book-additional-loot": "Added all 13 additional trait book variants to temporal gear loot with 1% chance: alchemyst, artisan, chef, homesteader, lumberjack, mason, merchant, miner, mystic, ranger, smith, medic, tinker.",
     "traitacquirerrevamp:item-trait-manual-book-alchemyst": "Alchemist's Tome",
       "traitacquirerrevamp:item-trait-manual-book-artisan": "Artisan's Guide", 
       "traitacquirerrevamp:item-trait-manual-book-chef": "Culinary Mastery",

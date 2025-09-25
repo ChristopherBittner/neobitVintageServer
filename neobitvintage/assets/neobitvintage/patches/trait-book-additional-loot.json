@@ -1,0 +1,197 @@
+[
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-alchemyst",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-artisan",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-chef",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-homesteader",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-lumberjack",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-mason",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-merchant",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-miner",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-mystic",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-ranger",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-smith",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-medic",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:itemtypes/meta/stackrandomizer",
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-tinker",
+      "type": "item",
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1
+    },
+    "side": "server"
+  }
+]
