@@ -1,0 +1,157 @@
+[
+  {
+    "file": "traitacquirerrevamp:itemtypes/utility/trait-manual.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-alchemyst": {
+        "traitdata": {
+          "add": [ "transmutation" ],
+          "remove": []
+        }
+      },
+      "*-artisan": {
+        "traitdata": {
+          "add": [ "artifice" ],
+          "remove": []
+        }
+      },
+      "*-chef": {
+        "traitdata": {
+          "add": [ "culinary" ],
+          "remove": []
+        }
+      },
+      "*-homesteader": {
+        "traitdata": {
+          "add": [ "pioneer" ],
+          "remove": []
+        }
+      },
+      "*-lumberjack": {
+        "traitdata": {
+          "add": [ "carpenter" ],
+          "remove": []
+        }
+      },
+      "*-mason": {
+        "traitdata": {
+          "add": [ "mason" ],
+          "remove": []
+        }
+      },
+      "*-merchant": {
+        "traitdata": {
+          "add": [ "mercantile" ],
+          "remove": []
+        }
+      },
+      "*-miner": {
+        "traitdata": {
+          "add": [ "prospector" ],
+          "remove": []
+        }
+      },
+      "*-mystic": {
+        "traitdata": {
+          "add": [ "transcription" ],
+          "remove": []
+        }
+      },
+      "*-ranger": {
+        "traitdata": {
+          "add": [ "sentry" ],
+          "remove": []
+        }
+      },
+      "*-smith": {
+        "traitdata": {
+          "add": [ "smith" ],
+          "remove": []
+        }
+      },
+      "*-medic": {
+        "traitdata": {
+          "add": [ "stitch_doctor" ],
+          "remove": []
+        }
+      },
+      "*-tinker": {
+        "traitdata": {
+          "add": [ "crafty" ],
+          "remove": []
+        }
+      }
+    },
+    "side": "server"
+  },
+  {
+    "file": "traitacquirerrevamp:itemtypes/utility/trait-manual.json",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": ["alchemyst", "artisan", "chef", "homesteader", "lumberjack", "mason", "merchant", "miner", "mystic", "ranger", "smith", "medic", "tinker", "hunter", "malefactor", "clockmaker", "blackguard", "tailor"],
+    "side": "server"
+  },
+  {
+    "file": "traitacquirerrevamp:itemtypes/utility/trait-manual.json",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*-alchemyst": {
+        "cover": { "base": "game:item/lore/normal-darkbrown" }
+      },
+      "*-artisan": {
+        "cover": { "base": "game:item/lore/normal-purple" }
+      },
+      "*-chef": {
+        "cover": { "base": "game:item/lore/normal-red" }
+      },
+      "*-homesteader": {
+        "cover": { "base": "game:item/lore/normal-green" }
+      },
+      "*-lumberjack": {
+        "cover": { "base": "game:item/lore/normal-brown" }
+      },
+      "*-mason": {
+        "cover": { "base": "game:item/lore/normal-gray" }
+      },
+      "*-merchant": {
+        "cover": { "base": "game:item/lore/normal-gold" }
+      },
+      "*-miner": {
+        "cover": { "base": "game:item/lore/normal-darkgray" }
+      },
+      "*-mystic": {
+        "cover": { "base": "game:item/lore/normal-blue" }
+      },
+      "*-ranger": {
+        "cover": { "base": "game:item/lore/normal-darkgreen" }
+      },
+      "*-smith": {
+        "cover": { "base": "game:item/lore/normal-silver" }
+      },
+      "*-medic": {
+        "cover": { "base": "game:item/lore/normal-white" }
+      },
+      "*-tinker": {
+        "cover": { "base": "game:item/lore/normal-yellow" }
+      },
+      "*-hunter": {
+        "cover": { "base": "game:item/lore/normal-darkgreen" }
+      },
+      "*-malefactor": {
+        "cover": { "base": "game:item/lore/rotten-brown" }
+      },
+      "*-clockmaker": {
+        "cover": { "base": "game:item/lore/aged-brickred" }
+      },
+      "*-blackguard": {
+        "cover": { "base": "game:item/lore/normal-darkgray" }
+      },
+      "*-tailor": {
+        "cover": { "base": "game:item/lore/normal-orangebrown" }
+      }
+    },
+    "side": "server"
+  }
+]

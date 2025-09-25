@@ -7,9 +7,10 @@
     "description": "Custom tweaks for the neobit Vintage Story server.",
     "version": "0.0.6",
     "website": "https://github.com/neobit/neobitVintageServer",
-    "dependencies": {
-        "game": "1.21.1"
-    },
+  "dependencies": {
+    "game": "1.21.1",
+    "traitacquirerrevamp": "0.9.13"
+  },
     "RequiredOnClient": true,
     "RequiredOnServer": true
 } 

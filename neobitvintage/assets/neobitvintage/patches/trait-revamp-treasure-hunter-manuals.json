@@ -1,0 +1,236 @@
+[
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-transmutation",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 400, "var": 40 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-artifice",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 200, "var": 30 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-culinary",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 300, "var": 20 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-pioneer",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 200, "var": 30 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-carpenter",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 400, "var": 50 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-mason",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 400, "var": 50 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-mercantile",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 200, "var": 10 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-prospector",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 400, "var": 50 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-transcription",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 400, "var": 70 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-sentry",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 300, "var": 40 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-smith",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 500, "var": 20 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-stitch_doctor",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 200, "var": 30 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-crafty",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 500, "var": 50 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-bowyer",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 200, "var": 30 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-improviser",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 350, "var": 30 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-tinkerer",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 500, "var": 20 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-merciless",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 200, "var": 30 }
+    },
+    "side": "server"
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "traitacquirerrevamp:trait-manual-book-clothier",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0 },
+      "price": { "avg": 300, "var": 20 }
+    },
+    "side": "server"
+  }
+]
