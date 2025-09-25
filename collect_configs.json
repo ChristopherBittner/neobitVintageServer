@@ -1,0 +1,11 @@
+{
+  "configs": [
+    {
+      "file": "HydrateOrDiedrateConfig.json",
+      "variables": {
+        "MaxThirst": 2000.0,
+        "ThirstDecayRate": 5.0
+      }
+    }
+  ]
+}
