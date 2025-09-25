@@ -1,21 +1,14 @@
 # neobitVintageServer
 # TODO
-Integrate all classes for trait acquirer with proper pricing.
-Modify prices of traits to be acquired.
-+++DONE Change recipe for teleport potions.
-Modify buying of traits of 
-- Alchemyst, Artisan, Chef, Homesteader, Lumberjack, Mason, Merchant, Miner, Mystic, Ranger, Smith and Tinker
-- Hunter, Malefactor, Clockmaker, Blackguard, Tailor
 Mason has cheaper bricks.
 Traits books need to be removed from loot or make it very very rare
-passive traits book very expensive
 pirate coin conevrsion
 give artisan pirate coin
 lower hydrate rate
 easier to start a fire - cold
 automation tools for mason
 test prospecting with built map
-dodaj ksiazke z rzeczami unikatowymi dla danej klasy
+adjust prices of books for amount of traits required in receips
 
 
 # TODO Add mods to modpack and traits
@@ -55,7 +48,7 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 "code": "medic",       "traits": ["stitch_doctor"      price - 200
 "code": "tinker",      "traits": ["crafty"             price - 500
 
-"code": "hunter",      "traits": ["bowyer"             price - 200
+"code": "hunter",      "traits": ["bowyer"             price -350
 "code": "malefactor",  "traits": ["improviser"         price - 200
 "code": "clockmaker",  "traits": ["tinkerer"           price - 500
 "code": "blackguard",  "traits": ["merciless"          price - 200

@@ -30,7 +30,7 @@ Mods that must be present for your mod to function:
 ### Optional Dependencies
 Mods that can be present or absent - patches apply only if installed:
 
-**Method 1: No Dependencies Listed (Recommended)**
+**Method 1: No Dependencies **
 ```json
 {
   "dependencies": {
@@ -39,7 +39,7 @@ Mods that can be present or absent - patches apply only if installed:
 }
 ```
 
-**Method 2: Empty Version Strings**
+**Method 2: Empty Version Strings (Recommended)**
 ```json
 {
   "dependencies": {
