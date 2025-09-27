@@ -3,7 +3,7 @@
 Use this template to efficiently request mod modifications for the neobitVintageServer project.
 
 ## Related Commands
-- **For creating new recipes**: @grid-recipes.md
+- **For creating new recipes - needed if a receipe would need to require more traits than 1**: @grid-recipes.md
 - **For JSON patching**: @json-patch.md
 - **For variants and compatibility**: @variants-compatibility.md
 - **For dependency management**: @dependency-management.md
