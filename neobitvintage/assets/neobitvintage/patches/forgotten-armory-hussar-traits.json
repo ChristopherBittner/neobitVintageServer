@@ -1,0 +1,58 @@
+[
+  {
+    "file": "fahussar:recipes/grid/armor/heavy/fa-hussar-body-heavy-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fahussar:recipes/grid/armor/heavy/fa-hussar-body-heavy-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fahussar:recipes/grid/armor/heavy/fa-hussar-body-heavy-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fahussar:recipes/grid/armor/heavy/fa-hussar-body-heavy-recipe.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fahussar:recipes/grid/armor/light/fa-hussar-body-light-recipe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fahussar:recipes/grid/armor/light/fa-hussar-body-light-recipe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fahussar:recipes/grid/armor/light/fa-hussar-body-light-recipe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "fahussar:recipes/grid/armor/light/fa-hussar-body-light-recipe.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  }
+]

@@ -32,25 +32,25 @@ Set configs of mods to be part of the mod if able e.g.
 # TODO traits
 Go through all mods and see whether some of the abilities should be gatewayed for existing traits.
 
-"code": "alchemyst",   "traits": ["transmutation"      price - 400
-"code": "artisan",     "traits": ["artifice"           price - 200
-"code": "chef",        "traits": ["culinary"           price - 300
-"code": "homesteader", "traits": ["pioneer"            price - 200
-"code": "lumberjack",  "traits": ["carpenter"          price - 400
-"code": "mason",       "traits": ["mason"              price - 400
-"code": "merchant",    "traits": ["mercantile"         price - 200
-"code": "miner",       "traits": ["prospector"         price - 400
-"code": "mystic",      "traits": ["transcription"      price - 400
-"code": "ranger",      "traits": ["sentry"             price - 300
-"code": "smith",       "traits": ["smith"              price - 500
-"code": "medic",       "traits": ["stitch_doctor"      price - 200
-"code": "tinker",      "traits": ["crafty"             price - 500
+"code": "alchemyst",   "traits": ["transmutation"    
+"code": "artisan",     "traits": ["artifice"         
+"code": "chef",        "traits": ["culinary"         
+"code": "homesteader", "traits": ["pioneer"          
+"code": "lumberjack",  "traits": ["carpenter"        
+"code": "mason",       "traits": ["mason"            
+"code": "merchant",    "traits": ["mercantile"       
+"code": "miner",       "traits": ["prospector"       
+"code": "mystic",      "traits": ["transcription"    
+"code": "ranger",      "traits": ["sentry"           
+"code": "smith",       "traits": ["smith"            
+"code": "medic",       "traits": ["stitch_doctor"    
+"code": "tinker",      "traits": ["crafty"           
 
-"code": "hunter",      "traits": ["bowyer"             price -350
-"code": "malefactor",  "traits": ["improviser"         price - 200
-"code": "clockmaker",  "traits": ["tinkerer"           price - 500
-"code": "blackguard",  "traits": ["merciless"          price - 200
-"code": "tailor",      "traits": ["clothier"           price - 300
+"code": "hunter",      "traits": ["bowyer"           
+"code": "malefactor",  "traits": ["improviser"       
+"code": "clockmaker",  "traits": ["tinkerer"         
+"code": "blackguard",  "traits": ["merciless"        
+"code": "tailor",      "traits": ["clothier"         
 
 # Mods affected by traits
 +++ DONE  ABCSRedux_v2.0.5.zip - 
@@ -66,212 +66,69 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
         - tinkerer
         - clothier
         - stitch_doctor
-+++ DONE  alchemy_1.7.14.zip - increase recall price, strong potions only for alchemyst
-    - culinary
-    - transmutation
-    - transcription
++++ DONE  alchemy
  'ACulinaryArtillery 1.2.5.zip'
     - culinary
     - transmutation
-+++ DONE  AgeOfConfession_2.1.4.zip
-    - transcription
-    - artifice
-    - carpenter
-    - improviser
-    - mason
-    - mercantile
-+++ DONE  AmericanFrontiersmanWesternWear_1.8.4.zip
-    - clothier
-    - sentry
-    - pioneer
-    - stitch_doctor
++++ DONE  AgeOfConfession
++++ DONE  AmericanFrontiersmanWesternWear
  AncientArmory1.1.4.zip - block some for traits
-+++ DONE  animalcages_v4.0.1.zip - cheaper fo traits
-    - bowyer
-    - improviser
-    - pioneer
-    - carpenter
-    - sentry
++++ DONE  animalcages
  armory_1.2.0.zip - block some for traits
 +++ DONE -- bricklayers
-    - prospector
-    - pioneer
-+++ DONE  butchering_1.10.3.zip - block some for traits, cheaper for some
-    - bowyer
-    - improviser
-    - pioneer
-    - sentry
-    - culinary
-    - stitch_doctor
-+++ DONE  CraftableCartography_0.1.8.zip - block/cheaper some for traits, increase default prices
-    - pioneer
-    - bowyer
-    - improviser
-    - tinkerer
-    - crafty
-    - transcription
-+++ DONE  exoskeletons_0.4.2.zip - block some for traits
-    - tinkerer
-    - crafty
++++ DONE  butchering
++++ DONE  CraftableCartography
++++ DONE  exoskeletons
  'ExpandedFoods 1.7.4.zip'
     - cheff
     - pioneer
     - transmutation
-+++ DONE  'Explosives v0.1.1.zip' - block some for traits, miner, 
-    - prospector
-    - transmutation
-    - improviserf
-    - mason
-    - pioneer
++++ DONE  'Explosives
 NONE  Firestarters_1.4.5.zip - cheaper fo traits
-NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
-    - smith
-+++ DONE  'Forgotten Armory_Gothic v1.2.0.zip'
-    - smith
-    - merciless
-+++ DONE  'Forgotten Armory_Greenwich v1.3.0.zip'
-    - smith
-+++ DONE  'Forgotten Armory_Landsknecht v1.2.0.zip'
-    - smith
- 'Forgotten Armory_Hussar'
-    - smith
-+++ DONE  'Forgotten Armory_Templar v1.3.1.zip'
-    - smith
-    - merciless
-+++ DONE  FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits
-    - mason
-    - pioneer
-    - sentry
-    - carpenter
-+++ DONE  fueledwearablelights_1.0.2.zip - block some for traits
-    - pioneer
-    - prospector
-    - transmutation
-+++ DONE  hydrateordiedrate_2.2.13.zip - block some for traits, cheaepr for some
-    - carpenter
-    - crafty
-+++ DONE  - lavoisier_1.3.1.zip - cheaper some for traits
-    - smith
-    - crafty
-    - tinkerer
-+++ DONE  maltiezcrossbows_1.5.3.zip - block all for traits
-    - bowyer
-    - crafty
-    - tinkerer
-    - improviser
-+++ DONE  maltiezfirearms_1.2.3.zip - block all for traits
-    - crafty
-    - tinkerer
-+++ DONE  Mannequin-Stand-v1.0.6.zip - block all for traits
-    - clothier
-    - artifice
-+++ DONE  medievalexpansionpatch-1.3.1.zip - block some for traits
-    - crafty
-    - tinkerer
-    - smith
-    - tinkerer
-    - mercantile
-+++ DONE  metaltongs_1.2.3.zip - block some for traits
-    - smith
-    - tinkerer
-    - crafty
-+++ DONE  millwright_1.2.8.zip - block some for traits
-    - pioneer
-    - carpenter
-    - tinkerer
-    - crafty
-    - smith
-+++ DONE  'Molds v0.2.1.zip'
-    - mason
-    - smith
-+++ DONE  Not_OnlySpear_Expantion_by_Kanahaku-v.0.3.6.zip
-    - smith
-    - pioneer
-    - bowyer
-    - improviser
-    - merciless
-+++ DONE  primitivesurvival_3.9.6.zip
-    - improviser
-    - pioneer
-    - sentry
-+++ DONE  quiversandsheaths_0.3.3.zip - block some for traits
-    - bowyer
-+++ DONE  royalscurtains_0.0.1.zip - block some for traits
-    - clothier
-    - mercantile
-+++ DONE  royalsrugs_0.0.4.zip - block some for traits
-    - artifice
-    - mercantile
-NONE  rustboundmagic_3.0.13.zip - block some for traits
-+++ DONE  scaffolding_1.1.4.zip - cheaper for traits
-    - carpenter
-+++ DONE  SeasonedFirewood1.2.1.zip - cheaper for traits
-    - carpenter
-    - culinary
-NONE  shelfobsessed_v1.7.0.zip - block some
-    - carpenter
-    - tinkerer
-+++ DONE  snowshoes_2.1.2.zip - block basic for hunter advanced of tinkerers
-    - bowyer
-+++ DONE  spyglass_0.5.2.zip - block for tinker
-    - crafty
-+++ DONE  StoneQuarry_VS1.21.1_net8_v3.5.1.zip - cheaper for mason
-    - mason
-+++ DONE  stonebakeoven_1.2.0.zip
-    - mason
-    - pioneer
- TAAddonAllClasses_1.0.6.zip - reuse books and increase prices
+NONE  'Forgotten Armory_Chineese Dynasties
++++ DONE  'Forgotten Armory_Gothic
++++ DONE  'Forgotten Armory_Greenwich
++++ DONE  'Forgotten Armory_Landsknecht
++++ DONE 'Forgotten Armory_Hussar'
++++ DONE  'Forgotten Armory_Templar
++++ DONE  FromGoldenCombs
++++ DONE  fueledwearablelights
++++ DONE  hydrateordiedrate
++++ DONE  - lavoisier
++++ DONE  maltiezcrossbows
++++ DONE  maltiezfirearms
++++ DONE  Mannequin-Stand
++++ DONE  medievalexpansionpatch
++++ DONE  metaltongs
++++ DONE  millwright
++++ DONE  'Molds
++++ DONE  Not_OnlySpear_Expantion_by_Kanahaku
++++ DONE  primitivesurvival
++++ DONE  quiversandsheaths
++++ DONE  royalscurtains
++++ DONE  royalsrugs
+NONE  rustboundmagic
++++ DONE  scaffolding_
++++ DONE  SeasonedFirewood
+NONE  shelfobsessed
++++ DONE  snowshoes
++++ DONE  spyglass
++++ DONE  StoneQuarry
++++ DONE  stonebakeoven
 NONE added  tailors_delight-2.0.0.zip
     - clotzhier
     - stitch_doctor
-+++ DONE  tabards_0.2.1.zip - block for tailor
-    - clothier
-    - transcription
-+++ DONE  TankardsandGoblets_v1.3.0.zip - block for artisan
-    - artifice
-    - culinary
-    - mercantile
-+++ DONE  toolsmith_1.2.8.zip - block some for tinker, smith, lumber
-    - tinkerer
-    - smith
-    - crafty
-    - prospector
-    - carpenter
- traitacquirer_0.9.6.zip - change prices, reduce probability
-+++ DONE  translocatorengineeringredux_1.6.0.zip
-    - crafty
-    - prospector
-    - merciless
-+++ DONE  vinconomy_5.0.2.zip
-    - mercantile
-+++ DONE -  vsinstrumentsbase_2.0.4.zip - block for artisan, tinkerer
-    vsinstruments_quackpack
-    - crafty
-    - artifice
-    - smith
-    - sentry
-    - improviser
-    - carpenter
-REMOVED  VintageEngineering_0.4.0 - scaffolding for instance
-    - carpenter - scaffolding
-    - tinkerer - platforms etc
-    - smith - scaffolding
-    - crafty
-+++ DONE  'Wilderlands Waymarkers_1.0.0.zip'
-    - pioneer
-    - bowyer
-    - improviser
-    - sentry
-+++ DONE  windchimes-V1.21.0-1.3.2.zip
-    - artifice
-+++ DONE  wool-1.7.1
-    - pioneer
-    - clothier
-    - mercantile
-NONE  zippysskysteel_1.3.0.zip - block for miner, smith
-    - smith
-    - prospector
-    - transcription
++++ DONE  tabards
++++ DONE  TankardsandGoblets
++++ DONE  toolsmith_
++++ DONE  traitacquirer
++++ DONE  translocatorengineeringredux
++++ DONE  vinconomy
++++ DONE -  vsinstrumentsbase
++++ DONE - vsinstruments_quackpack
++++ DONE  'Wilderlands Waymarkers
++++ DONE  windchimes
++++ DONE  wool
 +++ DONE  electrical progress basics
 +++ DONE  electrical progress equipment
 +++ DONE  electrical progress qol
