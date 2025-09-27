@@ -48,6 +48,12 @@
       "variables": {
         "RecoverBitsOnSplit": false
       }
+    },
+    {
+      "file": "wool.yaml",
+      "variables": {
+        "enable_drifter_drops": false
+      }
     }
   ]
 }

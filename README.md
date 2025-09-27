@@ -1,21 +1,11 @@
 # neobitVintageServer
 # TODO
-pirate coin conevrsion
-give artisan pirate coin
-adjust prices of books for amount of traits required in receips
 fix errors
-fix grindstone
-fireclay tylko dla masona
-
-
 
 # TODO Add mods to modpack and traits
-https://mods.vintagestory.at/foragersgamble and gourmand mod
 # TODO Add mods to traits
 level up - proficiency with tools 
-coinage - better for mercantile
-wear and tear - cheaper for crafty, tinkerer
-item rarity
+ - cheaper for crafty, tinkerer
 brain freeze
 all classes
 
@@ -24,10 +14,10 @@ all classes
 - better prices for traders - mercantile
 - less hp loss from bad food - culinary
 - more hp - stitch_doctor, improviser, merciless
+- better knowleged from gamble - culinary, stich doctor
+
 
 # TODO config
-Set configs of mods to be part of the mod if able e.g.
-- coloroed wool should not be part of loot
 
 # TODO traits
 Go through all mods and see whether some of the abilities should be gatewayed for existing traits.
@@ -54,9 +44,10 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 
 # Mods affected by traits
 +++ DONE  ABCSRedux_v2.0.5.zip - 
-+++ DONE disable lantern backgacks
-    DONE block some by traits and 
-    DONE add more trait dependend resources
++++ DONE  disable lantern backgacks
++++ DONE  block some by traits and 
++++ DONE  add more trait dependend resources
++++ DONE  wear and tear
 +++ DONE  alchemy
 +++ DONE  'ACulinaryArtillery
 +++ DONE  AgeOfConfession
