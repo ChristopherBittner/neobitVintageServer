@@ -1,0 +1,327 @@
+[
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-acacia",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks acacia sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-acacia-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 2,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-aged",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks aged sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-aged-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 3,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-birch",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks birch sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-birch-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 4,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-oak",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks oak sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-oak-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 5,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-maple",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks maple sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-maple-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 6,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-pine",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks pine sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-pine-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 7,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-kapok",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks kapok sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-kapok-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 8,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-baldcypress",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks baldcypress sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-baldcypress-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 9,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-larch",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks larch sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-larch-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 10,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-redwood",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks redwood sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-redwood-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 11,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-ebony",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks ebony sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-ebony-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 12,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-walnut",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks walnut sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-walnut-{metal}-east"  
+    }
+  },
+  {
+    "ingredientPattern": "PP,HH",
+    "recipeGroup": 13,
+    "ingredients": {
+      "P": { 
+        "type": "item", 
+        "code": "game:plank-purpleheart",
+        "name": "wood"
+      },
+      "H": { 
+        "type": "item", 
+        "code": "aculinaryartillery:bighook-*",
+        "name": "metal",
+        "quantity": 2
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "name": "meathooks purpleheart sentry",
+    "requiresTrait": "sentry",
+    "output": { 
+      "type": "block", 
+      "code": "aculinaryartillery:meathooks-purpleheart-{metal}-east"  
+    }
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "file": "aculinaryartillery:recipes/grid/rollingpin.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/glassbottle.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/8/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/9/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/10/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/11/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/12/requiresTrait",
+    "value": "carpenter",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/8/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/9/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/10/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/11/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/meathooks.json",
+    "op": "addmerge",
+    "path": "/12/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/mixingbowl.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "aculinaryartillery:recipes/grid/blocks/mixingbowl.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  }
+]

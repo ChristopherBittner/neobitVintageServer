@@ -54,42 +54,27 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 
 # Mods affected by traits
 +++ DONE  ABCSRedux_v2.0.5.zip - 
-    DONE disable lantern backgacks
++++ DONE disable lantern backgacks
     DONE block some by traits and 
-    DONE add more trait dependend resources - all traits if able
-        - artifice
-        - pioneer
-        - tinker
-        - prospector
-        - crafty
-        - improviser
-        - tinkerer
-        - clothier
-        - stitch_doctor
+    DONE add more trait dependend resources
 +++ DONE  alchemy
- 'ACulinaryArtillery 1.2.5.zip'
-    - culinary
-    - transmutation
++++ DONE  'ACulinaryArtillery
 +++ DONE  AgeOfConfession
 +++ DONE  AmericanFrontiersmanWesternWear
- AncientArmory1.1.4.zip - block some for traits
 +++ DONE  animalcages
- armory_1.2.0.zip - block some for traits
+NONE  armory_1.2.0.zip - block some for traits
 +++ DONE -- bricklayers
 +++ DONE  butchering
 +++ DONE  CraftableCartography
 +++ DONE  exoskeletons
- 'ExpandedFoods 1.7.4.zip'
-    - cheff
-    - pioneer
-    - transmutation
+NONE  'ExpandedFoods
 +++ DONE  'Explosives
 NONE  Firestarters_1.4.5.zip - cheaper fo traits
 NONE  'Forgotten Armory_Chineese Dynasties
 +++ DONE  'Forgotten Armory_Gothic
 +++ DONE  'Forgotten Armory_Greenwich
 +++ DONE  'Forgotten Armory_Landsknecht
-+++ DONE 'Forgotten Armory_Hussar'
++++ DONE  'Forgotten Armory_Hussar'
 +++ DONE  'Forgotten Armory_Templar
 +++ DONE  FromGoldenCombs
 +++ DONE  fueledwearablelights
@@ -116,8 +101,6 @@ NONE  shelfobsessed
 +++ DONE  StoneQuarry
 +++ DONE  stonebakeoven
 NONE added  tailors_delight-2.0.0.zip
-    - clotzhier
-    - stitch_doctor
 +++ DONE  tabards
 +++ DONE  TankardsandGoblets
 +++ DONE  toolsmith_
