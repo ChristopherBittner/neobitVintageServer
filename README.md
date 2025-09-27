@@ -133,7 +133,7 @@ NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - smith
 +++ DONE  'Forgotten Armory_Landsknecht v1.2.0.zip'
     - smith
-+++ DONE  'Forgotten Armory_Hussar'
+ 'Forgotten Armory_Hussar'
     - smith
 +++ DONE  'Forgotten Armory_Templar v1.3.1.zip'
     - smith
@@ -272,10 +272,10 @@ NONE  zippysskysteel_1.3.0.zip - block for miner, smith
     - smith
     - prospector
     - transcription
- electrical progress basics
++++ DONE  electrical progress basics
 +++ DONE  electrical progress equipment
- electrical progress qol
- electrical progress industry
++++ DONE  electrical progress qol
++++ DONE  electrical progress industry
 
 
 

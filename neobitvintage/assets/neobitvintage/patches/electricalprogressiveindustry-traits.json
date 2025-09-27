@@ -1,0 +1,23 @@
+[
+  {
+    "file": "electricalprogressiveindustry:recipes/grid/ecentrifuge.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveindustry:recipes/grid/ehammer.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveindustry:recipes/grid/epress.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "smith",
+    "side": "server"
+  }
+]
