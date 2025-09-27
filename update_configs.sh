@@ -107,11 +107,17 @@ for config_entry in $CONFIG_DATA
         
         if test "$file_ext" = "json"
             # Use jq for JSON files
-            # Try to update in Thirst section first, fallback to root level
-            jq --arg key "$var_name" --argjson value "$var_value" '.Thirst[$key] = $value' "$dest_file" > "$temp_file"
-            if test $status -ne 0
-                # If Thirst section doesn't exist or key not found, try root level
-                jq --arg key "$var_name" --argjson value "$var_value" '.[$key] = $value' "$dest_file" > "$temp_file"
+            # Handle nested paths (e.g., Advanced.IncreaseMarkDirtyThreshold)
+            if string match -q "*.*" "$var_name"
+                # Use jq dot notation for nested paths
+                jq --argjson value "$var_value" ".$var_name = \$value" "$dest_file" > "$temp_file"
+            else
+                # Try to update in Thirst section first, fallback to root level
+                jq --arg key "$var_name" --argjson value "$var_value" '.Thirst[$key] = $value' "$dest_file" > "$temp_file"
+                if test $status -ne 0
+                    # If Thirst section doesn't exist or key not found, try root level
+                    jq --arg key "$var_name" --argjson value "$var_value" '.[$key] = $value' "$dest_file" > "$temp_file"
+                end
             end
         else if test "$file_ext" = "yaml" -o "$file_ext" = "yml"
             # Use yq for YAML files (if available) or sed as fallback

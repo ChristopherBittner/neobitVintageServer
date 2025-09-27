@@ -3,6 +3,10 @@
 pirate coin conevrsion
 give artisan pirate coin
 adjust prices of books for amount of traits required in receips
+fix errors
+fix grindstone
+fireclay tylko dla masona
+
 
 
 # TODO Add mods to modpack and traits

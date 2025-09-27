@@ -4,7 +4,8 @@
       "file": "HydrateOrDiedrateConfig.json",
       "variables": {
         "MaxThirst": 2000.0,
-        "ThirstDecayRate": 5.0
+        "ThirstDecayRate": 5.0,
+        "Advanced.IncreaseMarkDirtyThreshold": true
       }
     },
     {
@@ -31,6 +32,21 @@
       "file": "Firestarter/TorchFirestarterConfig.json",
       "variables": {
         "CheckTemperature": false
+      }
+    },
+    {
+      "file": "ElectricityConfig.json",
+      "variables": {
+        "SpeedOfElectricity": 1,
+        "MultiThreading": 2,
+        "CacheTimeoutCleanupMinutes": 1,
+        "MaxDistanceForFinding": 100
+      }
+    },
+    {
+      "file": "SmithingPlus.json",
+      "variables": {
+        "RecoverBitsOnSplit": false
       }
     }
   ]
