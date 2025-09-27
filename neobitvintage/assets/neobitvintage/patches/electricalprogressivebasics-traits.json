@@ -1,0 +1,93 @@
+[
+  {
+    "file": "electricalprogressivebasics:recipes/grid/accumulator.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/Z/quantity",
+    "value": 4,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/accumulator.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/accumulator.json",
+    "op": "addmerge",
+    "path": "/1/ingredients/Z/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/accumulator.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/accumulator.json",
+    "op": "addmerge",
+    "path": "/2/ingredients/Z/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/accumulator.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/accumulator.json",
+    "op": "addmerge",
+    "path": "/3/ingredients/Z/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/egenerator.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/egenerator.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/emotor.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/emotor.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/emotor.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressivebasics:recipes/grid/etermogenerator.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  }
+]

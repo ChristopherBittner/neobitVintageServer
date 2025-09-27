@@ -126,14 +126,16 @@ Go through all mods and see whether some of the abilities should be gatewayed fo
 NONE  Firestarters_1.4.5.zip - cheaper fo traits
 NONE  'Forgotten Armory_Chineese Dynasties v1.1.0.zip' - block all for traits
     - smith
-+++ DONE  'Forgotten Armory_Gothic v1.2.0.zip' - block all for traits
++++ DONE  'Forgotten Armory_Gothic v1.2.0.zip'
     - smith
     - merciless
-+++ DONE  'Forgotten Armory_Greenwich v1.3.0.zip' - block all for traits
++++ DONE  'Forgotten Armory_Greenwich v1.3.0.zip'
     - smith
-+++ DONE  'Forgotten Armory_Landsknecht v1.2.0.zip' - block all for traits
++++ DONE  'Forgotten Armory_Landsknecht v1.2.0.zip'
     - smith
-+++ DONE  'Forgotten Armory_Templar v1.3.1.zip' - block all for traits
++++ DONE  'Forgotten Armory_Hussar'
+    - smith
++++ DONE  'Forgotten Armory_Templar v1.3.1.zip'
     - smith
     - merciless
 +++ DONE  FromGoldenCombs-1.21-v1.9.2-rc.2.zip - block some for traits

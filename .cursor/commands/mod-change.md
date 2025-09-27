@@ -8,6 +8,21 @@ Use this template to efficiently request mod modifications for the neobitVintage
 - **For variants and compatibility**: @variants-compatibility.md
 - **For dependency management**: @dependency-management.md
 
+## CRITICAL: Always Examine Original Files First
+
+**BEFORE making any patches, ALWAYS examine the original mod files to understand:**
+1. **Actual ingredient letter mappings** (e.g., M=metal-parts, B=temporal-gears, P=coils, E=engineshaft, etc.)
+2. **Correct file paths** for itemtypes (e.g., `static-armor.json` not `echestplate.json`)
+3. **Array structure** - whether recipes are single objects or arrays with multiple entries
+4. **Existing ingredient quantities** to understand what needs to be changed
+
+**Common Mistakes to Avoid:**
+- ❌ Guessing ingredient letter mappings (M, B, P, E, etc.)
+- ❌ Assuming file paths without checking
+- ❌ Not understanding array vs object structure
+- ❌ Modifying wrong ingredient letters
+- ❌ Using wrong itemtype paths for handbook exclusions
+
 ## Mod Information
 - **Mod Name**: [e.g., "fueledwearablelights", "vinconomy", "electricalprogressiveequipment"]
 - **Mod Version**: [e.g., "1.0.2", "5.0.2", "2.2.1"]
@@ -28,11 +43,17 @@ Use this template to efficiently request mod modifications for the neobitVintage
 **Current Requirements**: [e.g., "none", "carpenter", "tinkerer"]
 **New Requirements**: [e.g., "prospector", "mercantile", "crafty OR tinkerer"]
 
-**Ingredient Changes**:
-- [Item]: [Current quantity] → [New quantity]
-- [Item]: [Current item] → [New item]
-- Add: [New item] (quantity: [X])
-- Remove: [Item to remove]
+**Ingredient Changes** (MUST specify correct letter mappings):
+- [Letter]: [Item description] - [Current quantity] → [New quantity]
+- [Letter]: [Item description] - [Current item] → [New item]
+- Add: [Letter]: [Item description] (quantity: [X])
+- Remove: [Letter]: [Item description]
+
+**Example with correct mappings:**
+- M: Metal parts - 2 → 16
+- B: Temporal gears - 1 → 8  
+- P: Coils - 4 → 16
+- E: Engine shaft - 1 → 8
 
 ### New Recipes
 **Recipe Name**: [e.g., "Mercantile Shop Register"]
@@ -46,7 +67,7 @@ Use this template to efficiently request mod modifications for the neobitVintage
 **Note**: Use @grid-recipes.md for detailed recipe creation with advanced features like tool durability, returned stacks, liquid containers, etc.
 
 ### Special Instructions
-- [ ] Remove from handbook display
+- [ ] Remove from handbook display (specify correct itemtype path, e.g., `static-armor.json`)
 - [ ] Create multiple trait alternatives
 - [ ] Double output for same cost
 - [ ] Use different materials (e.g., fat instead of resin)
@@ -56,6 +77,11 @@ Use this template to efficiently request mod modifications for the neobitVintage
 - [ ] Liquid container requirements
 - [ ] Copy attributes from ingredients
 - [ ] Recipe groups for handbook organization
+
+### Array Structure Considerations
+- **Single recipe files**: Use `/requiresTrait` and `/ingredients/X/quantity`
+- **Array recipe files**: Use `/0/requiresTrait`, `/1/requiresTrait`, etc. for different recipes
+- **Multiple recipes in one file**: May need to modify different array indices (0, 1, 2, etc.)
 
 ---
 
@@ -145,13 +171,21 @@ Use this template to efficiently request mod modifications for the neobitVintage
 - `electricalprogressiveequipment` - Electrical Progressive Equipment
 
 ## Usage Instructions
-1. Copy this template
-2. Fill in the relevant sections
-3. Use the quick reference guides for common values
-4. Be specific about quantities and item codes
-5. Include any special requirements or instructions
-6. **Specify dependency type** (required vs optional)
-7. **Run the pack and install script** after modifications
+1. **FIRST**: Examine original mod files to understand structure and mappings
+2. Copy this template
+3. Fill in the relevant sections with correct letter mappings
+4. Use the quick reference guides for common values
+5. Be specific about quantities and item codes with correct letters
+6. Include any special requirements or instructions
+7. **Specify dependency type** (required vs optional)
+8. **Run the pack and install script** after modifications
+
+## Key Lessons from electricalprogressiveequipment:
+- **Chestplate**: Use `static-armor.json` not `echestplate.json` for handbook exclusion
+- **Drill**: M=metal-parts, B=temporal-gears, P=coils, E=engineshaft, I=cupronickel, D=drill-tip
+- **Axe**: M=metal-parts, B=temporal-gears, P=coils, E=engineshaft, Z=axe-head
+- **Array recipes**: Use correct indices (/0/, /1/, /2/) for different recipe variants
+- **Always check original files first** to avoid guessing ingredient mappings
 
 ## Dependency Management
 

@@ -1,0 +1,81 @@
+[
+  {
+    "file": "electricalprogressiveqol:recipes/grid/efreezer2.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tinkerer",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveqol:recipes/grid/efreezer2.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "MHM,MXM,ESE",
+      "width": 3,
+      "height": 3,
+      "ingredients": {
+        "E": {
+          "type": "item",
+          "code": "electricalprogressivebasics:coil",
+          "quantity": 2
+        },
+        "X": {
+          "type": "item",
+          "code": "game:thatch",
+          "quantity": 16
+        },
+        "H": {
+          "type": "item",
+          "code": "game:hammer-*",
+          "isTool": true,
+          "toolDurabilityCost": 8
+        },
+        "S": {
+          "type": "item",
+          "code": "electricalprogressivebasics:engineshaft",
+          "quantity": 1
+        },
+        "M": {
+          "type": "item",
+          "code": "game:metalplate-steel",
+          "quantity": 1
+        }
+      },
+      "output": {
+        "type": "block",
+        "code": "electricalprogressiveqol:efreezer2-melted-north",
+        "quantity": 1
+      }
+    },
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveqol:recipes/grid/ehorn.json",
+    "op": "addmerge",
+    "path": "/ingredients/M/quantity",
+    "value": 16,
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveqol:recipes/grid/estove.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveqol:recipes/grid/eoven.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  },
+  {
+    "file": "electricalprogressiveqol:recipes/grid/heater.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "crafty",
+    "side": "server"
+  }
+]
