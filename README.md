@@ -11,9 +11,9 @@ brain freeze
 all classes
 
 # TODO Passive
-- no negative for drinking not boiled water - pioneer, sentry, bowyer, improviser
-- better prices for traders - mercantile
-- less hp loss from bad food - culinary
+- CODE: no negative for drinking not boiled water - pioneer, sentry, bowyer, improviser
+- CODE: better prices for traders - mercantile
+- CODE: less hp loss from bad food - culinary
 - more hp - stitch_doctor, improviser, merciless
 - better knowleged from gamble - culinary, stich doctor
 
