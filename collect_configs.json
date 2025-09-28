@@ -19,7 +19,7 @@
     {
       "file": "bettertraders.yaml",
       "variables": {
-        "Minimal distance between traders": 2000
+        "Minimal distance between traders": 4000
       }
     },
     {
@@ -59,6 +59,27 @@
       "file": "LevelUP/config/base.json",
       "variables": {
         "enableHardcore": true
+      }
+    },
+    {
+      "file": "ImmersiveMining/Pickaxe.json",
+      "variables": {
+        "ShakeAmount": 0.08,
+        "PickaxeDamageMultiplier": 16
+      }
+    },
+    {
+      "file": "ImmersiveMining/Shovel.json",
+      "variables": {
+        "ShakeAmount": 0.05,
+        "ShovelDamageMultiplier": 16
+      }
+    },
+    {
+      "file": "ImmersiveMining/Axe.json",
+      "variables": {
+        "ShakeAmount": 0.12,
+        "AxeDamageMultiplier": 16
       }
     }
   ]

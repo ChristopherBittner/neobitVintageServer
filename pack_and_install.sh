@@ -4,14 +4,14 @@
 # This script removes old mod, packs new mod, and installs it to Vintage Story
 
 set MOD_NAME "neobitvintage"
-set MOD_VERSION "0.0.8"
+set MOD_VERSION "0.0.9"
 set MOD_DIR "/home/neo/Repositories/neobitVintageServer/neobitvintage"
 set VS_MODS_DIR "/home/neo/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Mods"
 set ZIP_NAME "$MOD_NAME"_"$MOD_VERSION".zip
 
 echo "=== neobit Vintage Server Mod Packer ==="
 echo "Mod: $MOD_NAME v$MOD_VERSION"
-echo "Source: $MOD_DIR"
+echo "Source: $MOD_DIR"v    
 echo "Target: $VS_MODS_DIR"
 echo ""
 
