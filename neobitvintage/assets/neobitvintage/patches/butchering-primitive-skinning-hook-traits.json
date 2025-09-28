@@ -1,0 +1,89 @@
+[
+  {
+    "file": "butchering:recipes/grid/butcherhook.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "stitch_doctor",
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherhook.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "SLS,RHF",
+      "requiresTrait": "improviser",
+      "ingredients": {
+        "L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+        "H": { "type": "item", "code": "hook-flint", "quantity": 2 },
+        "R": { "type": "item", "code": "game:resin", "quantity": 1 },
+        "F": { "type": "item", "code": "game:flint", "quantity": 1 },
+        "S": { "type": "item", "code": "game:stick", "quantity": 4 }
+      },
+      "width": 3,
+      "height": 2,
+      "output": { "type": "block", "code": "butcherhook-flint-north", "quantity": 1  }
+    },
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherhook.json",
+    "op": "add",
+    "path": "/2",
+    "value": {
+      "ingredientPattern": "SLS,RHF",
+      "requiresTrait": "sentry",
+      "ingredients": {
+        "L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+        "H": { "type": "item", "code": "hook-flint", "quantity": 2 },
+        "R": { "type": "item", "code": "game:resin", "quantity": 1 },
+        "F": { "type": "item", "code": "game:flint", "quantity": 1 },
+        "S": { "type": "item", "code": "game:stick", "quantity": 4 }
+      },
+      "width": 3,
+      "height": 2,
+      "output": { "type": "block", "code": "butcherhook-flint-north", "quantity": 1  }
+    },
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherhook.json",
+    "op": "add",
+    "path": "/3",
+    "value": {
+      "ingredientPattern": "SLS,RHF",
+      "requiresTrait": "pioneer",
+      "ingredients": {
+        "L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+        "H": { "type": "item", "code": "hook-flint", "quantity": 2 },
+        "R": { "type": "item", "code": "game:resin", "quantity": 1 },
+        "F": { "type": "item", "code": "game:flint", "quantity": 1 },
+        "S": { "type": "item", "code": "game:stick", "quantity": 4 }
+      },
+      "width": 3,
+      "height": 2,
+      "output": { "type": "block", "code": "butcherhook-flint-north", "quantity": 1  }
+    },
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherhook.json",
+    "op": "add",
+    "path": "/4",
+    "value": {
+      "ingredientPattern": "SLS,RHF",
+      "requiresTrait": "culinary",
+      "ingredients": {
+        "L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+        "H": { "type": "item", "code": "hook-flint", "quantity": 2 },
+        "R": { "type": "item", "code": "game:resin", "quantity": 1 },
+        "F": { "type": "item", "code": "game:flint", "quantity": 1 },
+        "S": { "type": "item", "code": "game:stick", "quantity": 4 }
+      },
+      "width": 3,
+      "height": 2,
+      "output": { "type": "block", "code": "butcherhook-flint-north", "quantity": 1  }
+    },
+    "side": "server"
+  }
+]

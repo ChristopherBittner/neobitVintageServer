@@ -1,0 +1,16 @@
+[
+  {
+    "ingredientPattern": "LSF,QQB",
+    "requiresTrait": "transmutation",
+    "ingredients": {
+      "F": { "type": "item", "code": "bricklayers:frit-ground-blue", "quantity": 2 },
+      "L": { "type": "item", "code": "game:lime" },
+      "S": { "type": "block", "code": "game:sand-*", "quantity": 1, "name": "sand", "allowedVariants": [ "andesite", "chalk", "conglomerate", "claystone", "granite", "limestone", "peridotite", "phyllite", "sandstone" ] },
+      "Q": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 },
+      "B": { "type": "item", "code": "game:powder-borax", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "bricklayers:glassbatch-plain-blue", "quantity": 4 }
+  }
+]

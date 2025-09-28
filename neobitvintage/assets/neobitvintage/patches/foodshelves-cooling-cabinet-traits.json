@@ -1,0 +1,38 @@
+[
+  {
+    "file": "foodshelves:recipes/grid/glassware/coolingcabinet.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "culinary",
+    "side": "server"
+  },
+  {
+    "file": "foodshelves:recipes/grid/glassware/coolingcabinet.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "PNP,GSG,PCP",
+      "requiresTrait": "carpenter",
+      "ingredients": {
+        "P": { "type": "item", "code": "game:plank-*", "quantity": 4, "name": "wood" },
+        "N": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 2, "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron" ] },
+        "G": { "type": "block", "code": "game:glass-*", "name": "glass", "allowedVariants": [ "plain", "quartz" ] },
+        "S": { "type": "block", "code": "game:shelf-*", "quantity": 3 },
+        "C": { "type": "block", "code": "game:rockpolished-*", "quantity": 2, "name": "rock" }
+      },
+      "width": 3, "height": 3, "recipeGroup": 1,
+      "output": {
+        "type": "block",
+        "code": "coolingcabinet-normal-east",
+        "attributes": {
+          "FSAttributes": {
+            "wood": "{wood}",
+            "glass": "{glass}",
+            "rock": "{rock}"
+          }
+        }
+      }
+    },
+    "side": "server"
+  }
+]

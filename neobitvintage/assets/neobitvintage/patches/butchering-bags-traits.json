@@ -1,0 +1,225 @@
+[
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybagreed.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "improviser",
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybagreed.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "RTR,KTS",
+      "requiresTrait": "hunter",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "game:cattailtops",
+          "quantity": 24
+        },
+        "R": {
+          "type": "item",
+          "code": "game:rope",
+          "quantity": 2
+        },
+        "K": {
+          "type": "item",
+          "code": "game:knife-generic-*",
+          "isTool": true
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": 6
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "butcherybag-primitive",
+        "quantity": 1
+      }
+    },
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybagreed.json",
+    "op": "add",
+    "path": "/2",
+    "value": {
+      "ingredientPattern": "RTR,KTS",
+      "requiresTrait": "sentry",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "game:cattailtops",
+          "quantity": 24
+        },
+        "R": {
+          "type": "item",
+          "code": "game:rope",
+          "quantity": 2
+        },
+        "K": {
+          "type": "item",
+          "code": "game:knife-generic-*",
+          "isTool": true
+        },
+        "S": {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": 6
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "butcherybag-primitive",
+        "quantity": 1
+      }
+    },
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybaghide.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "sentry",
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybaghide.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "FTF,KTP",
+      "requiresTrait": "bowyer",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "game:hide-pelt-huge",
+          "quantity": 1
+        },
+        "F": {
+          "type": "item",
+          "code": "game:flaxtwine",
+          "quantity": 4
+        },
+        "K": {
+          "type": "item",
+          "code": "game:knife-generic-*",
+          "isTool": true
+        },
+        "P": {
+          "type": "item",
+          "code": "game:plank-*",
+          "quantity": 8
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "butcherybag-standard",
+        "quantity": 1
+      }
+    },
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybagleather.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybagleather.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "FTF,KTP",
+      "requiresTrait": "culinary",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 8
+        },
+        "F": {
+          "type": "item",
+          "code": "game:rod-copper",
+          "quantity": 1
+        },
+        "K": {
+          "type": "item",
+          "code": "game:knife-generic-*",
+          "isTool": true
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-copper",
+          "quantity": 2
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "butcherybag-leather",
+        "quantity": 1
+      }
+    },
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybagsturdyleather.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "pioneer",
+    "side": "server"
+  },
+  {
+    "file": "butchering:recipes/grid/butcherybags/butcherybagsturdyleather.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "FTF,KTP",
+      "requiresTrait": "stitch_doctor",
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "game:leather-sturdy-plain",
+          "quantity": 8
+        },
+        "F": {
+          "type": "item",
+          "code": "game:rod-iron",
+          "quantity": 1
+        },
+        "K": {
+          "type": "item",
+          "code": "game:knife-generic-*",
+          "isTool": true
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-iron",
+          "quantity": 2
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "butcherybag-sturdyleather",
+        "quantity": 1
+      }
+    },
+    "side": "server"
+  }
+]

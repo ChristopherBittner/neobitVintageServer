@@ -1,0 +1,9 @@
+[
+  {
+    "file": "game:recipes/grid/beeswax.json",
+    "op": "addmerge",
+    "path": "/output/quantity",
+    "value": 1,
+    "side": "server"
+  }
+]

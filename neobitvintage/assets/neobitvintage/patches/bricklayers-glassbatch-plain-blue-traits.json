@@ -1,0 +1,9 @@
+[
+  {
+    "file": "bricklayers:recipes/grid/glassbatch/glassbatch.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  }
+]

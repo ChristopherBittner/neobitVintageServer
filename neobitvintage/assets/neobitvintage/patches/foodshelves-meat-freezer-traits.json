@@ -1,0 +1,39 @@
+[
+  {
+    "file": "foodshelves:recipes/grid/glassware/meatfreezer.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mason",
+    "side": "server"
+  },
+  {
+    "file": "foodshelves:recipes/grid/glassware/meatfreezer.json",
+    "op": "add",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "PGP,PCP,HZN",
+      "requiresTrait": "culinary",
+      "ingredients": {
+        "P": { "type": "item", "code": "game:plank-*", "quantity": 5, "name": "wood" },
+        "N": { "type": "item", "code": "game:resin", "quantity": 8 },
+        "H": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+        "Z": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": [ "zinc", "tin" ] },
+        "G": { "type": "block", "code": "game:glass-*", "name": "glass", "allowedVariants": [ "plain", "quartz" ] },
+        "C": { "type": "block", "code": "game:rockpolished-*", "quantity": 4, "name": "rock" }
+      },
+      "width": 3, "height": 3, "recipeGroup": 1,
+      "output": {
+        "type": "block",
+        "code": "meatfreezer-normal-east",
+        "attributes": {
+          "FSAttributes": {
+            "wood": "{wood}",
+            "glass": "{glass}",
+            "rock": "{rock}"
+          }
+        }
+      }
+    },
+    "side": "server"
+  }
+]
