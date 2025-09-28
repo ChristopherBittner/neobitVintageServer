@@ -1,0 +1,12 @@
+{
+    "item-music-cylinder": "Music Cylinder",
+    "item-music-cylinder-desc": "A cylindrical music storage device. Contains a random music track that plays based on environmental conditions.",
+    "item-exclusive-music-cylinder": "Exclusive Music Cylinder", 
+    "item-exclusive-music-cylinder-desc": "A rare cylindrical music storage device containing an exclusive track that can only be played from this physical cylinder.",
+    "music-nesmusic:example_track": "Example Track",
+    "music-nesmusic:cavern_ambient": "Cavern Ambient",
+    "music-nesmusic:night_melody": "Night Melody",
+    "music-nesmusic:rain_symphony": "Rain Symphony",
+    "music-nesmusic:exclusive_cylinder_track": "Exclusive Cylinder Track"
+}
+

@@ -1,0 +1,82 @@
+[
+    {
+        "op": "add",
+        "path": "/music/nesmusic:example_track",
+        "value": {
+            "file": "nesmusic/example_track.ogg",
+            "volume": 1.0,
+            "fadeIn": 2.0,
+            "fadeOut": 2.0,
+            "loop": true,
+            "priority": 0.5,
+            "conditions": {
+                "timeOfDay": "day",
+                "weather": "clear",
+                "biome": "temperate"
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/music/nesmusic:cavern_ambient",
+        "value": {
+            "file": "nesmusic/cavern_ambient.ogg",
+            "volume": 0.8,
+            "fadeIn": 3.0,
+            "fadeOut": 3.0,
+            "loop": true,
+            "priority": 0.7,
+            "conditions": {
+                "environment": "underground",
+                "depth": "deep"
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/music/nesmusic:night_melody",
+        "value": {
+            "file": "nesmusic/night_melody.ogg",
+            "volume": 0.9,
+            "fadeIn": 2.5,
+            "fadeOut": 2.5,
+            "loop": true,
+            "priority": 0.6,
+            "conditions": {
+                "timeOfDay": "night",
+                "weather": "clear"
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/music/nesmusic:rain_symphony",
+        "value": {
+            "file": "nesmusic/rain_symphony.ogg",
+            "volume": 0.7,
+            "fadeIn": 4.0,
+            "fadeOut": 4.0,
+            "loop": true,
+            "priority": 0.8,
+            "conditions": {
+                "weather": "rain"
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/music/nesmusic:exclusive_cylinder_track",
+        "value": {
+            "file": "nesmusic/exclusive_cylinder_track.ogg",
+            "volume": 1.0,
+            "fadeIn": 1.5,
+            "fadeOut": 1.5,
+            "loop": false,
+            "priority": 1.0,
+            "conditions": {
+                "source": "cylinder_only"
+            }
+        }
+    }
+]
+

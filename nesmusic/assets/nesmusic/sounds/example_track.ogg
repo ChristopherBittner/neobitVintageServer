@@ -1,0 +1,19 @@
+# This is a placeholder for the actual OGG music file
+# In a real implementation, this would be a binary OGG audio file
+# For now, this serves as a reference for where the music files should be placed
+
+# Music files should be placed in:
+# /assets/nesmusic/sounds/example_track.ogg
+# /assets/nesmusic/sounds/cavern_ambient.ogg  
+# /assets/nesmusic/sounds/night_melody.ogg
+# /assets/nesmusic/sounds/rain_symphony.ogg
+# /assets/nesmusic/sounds/exclusive_cylinder_track.ogg
+
+# Each file should be a valid OGG Vorbis audio file
+# Recommended specifications:
+# - Format: OGG Vorbis
+# - Sample Rate: 44.1 kHz
+# - Bitrate: 128-320 kbps
+# - Channels: Stereo (2 channels)
+# - Duration: 2-5 minutes for looping tracks, 1-3 minutes for exclusive tracks
+

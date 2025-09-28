@@ -1,0 +1,33 @@
+{
+    "code": {
+        "domain": "nesmusic",
+        "path": "exclusive-music-cylinder"
+    },
+    "creativeinventory": {
+        "general": ["*"],
+        "items": ["*"]
+    },
+    "texture": {
+        "base": "item/exclusive-music-cylinder"
+    },
+    "maxstacksize": 1,
+    "materialDensity": 800,
+    "attributes": {
+        "musicTrack": "nesmusic:exclusive_cylinder_track",
+        "playable": true,
+        "cylinderType": "exclusive_only"
+    },
+    "shape": {
+        "base": "item/cylinder"
+    },
+    "sounds": {
+        "place": "game:block/stone",
+        "break": "game:block/stone"
+    },
+    "description": {
+        "type": "exclusive-music-cylinder",
+        "name": "Exclusive Music Cylinder",
+        "description": "A rare cylindrical music storage device containing an exclusive track that can only be played from this physical cylinder."
+    }
+}
+

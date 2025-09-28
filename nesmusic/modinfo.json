@@ -1,0 +1,16 @@
+{
+    "type": "content",
+    "modid": "nesmusic",
+    "name": "N.E.S. Music",
+    "iconpath": "modicon.png",
+    "authors": [ "neobit" ],
+    "description": "Enhanced music system for Vintage Story with random playback and physical music cylinders.",
+    "version": "1.0.0",
+    "website": "https://github.com/neobit/neobitVintageServer",
+    "dependencies": {
+        "game": "1.21.1"
+    },
+    "RequiredOnClient": true,
+    "RequiredOnServer": false
+}
+
