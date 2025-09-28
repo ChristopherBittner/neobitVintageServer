@@ -1,0 +1,244 @@
+[
+  {
+    "file": "game:config/tradelists/trader-buildmaterials",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-hunter",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 2
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-malefactor",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 48,
+          "var": 4
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-clockmaker",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 153,
+          "var": 15
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-blackguard",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 36,
+          "var": 3
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-tailor",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 549,
+          "var": 54
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-alchemyst",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 60,
+          "var": 6
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-artisan",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 85,
+          "var": 8
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-chef",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 52,
+          "var": 5
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-homesteader",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 133,
+          "var": 13
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-lumberjack",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 117,
+          "var": 11
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-mason",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 96,
+          "var": 9
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-merchant",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 52,
+          "var": 5
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-miner",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 67,
+          "var": 6
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-mystic",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 34,
+          "var": 3
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-ranger",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 36,
+          "var": 3
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-smith",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 216,
+          "var": 21
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-medic",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 14,
+          "var": 1
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-tinker",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 68,
+          "var": 6
+        }
+      }
+    ],
+    "side": "server"
+  }
+]
