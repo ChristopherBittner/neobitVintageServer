@@ -1,6 +1,7 @@
 # neobitVintageServer
 # TODO
 fix errors
+add neobit music mod
 
 # TODO Add mods to modpack and traits
 # TODO Add mods to traits

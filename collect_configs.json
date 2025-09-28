@@ -54,6 +54,12 @@
       "variables": {
         "enable_drifter_drops": false
       }
+    },
+    {
+      "file": "LevelUP/config/base.json",
+      "variables": {
+        "enableHardcore": true
+      }
     }
   ]
 }
