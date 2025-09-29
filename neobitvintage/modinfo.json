@@ -9,7 +9,7 @@
     "website": "https://github.com/neobit/neobitVintageServer",
   "dependencies": {
     "game": "1.21.1",
-    "electricalprogressiveequipment": ""
+    "traitacquirerrevamp": ""
   },
     "RequiredOnClient": true,
     "RequiredOnServer": true

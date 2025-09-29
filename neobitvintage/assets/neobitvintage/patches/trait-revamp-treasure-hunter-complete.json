@@ -1,0 +1,827 @@
+[
+  {
+    "op": "replace",
+    "file": "game:config/tradelists/trader-treasurehunter",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-hunter",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 2
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-malefactor",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 49,
+          "var": 4
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-clockmaker",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 153,
+          "var": 15
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-blackguard",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 36,
+          "var": 3
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-tailor",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 549,
+          "var": 54
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-alchemyst",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 60,
+          "var": 6
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-artisan",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 86,
+          "var": 8
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-chef",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 52,
+          "var": 5
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-homesteader",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 133,
+          "var": 13
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-lumberjack",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 117,
+          "var": 11
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-mason",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 99,
+          "var": 9
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-merchant",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 52,
+          "var": 5
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-miner",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 67,
+          "var": 6
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-mystic",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 34,
+          "var": 3
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-ranger",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 36,
+          "var": 3
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-smith",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 216,
+          "var": 21
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-medic",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 14,
+          "var": 1
+        }
+      },
+      {
+        "code": "traitacquirerrevamp:trait-manual-book-tinker",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 69,
+          "var": 6
+        }
+      },
+      {
+        "code": "game:lootvessel-seed",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 8,
+          "var": 2
+        }
+      },
+      {
+        "code": "game:lootvessel-food",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 6,
+          "var": 1.5
+        }
+      },
+      {
+        "code": "game:lootvessel-forage",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 6,
+          "var": 1.5
+        }
+      },
+      {
+        "code": "game:lootvessel-ore",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 6,
+          "var": 1.5
+        }
+      },
+      {
+        "code": "game:lootvessel-tool",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 6,
+          "var": 1.5
+        }
+      },
+      {
+        "code": "game:lootvessel-farming",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 6,
+          "var": 1.5
+        }
+      },
+      {
+        "code": "game:lore-scroll",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 4,
+          "var": 1
+        },
+        "attributes": {
+          "category": "villager"
+        }
+      },
+      {
+        "code": "game:gem-emerald-rough",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 12,
+          "var": 3
+        },
+        "attributes": {
+          "potential": "high"
+        }
+      },
+      {
+        "code": "game:ore-lapislazuli",
+        "type": "item",
+        "stacksize": 6,
+        "stock": {
+          "avg": 4,
+          "var": 1
+        },
+        "price": {
+          "avg": 1,
+          "var": 0.25
+        }
+      },
+      {
+        "code": "game:omoktabletop",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 10,
+          "var": 2.5
+        }
+      },
+      {
+        "code": "game:gear-temporal",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 5,
+          "var": 1.25
+        }
+      },
+      {
+        "code": "game:clothes-foot-lackey-shoes",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 2,
+          "var": 0.5
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-hand-lackey-gloves",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 2,
+          "var": 0.5
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-head-lackey-hat",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 2,
+          "var": 0.5
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-lowerbody-lackey-breeches",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 2,
+          "var": 0.5
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:clothes-upperbody-lackey-shirt",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 2,
+          "var": 0.5
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:hoovedwearables-blanket-lackey",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:clothes-arm-squire-bracers",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-foot-squire-boots",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-head-squire-hood",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-lowerbody-squire-pants",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:clothes-upperbody-squire-shirt",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:clothes-shoulder-squire-tunic",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:clothes-waist-squire-belt",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:hoovedwearables-blanket-squire",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-foot-messenger-shoes",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-head-messengers-hat",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:clothes-lowerbody-messenger-trousers",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:clothes-upperbody-messenger-shirt",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:clothes-waist-messenger-belt",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:hoovedwearables-blanket-messenger",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.75
+        }
+      },
+      {
+        "code": "game:painting-howl-north",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 8,
+          "var": 2
+        }
+      },
+      {
+        "code": "game:painting-elk-north",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 8,
+          "var": 2
+        }
+      },
+      {
+        "code": "game:painting-underwater-north",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 8,
+          "var": 2
+        }
+      },
+      {
+        "code": "game:painting-prey-north",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 8,
+          "var": 2
+        }
+      },
+      {
+        "code": "game:painting-forestdawn-north",
+        "type": "block",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 8,
+          "var": 2
+        }
+      },
+      {
+        "code": "game:metal-parts",
+        "type": "block",
+        "stacksize": 4,
+        "stock": {
+          "avg": 2,
+          "var": 0.5
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "game:gem-diamond-rough",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 10,
+          "var": 2.5
+        },
+        "attributes": {
+          "potential": "high"
+        }
+      },
+      {
+        "code": "game:gem-olivine_peridot-rough",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 10,
+          "var": 2.5
+        },
+        "attributes": {
+          "potential": "high"
+        }
+      },
+      {
+        "code": "game:armor-head-antique-blackguard-broken",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 26,
+          "var": 6.5
+        }
+      },
+      {
+        "code": "game:armor-body-antique-blackguard-broken",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 46,
+          "var": 11.5
+        }
+      },
+      {
+        "code": "game:armor-legs-antique-blackguard-broken",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 34,
+          "var": 8.5
+        }
+      },
+      {
+        "code": "game:hoovedwearables-blanket-blackguard",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 20,
+          "var": 5
+        }
+      },
+      {
+        "code": "game:locatormap-treasures",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0.25
+        },
+        "price": {
+          "avg": 12,
+          "var": 3
+        }
+      }
+    ]
+  }
+]
