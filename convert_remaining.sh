@@ -59,3 +59,5 @@ echo "Successfully converted: $converted_files files"
 echo "Skipped (already exist): $skipped_files files"
 echo "Total processed: $((converted_files + skipped_files))/$total_files files"
 echo "Output directory: $OUTPUT_DIR"
+
+

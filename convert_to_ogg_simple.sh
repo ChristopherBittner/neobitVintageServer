@@ -49,3 +49,5 @@ done < <(find "$INPUT_DIR" -name "*.wav" -type f -print0)
 echo "Conversion complete!"
 echo "Successfully converted: $converted_files/$total_files files"
 echo "Output directory: $OUTPUT_DIR"
+
+
