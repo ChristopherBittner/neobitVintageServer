@@ -81,6 +81,53 @@
         "ShakeAmount": 0.12,
         "AxeDamageMultiplier": 16
       }
+    },
+    {
+      "file": "MeteoricExpansionConfig.json",
+      "variables": {
+        "Destructive": true,
+        "MinimumMinutesBetweenMeteorSpawns": 60,
+        "MaximumMinutesBetweenMeteorSpawns": 180
+      }
+    },
+    {
+      "file": "traitacquirer.json",
+      "variables": {
+        "manualsAvgPrice": 100,
+        "manualsChanceLoot": 1
+      }
+    },
+    {
+      "file": "rivers.json",
+      "variables": {
+        "riverSpawnChance": 0.05,
+        "riverSplitChance": 0.12
+      }
+    },
+    {
+      "file": "farseer-server.json",
+      "variables": {
+        "MaxClientViewDistance": 3072
+      }
+    },
+    {
+      "file": "ForestSymphonyConfigs.json",
+      "variables": {
+        "BirdCheckInterval": 6000,
+        "TreeLogCheckInterval": 12000
+      }
+    },
+    {
+      "file": "RealSmoke.json",
+      "variables": {
+        "MaxSmokeEntities": 1500
+      }
+    },
+    {
+      "file": "th3dungeonconfig.json",
+      "variables": {
+        "Chance": 0.005
+      }
     }
   ]
 }

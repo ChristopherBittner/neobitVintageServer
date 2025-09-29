@@ -3,6 +3,10 @@
 fix errors
 add neobit music mod
 
+# Update our ovewrite if new items appear in here
+"file": "game:config/tradelists/trader-treasurehunter",
+  "path": "/selling/list",
+
 # TODO Add mods to modpack and traits
 # TODO Add mods to traits
 level up - proficiency with tools 
