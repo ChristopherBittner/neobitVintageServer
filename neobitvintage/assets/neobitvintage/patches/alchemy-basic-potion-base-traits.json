@@ -75,19 +75,5 @@
     "path": "/10/requiresTrait",
     "value": "transmutation",
     "side": "server"
-  },
-  {
-    "file": "alchemy:recipes/grid/ingredient/basicbase.json",
-    "op": "addmerge",
-    "path": "/11/requiresTrait",
-    "value": "transmutation",
-    "side": "server"
-  },
-  {
-    "file": "alchemy:recipes/grid/ingredient/basicbase.json",
-    "op": "addmerge",
-    "path": "/12/requiresTrait",
-    "value": "transmutation",
-    "side": "server"
   }
 ]
