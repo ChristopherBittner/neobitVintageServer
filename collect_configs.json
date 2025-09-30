@@ -56,12 +56,6 @@
       }
     },
     {
-      "file": "LevelUP/config/base.json",
-      "variables": {
-        "enableHardcore": true
-      }
-    },
-    {
       "file": "ImmersiveMining/Pickaxe.json",
       "variables": {
         "ShakeAmount": 0.08,
@@ -91,7 +85,7 @@
       }
     },
     {
-      "file": "traitacquirer.json",
+      "file": "traitacquirerrevamp.json",
       "variables": {
         "manualsAvgPrice": 100,
         "manualsChanceLoot": 1
