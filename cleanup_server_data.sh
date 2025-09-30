@@ -75,7 +75,7 @@ function run_remote {
     echo -e "${YELLOW}🖥️  Running on server: $1${NC}"
     ssh -i ~/.ssh/id_rsa_vintagestory "$SERVER_USER@$SERVER_HOST" "$1"
     # Don't check status for commands that may have expected non-zero exit codes
-    if [[ "$1" == *"rm -rf"* ]] || [[ "$1" == *"docker stop"* ]] || [[ "$1" == *"grep"* ]] || [[ "$1" == *"docker compose"* ]]; then
+    if [[ "$1" == *"rm -rf"* ]] || [[ "$1" == *"docker stop"* ]] || [[ "$1" == *"grep"* ]] || [[ "$1" == *"docker compose"* ]] || [[ "$1" == *"[ ! -d"* ]] || [[ "$1" == *"ls -"* ]]; then
         echo -e "${GREEN}✅ Command executed${NC}"
     else
         check_status "Remote command: $1"
@@ -89,6 +89,10 @@ run_remote "docker stop vsserver 2>/dev/null || echo 'Server already stopped or 
 # Step 2: Navigate to VS data directory and show what will be deleted
 echo ""
 echo -e "${YELLOW}📁 Step 2: Checking current data...${NC}"
+echo -e "${YELLOW}📋 BEFORE DELETION - Current directory contents:${NC}"
+run_remote "cd $SERVER_PATH && ls -la"
+echo ""
+echo -e "${YELLOW}🎯 Target directories to be deleted:${NC}"
 run_remote "cd $SERVER_PATH && ls -la | grep -E '(RiverCache|Cache|Farseer|Saves)' || echo 'No target directories found'"
 
 # Step 3: Delete the dangerous directories
@@ -96,40 +100,75 @@ echo ""
 echo -e "${RED}🗑️  Step 3: DELETING DATA DIRECTORIES...${NC}"
 
 echo -e "${YELLOW}Deleting RiverCache...${NC}"
-run_remote "cd $SERVER_PATH && sudo rm -rf RiverCache/ 2>/dev/null || rm -rf RiverCache/ 2>/dev/null || echo 'RiverCache deletion completed'"
+run_remote "cd $SERVER_PATH && echo 'Attempting to delete RiverCache...' && sudo rm -rf RiverCache/ && echo 'RiverCache deleted with sudo' || (echo 'sudo failed, trying as user...' && rm -rf RiverCache/ && echo 'RiverCache deleted as user') || echo 'RiverCache deletion failed'"
+run_remote "cd $SERVER_PATH && [ ! -d 'RiverCache' ] && echo '✅ RiverCache successfully deleted' || echo '❌ RiverCache still exists'"
 
 echo -e "${YELLOW}Deleting Cache...${NC}"
-run_remote "cd $SERVER_PATH && sudo rm -rf Cache/ 2>/dev/null || rm -rf Cache/ 2>/dev/null || echo 'Cache deletion completed'"
+run_remote "cd $SERVER_PATH && echo 'Attempting to delete Cache...' && sudo rm -rf Cache/ && echo 'Cache deleted with sudo' || (echo 'sudo failed, trying as user...' && rm -rf Cache/ && echo 'Cache deleted as user') || echo 'Cache deletion failed'"
+run_remote "cd $SERVER_PATH && [ ! -d 'Cache' ] && echo '✅ Cache successfully deleted' || echo '❌ Cache still exists'"
 
 echo -e "${YELLOW}Deleting Farseer...${NC}"
-run_remote "cd $SERVER_PATH && sudo rm -rf Farseer/ 2>/dev/null || rm -rf Farseer/ 2>/dev/null || echo 'Farseer deletion completed'"
+run_remote "cd $SERVER_PATH && echo 'Attempting to delete Farseer...' && sudo rm -rf Farseer/ && echo 'Farseer deleted with sudo' || (echo 'sudo failed, trying as user...' && rm -rf Farseer/ && echo 'Farseer deleted as user') || echo 'Farseer deletion failed'"
+run_remote "cd $SERVER_PATH && [ ! -d 'Farseer' ] && echo '✅ Farseer successfully deleted' || echo '❌ Farseer still exists'"
 
 echo -e "${YELLOW}Deleting Saves...${NC}"
-run_remote "cd $SERVER_PATH && sudo rm -rf Saves/ 2>/dev/null || rm -rf Saves/ 2>/dev/null || echo 'Saves deletion completed'"
+run_remote "cd $SERVER_PATH && echo 'Attempting to delete Saves...' && sudo rm -rf Saves/ && echo 'Saves deleted with sudo' || (echo 'sudo failed, trying as user...' && rm -rf Saves/ && echo 'Saves deleted as user') || echo 'Saves deletion failed'"
+run_remote "cd $SERVER_PATH && [ ! -d 'Saves' ] && echo '✅ Saves successfully deleted' || echo '❌ Saves still exists'"
 
-# Step 4: Verify deletion
+# Step 4: Verify deletion and show comparison
 echo ""
 echo -e "${YELLOW}🔍 Step 4: Verifying deletion...${NC}"
+echo -e "${YELLOW}📋 AFTER DELETION - Current directory contents:${NC}"
+run_remote "cd $SERVER_PATH && ls -la"
+echo ""
+echo -e "${YELLOW}🎯 Remaining target directories:${NC}"
 run_remote "cd $SERVER_PATH && ls -la | grep -E '(RiverCache|Cache|Farseer|Saves)' || echo 'All target directories successfully deleted'"
+echo ""
+echo -e "${YELLOW}📊 DELETION SUMMARY:${NC}"
+run_remote "cd $SERVER_PATH && echo 'Directories that still exist:' && ls -d RiverCache Cache Farseer Saves 2>/dev/null || echo 'No target directories remain'"
 
-# Step 5: Restart server
+# Check if deletion actually succeeded
 echo ""
-echo -e "${YELLOW}🚀 Step 5: Restarting Vintage Story server...${NC}"
-run_remote "cd $DOCKER_COMPOSE_PATH && docker compose up -d --force-recreate 2>/dev/null || echo 'Server restart completed'"
+echo -e "${RED}🚨 DELETION STATUS CHECK:${NC}"
+run_remote "cd $SERVER_PATH && echo 'Checking remaining directories...' && ls -d RiverCache Cache Farseer Saves 2>/dev/null | wc -l | xargs -I {} sh -c 'if [ {} -eq 0 ]; then echo \"✅ SUCCESS: All target directories deleted\"; else echo \"❌ FAILURE: {} directories still exist\"; fi'"
 
-# Verify server is running
+# Check if any directories still exist and stop if so
 echo ""
-echo -e "${YELLOW}🔍 Step 6: Verifying server status...${NC}"
-run_remote "docker ps | grep vsserver"
+echo -e "${RED}🛑 CHECKING FOR FAILURES...${NC}"
+remaining_count=$(ssh -i ~/.ssh/id_rsa_vintagestory "$SERVER_USER@$SERVER_HOST" "cd $SERVER_PATH && ls -d RiverCache Cache Farseer Saves 2>/dev/null | wc -l")
 
-echo ""
-echo -e "${RED}⚠️  CLEANUP COMPLETED ⚠️${NC}"
-echo -e "${YELLOW}The following data has been PERMANENTLY DELETED:${NC}"
-echo -e "${RED}  • RiverCache/     (world river data)${NC}"
-echo -e "${RED}  • Cache/          (mod cache data)${NC}"
-echo -e "${RED}  • Farseer/        (world generation data)${NC}"
-echo -e "${RED}  • Saves/          (ALL WORLD SAVES AND PLAYER DATA)${NC}"
-echo ""
-echo -e "${GREEN}Server has been restarted and should be running.${NC}"
-echo -e "${YELLOW}Players will need to create new characters and worlds.${NC}"
+if [ "$remaining_count" -gt 0 ]; then
+    echo -e "${RED}❌ CLEANUP FAILED!${NC}"
+    echo -e "${RED}===========================================${NC}"
+    echo -e "${YELLOW}The following directories could NOT be deleted:${NC}"
+    ssh -i ~/.ssh/id_rsa_vintagestory "$SERVER_USER@$SERVER_HOST" "cd $SERVER_PATH && ls -d RiverCache Cache Farseer Saves 2>/dev/null | sed 's/^/  • /'"
+    echo ""
+    echo -e "${RED}REASON: Permission denied - directories are owned by root:root${NC}"
+    echo -e "${YELLOW}SOLUTION: You need to run this script with proper sudo access or manually delete the directories${NC}"
+    echo ""
+    echo -e "${RED}⚠️  SERVER NOT RESTARTED DUE TO FAILURE ⚠️${NC}"
+    echo -e "${YELLOW}Fix the permission issues and run the script again.${NC}"
+    exit 1
+else
+    echo -e "${GREEN}✅ All directories successfully deleted!${NC}"
+    echo ""
+    echo -e "${YELLOW}🚀 Step 5: Restarting Vintage Story server...${NC}"
+    run_remote "cd $DOCKER_COMPOSE_PATH && docker compose up -d --force-recreate 2>/dev/null || echo 'Server restart completed'"
+
+    # Verify server is running
+    echo ""
+    echo -e "${YELLOW}🔍 Step 6: Verifying server status...${NC}"
+    run_remote "docker ps | grep vsserver"
+
+    echo ""
+    echo -e "${GREEN}✅ CLEANUP COMPLETED SUCCESSFULLY!${NC}"
+    echo -e "${YELLOW}The following data has been PERMANENTLY DELETED:${NC}"
+    echo -e "${RED}  • RiverCache/     (world river data)${NC}"
+    echo -e "${RED}  • Cache/          (mod cache data)${NC}"
+    echo -e "${RED}  • Farseer/        (world generation data)${NC}"
+    echo -e "${RED}  • Saves/          (ALL WORLD SAVES AND PLAYER DATA)${NC}"
+    echo ""
+    echo -e "${GREEN}Server has been restarted and should be running.${NC}"
+    echo -e "${YELLOW}Players will need to create new characters and worlds.${NC}"
+fi
 
