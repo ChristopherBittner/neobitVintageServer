@@ -97,9 +97,9 @@ NONE  shelfobsessed
 +++ DONE  StoneQuarry
 +++ DONE  stonebakeoven
 NONE added  tailors_delight-2.0.0.zip
-+++ DONE  tabards
++++ REMOVED  tabards
 +++ DONE  TankardsandGoblets
-+++ DONE  toolsmith_
++++ REMOVED  toolsmith_
 +++ DONE  traitacquirer
 +++ DONE  translocatorengineeringredux
 +++ DONE  vinconomy
